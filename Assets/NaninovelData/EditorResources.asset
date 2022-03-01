@@ -181,6 +181,9 @@ MonoBehaviour:
     - name: 1_3 Milo_introduction
       pathPrefix: Scripts
       guid: 363602363cdfdb64889567db6c64aceb
+    - name: 1_4_luka_dishes_scene
+      pathPrefix: Scripts
+      guid: bbd1e05a433f04b41aa7487b4ffd3599
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default

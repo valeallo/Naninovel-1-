@@ -1,0 +1,232 @@
+
+@char Felix
+Felix: ...{name}?  
+
+@style b
+I turn around ready to *burst*, but luckily enough I realize it’s just Felix.
+@style default
+@char Luka
+Luka: Don’t tell me you know that guy...? 
+Felix: Well it didn’t look like they were that close… 
+@style b
+Felix adds, still looking genuinely concerned that I might be involved with such a douchebag. I don’t blame him.
+
+@style default
+Me: Trust me, we are not. 
+Me: Just a childhood friend that went completely insane for who knows what reasons… 
+Felix: Well, I hope he’s not coming back anytime soon. It doesn’t look like the kind of people we want hanging around in the café. 
+Me: Oh, if he comes back after today, I’ll make sure he’ll regret it. 
+Felix: Woah, easy there! We don’t need you getting fired because of him. Just ignore him. 
+@style b
+Felix chuckles to lighten up the mood, and I guess it kind of works. I am still mad though, so Milo better not show his face around here anytime soon.
+The rest of the day goes way better, but it’s not hard compared to this awful morning.
+Felix and I start getting ready to close. The café is basically empty now, only Lukas is left on his chair, staring outside the window.
+I approach him slowly. He seems quite lost in his thoughts and I don’t want to startle him.
+
+@style default
+Me: Hey, Lukas, you’ve been just sitting here all day… 
+Lukas: Yeah, I wasn’t in the mood for a drink. But I like staying here with you guys! 
+Felix: Actually... If you are not taking anything, I think we will close and start to clean up. We can't do that with you inside… 
+
+@style b
+Lukas looks at Felix as the whole idea of him closed inside the café isn’t really that bad.
+
+@style default
+Me: We also have to tidy up everything... 
+Lukas: Alrighty, I’ll be right here if you need me! 
+Felix: I don’t think we will… 
+Me: Come on Lukas, we have tons of work to do, and there’s a mountain of dishes waiting for us in the kitchen. 
+Lukas: Cool! I’ll help you guys out! 
+
+@style i
+What’s wrong with this guy? How can someone be so excited about doing the dishes?
+Felix doesn’t look confident about this, and I certainly don’t blame him.
+
+@style default
+Lukas: Come on~ Filly~ 
+@style i
+Lukas is using his puppy eyes with Felix, and I know it means that Felix won’t be able to say no to him.
+@style default
+
+@choice "I mean, what could possibly happen?" goto:.I_mean
+/(Piatti = sì) 
+@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes
+/(-10 affinità con V? Piatti = no) 
+@stop
+
+ 
+
+# I_mean
+@style i
+Yeah, it’s not like he’s that irresponsible… right? Plus, I can’t really say no to him either.
+@style default
+Me: Alright, you can stay until we’ve finished… but!
+@style b
+I stop him just in time, before he starts running to the kitchen.
+The sad look in his eyes it’s just too much for me to handle, and I end up ruining my bossy image choking a laugh.
+Be careful and… actually, don’t touch anything and try to move the least you can. 
+
+@style default
+Lukas: Okay, okay! You can trust me guys. 
+Yeah, I'm sure we can... 
+Felix: I'll go take care of the kitchen, good luck. 
+Lukas: Thank you!~ 
+@style b
+Lukas is quick to answer, but I am pretty sure that was directed to me.
+@style default
+Lukas: So, what can I do? 
+Me: Didn't I just tell you not to move? 
+Lukas: But it will take a lot less if I help you! 
+@style i
+I'm not quite sure of that, but I avoid saying it out loud.
+@style default
+Me: I really don't need help here, I just have to take away the leftover from the counter. 
+@style b
+Lukas tries again with his puppy eyes. Does this guy know how to give up?
+@style default
+Me: Why don't you go see if Felix needs a hand in the kitchen? 
+Lukas: But I... 
+Me: Lukas! 
+Lukas: Okay, fine! 
+@style i
+Lukas finally gives in, heading towards the kitchen where Felix is.
+I should say I feel sorry for my colleague, but as soon as it gets quieter once Lukas is gone I can’t even feel the guilt anymore...
+What's done is done right?
+Besides, I am sure Felix will be good at handling him. He has always been the patient one between us.
+I finish what I was supposed to do in a few minutes.
+The fact that Felix didn't send Lukas back is actually reassuring.
+Maybe he is not as careless as I thought.
+I should have trusted him more, maybe he would have really been helpf....
+
+*CLASHING OF PLATES SOUND* 
+@style default
+Felix: Lukas §@&%*!" 
+@style i
+Or, maybe, I should keep always trusting my guts.
+I run to the kitchen where the noises came from, only to find a graveyard of dishes on the floor.
+@style default
+Me: What happened?! 
+Felix: Damn... We are so screwed {name} 
+@style b
+Lukas’ face is totally white and, with Felix's scream from before, doesn't leave a lot of space for doubt on who did this mess.
+@style default
+Lukas: I... I am sorry... I wanted to.... and... 
+Felix: This is a complete disaster! 
+Felix, calm down... it's not a lot, they probably won't even notice... 
+Felix: I surely hope so... I really don't need a cut in my payment right now. 
+Come on, let's just clean this up. 
+Felix: Lukas, don't touch anything else. Okay? I mean it. 
+@style b
+Felix is firm in a way I’ve barely ever seen him, and Lukas seems to notice. He gets out of the way and makes himself small in a corner of the kitchen.
+@style default
+Lukas: O-of course... I’m sorry. 
+@style b
+We start picking up the dishes from the floor and the atmosphere gets super tense. No one dares to speak as we kneel down cleaning.
+Luckily, not many dishes got injured in the accident and we finish up pretty quickly, but Felix doesn't look any calmer.
+I don't think I have ever seen him this angry, and, judging from his face, Lukas must feel it too. He takes quick glances at me and Felix, and if Felix's expression is completely dark, Lukas’ is equally mortified.
+@style default
+Lukas: G-guys I am so sorry, really... I... I will pay you back and everything I swear and... 
+Lukas: I'm sorry, I am always like this... I don't... I don't know... 
+@style b
+Lukas starts rambling nonsense, which doesn’t seem to make things any better for Felix. I’m sure he’s more worried than angry, but right now Lukas is walking on really thin ice.
+@style default
+
+
+@choice  "Maybe it’s better if you go." goto:.maybe_its_better_if
+@choice  "We know you didn't mean to."  goto:.we_know_you
+@stop
+
+
+# maybe_its_better_if
+
+Me: I think you did enough for now. We... will see you later-. 
+Lukas: S-sure..
+@style b 
+Lukas starts leaving, when Felix suddenly stops him.
+@style default
+Felix: It's okay {name}.. Let's just forget about this. I am sure everything will work out. 
+@style b
+Just like that, Felix is back to his caring self, putting an arm behind Lukas’ back and reassuring him. If I knew he would change his mind so quickly I would have avoided being this heartless with Lukas.
+@style default
+Felix: You didn't mean to do it, don't worry so much. 
+Felix: You don't have to stay, NAME. I can check the last things and close. 
+Felix: And I am sure Lukas will love to help me, right? 
+@style b
+Felix laughs cheerfully and I can barely remember the look of plain anger that was on his face just a few moments ago.
+@style default
+Me: Okay, then I'll see you guys. Don't stay too late 
+@style b
+After saying goodbye to Lukas and Felix, I finally leave the café.
+@goto .common2
+@stop
+
+
+# we_know_you
+@style default
+Lukas: Y-yeah but still... 
+Me: Don't beat yourself up too much, okay? We are not going to be in trouble, I'm sure of that. 
+@style b
+I pat him gently on his back, and look over to Felix who seems to have come back to his normal, kind self.
+@style default
+Felix: Of course! I was overreacting earlier. 
+Me: Come on, there’s some really good sweets left from today today back in the café. Let's cheer up a bit. 
+Lukas:You don't have to do this, really. 
+Me: Do what? I don't know about you but I really need the extra sugar right now. Come on! 
+Felix: You guys go on then. Name? I really need to leave now. You don't mind closing up by yourself, right? 
+Me: Of course, I'll see you tomorrow. 
+Felix: Thank you, have fun... and no more chores for Lukas, all right? *change in smile* 
+Lukas: I won't touch anything, I swear. 
+Felix: That’s reassuring... Goodnight! 
+
+
+/cut
+@style b
+I sit with Lukas by the counter after Felix leaves, and let him choose something from the leftovers.
+He looked pretty upset before, which was so unlike him it made me kind of worried.
+But still, I don't know if I can't tell what is like him and what is not. Sometimes I think I got him sorted out, and then it takes him just a second to feel like a stranger again.
+@style default
+Lukas: Ehy, {name}... 
+Me: U-uh? 
+Lukas: I don't know what’s gotten to me before, I'm kind of embarrassed... haha... 
+Me: It's fine. I am happy you are okay now 
+Lukas: I am, really. And thank you. 
+Lukas: I was the one making a mess and still you are trying to cheer me up. 
+Lukas: You and Felix must really like me, uh? 
+Me: Shut up, you already made me change my mind. I think I liked you better when you were all worried and trying to make excuses. 
+Lukas: Haha, try harder, you are not a good liar 😛 (notgoodliar=yes) 
+Lukas: Seriously, thank you. *blush* 
+Me: Ehy, Lukas, are you okay? 
+/change expression
+Me: You can tell me if there's any proble... 
+Lukas: I am fine! Really! No need to worry. 
+Lukas: Actually, I'll better let you close now, it's getting late... 
+Lukas: See you! 
+@style b
+Well that was quick.
+I am still a bit skeptical, but I guess if there's something bothering him that he would like to talk about, he will eventually do it. Right?
+/CUT
+I finish up what was left to do and, finally, lock the café front door.
+@goto .common2
+
+ 
+
+# Lukas_dishes
+@style i
+No, that definitely doesn’t sound good.
+If he makes some disaster, which is highly possible, Felix and I might get into serious trouble this time.
+@style default
+Me: Lukas, you can’t stay. It will only slow us down if we have to keep an eye on you too while working" 
+Lukas: O-okay, then... I'll see you another time. 
+Lukas: Good luck, bye... 
+@style b
+Lukas is pouting when he leaves, but I'll find the time to feel guilty after finishing the washing up.
+Even if I would like it to be otherwise, my job right now is more important than Lukas’ whimsicality.
+@goto .common2
+
+# common2
+@style b
+It's definitely later than usual. The air is chilly outside, hopefully I can catch the next bus without having to wait too much.
+I start walking towards the bus station when I receive a text. And then another, and another.
+Before I even have time to grab it from my pocket, my phone has been going off four times already.
+Once I finally get to look at the screen, I find texts coming from more than one of my classmates, and an email that was probably sent earlier today.
+@stop
