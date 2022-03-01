@@ -1,0 +1,54 @@
+
+*sound* 
+@back coffee_shop
+@char Felix
+@char Luka
+@style b
+His face is basically half covered by a pair of round and edgy sunglasses. He makes his way towards the center of the room.
+Despite being hidden behind his shades, it's not hard for me to recognize one of the regular of the café. Probably even thanks to those huge glasses.
+
+
+@toast "LUKA It's really hard to describe Luka. He's an unusual guy, I've never met someone like him before and I don't think I ever will. He has been visiting the café every day since the last month, but I?ve never got why. Sometimes he just sits at a table and stays there for a couple of hours doing nothing. Other times he's just all over the place doing strange things. At first, I thought his unique behavior was all made up. However, I don't really know what I should believe now. I mean, sometimes he's just too strange to think that he's pretending to be like that. Anyway, I started to grow fond of him and his unpredictable actions; he seems like a nice person, after all."
+
+@style default
+Luka: Good evening! 
+@style b
+Lukas makes a huge entrance, widening his arms and bowing a little.
+He's always pulling out different greetings. 
+Last week he tried to enter the café and sit at his usual table with his eyes closed. That didn't go really well, but it was so fun to watch that Felix and I didn't really try to stop him. 
+@style default
+Me: Hey, Luka... You are quite late today, the usual? 
+Luka: Nah, I'm broke. 
+@style b
+He lets out a little sigh, glancing at the sweets counter with bright eyes. Right before I think he's about to start drooling, he scrolls his head and turns to look at Felix and me again.
+@style default
+Luka: I just came to see how my two favorites coffee makers are doing. 
+@style b
+That said, he makes himself at home and sprawls on a nearby chair putting his feet on the table in front of him.
+@style default
+Me: Not good, since they'll have to clean your footprints from that table. 
+@style b
+I reply, pushing his legs back on the ground.
+@style default
+Luka: I see we are a bit grumpy today. 
+Luka: Okay, don't mind me, I will just sit here for a while. 
+@style b
+Felix and I glance at each other with the same dumbfounded expression. This is too strange even for him. 
+@style i
+I really wonder why does he like to stay here so much... and also if it's a good idea to just let him while he's not even paying.
+Felix seems to be wondering the same thing, as he looks at me once more time with raised eyebrows.
+I'm sure he doesn't want to kick Lukas out, he's too nice...
+...And I admit I'm on his side.
+The café is pretty empty anyway, and this doesn't seem like a busy day at all, I'm sure it won't hurt anybody if we let him stay...
+I just shrug and look back at Felix.
+@style default
+Me: There's not that many people anyway... 
+@char Felix
+Felix: Right, I'm sure it's fine. 
+@style b
+Felix smiles back at me before going back to what he was doing. 
+I follow his lead and start heading back to work, as I hear Luka almost chirping behind me.
+Luka: Thank youuuu~ you two are the best~ 
+I turn around right in time to regret it immediately, catching a glance of Lukas sending hearts with his fingers towards me.
+
+@stop

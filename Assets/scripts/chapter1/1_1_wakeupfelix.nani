@@ -1,0 +1,74 @@
+@printer Fullscreen
+@back clouds
+"{name}?"
+@style i
+Wow, that was strange. I feel confused and dizzy all of a sudden, as if I passed out or something.
+@style default
+"{name}? Can you hear me?" 
+@style i
+But I didn't, right? I remember speaking with the new cook just a moment ago. 
+I'm sure it's nothing. I probably didn't have enough sleep last night and I am now facing the consequences of my poor life choices.
+@style default
+@back coffee_shop
+@printer Dialogue
+{name}!
+W-what?
+@style b
+Two pairs of hands shake me by the shoulders, as I regain consciousness and start to become aware of what's around me.
+I recognize a familiar face in front of me, and my friend smiles in relief.
+@style default
+@char Felix
+# DESCRIPTION_FELIX
+@toast "FELIX  He started working at the café a couple of months after me, and he has been my shadow since then. Since I can understand what it's like to be the new one, I have always been happy to give him a hand and the two of us became friends pretty quickly. He seems to admire me a lot and besides leaning on me for almost everything that's work-related, he's also willing to help anytime I need him. He is truly a nice and caring guy and it's easy to get on well with him."
+
+
+
+Felix: Finally! Are you okay?
+Yes, I'm fine...
+Felix: But... what happened? Do you want to lay down or something?
+I... I just spaced out for a moment...
+@style i
+I don't really know what just happened either, but I really feel okay, so I guess it's better not to alarm him any further.
+@style default
+Felix, really, you don't have to worry
+Felix: Okay, but tell me if you don't feel well
+I will
+@choice "Can you... stop holding me now?" goto:.can_you
+@choice "Please, don't worry too much" goto:.please
+@stop
+
+# can_you
+@style b
+He tries to hug you but feel awkward and stop
+@style default
+@goto .common1
+@stop
+
+# please
+I pat one of his arms in affection
+@goto .common1
+@stop
+
+# common1
+@style b
+It takes him a moment to realize he is still holding me and he retrieves his hands immediately, as he starts to blush adorably.
+@style default
+Felix: Uh, sorry about that
+Felix: By the way, have you met Rei already? He seems like a nice guy
+Yeah, and we definitely needed some help in the kitchen
+FELIX: I know right? I am glad we have someone else there now. It should make things a bit easier
+FELIX: I should go change in my uniform, go on and open :) 
+Felix disappears towards the changing rooms in the back, as I head over to the front door to turn the sign.
+
+@style i
+It's been a while now that I've been working here at the café. I don't think this is my dream job at all, but I got used to the routine here.
+It's a good way to make some money to pay for my studies, if everything goes well I should be graduating sometime in the near future. 
+As soon as I manage to put a portfolio together for my thesis, and I'll be finally able to leave this place and become a photographer.
+That is, of course, easier said than done. As for now, I barely have an idea of what I want to do for this final project...
+I guess I should try and force me to like working here for the time being, it doesn't look like I will be leaving that soon after all.
+Anyway, I'm not complaining complaining. I'm pretty lucky to have found this place. Everyone is nice and I've never had any bad experience with a customer yet. Usually there's actually a lot of interesting people coming here.
+Just as if I called for it, the doorbell rings as a guy enters the café. The greatest example of the "interesting people" I was talking about, might I add.
+@style default
+@hideChars
+@goto 1_2_luka_firstscene
+@stop

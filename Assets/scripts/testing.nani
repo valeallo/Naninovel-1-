@@ -1,0 +1,8 @@
+@back clouds
+
+@input name summary:"Choose your name"
+
+
+@stop
+@goto 1_2_luka_firstscene
+@stop
