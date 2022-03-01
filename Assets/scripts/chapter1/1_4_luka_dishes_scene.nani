@@ -132,8 +132,8 @@ Lukas starts rambling nonsense, which doesn’t seem to make things any better f
 @style default
 
 
-@choice  "Maybe it’s better if you go." goto:.maybe_its_better_if
-@choice  "We know you didn't mean to."  goto:.we_know_you
+@choice "Maybe it’s better if you go." goto:.maybe_its_better_if
+@choice "We know you didn't mean to." goto:.we_know_you
 @stop
 
 
@@ -141,7 +141,7 @@ Lukas starts rambling nonsense, which doesn’t seem to make things any better f
 
 Me: I think you did enough for now. We... will see you later-. 
 Lukas: S-sure..
-@style b 
+@style b
 Lukas starts leaving, when Felix suddenly stops him.
 @style default
 Felix: It's okay {name}.. Let's just forget about this. I am sure everything will work out. 
