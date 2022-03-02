@@ -1,0 +1,119 @@
+@printer chat
+The final projects will be in groups, did you see?? 
+Have you seen the groups? I don’t envy you D: 
+{name} you have to check the groups for photography 
+@printer Dialogue
+@style i
+Uhm… I suddenly don’t feel good about this.
+I don’t know what’s gotten into my friends but everyone seems to be freaking out and I am slightly, just slightly, starting to be influenced.
+I quickly open the email, probably the thing that made everyone go crazy, and my jaw drops to the ground.
+My teacher is glad to inform us that the final project for the photography course will be prepared in groups. The list is attached at the bottom of the email.
+@style default
+Me: Oh, crap. 
+@style i
+I already don’t like the idea of working in a group, but when I see my name next to Milo’s, all I can do is let out a scream of frustration.
+
+/DAY 2 
+/1ST SCENE 
+/suono sveglia
+@style b
+I open my eyes lazily, while yawning loudly.
+I came home pretty late last night.
+I shouldn’t have still watched that series until four in the morning, my body is screaming me that, but after the news from yesterday I had to distract myself or I would have walked all the way to my teacher house to ask for a new teammate.
+Really? Of all people, Milo is the one he had to choose?! We will never get anything done, I am sure. We will be lucky not to kill each other.
+I make my way t the mirror and, as if my life hasn’t been doing it enough, even my reflection seems to mock me. 
+My eyes are puffed and red, while two big black circles stand under them.
+I can already hear Lukas making fun of me.
+And I know he will be at the café because he always is and because I am just that lucky.
+/(se piatti=si) At least I hope this time he won't try to help with anything. 
+/(se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident. 
+But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
+
+/2ND SCENE 
+I drag myself to the kitchen and turn on the coffee machine.
+Sure, it’s a dump and it can only make some dark, bitter water that really doesn’t deserve to be called coffee, but it is the best that I can afford right now.
+Anyway, it seems like I won’t drink my daily poison today: when I open the cupboard, the world seems to stop, as I realize that I finished all my coffee powder yesterday and forgot to buy some more.
+Sure, I DO work in a café, but if my boss is around today, he will surely makes me pay for my coffee and he really doesn’t know the meaning of words like “cheap” and “discount”.
+It really bothers me to pay five dollars for a cup of coffee, and it is now a matter of pride.
+And even if I should say otherwise, our coffee isn’t really worth that much...
+Plus, I’ve already wasted a large part of my savings in meaningless things.
+Like that limited edition reproduction in scale 1:1 of Mrs. Hudson’s teapot.
+At least that makes drinking tea a lot less dull.
+The point is: I need some coffee, preferably free.
+(The only thing that I manage to think of is asking my neighbor, which shouldn’t be such a problem...
+...If only my neighbor wasn’t some sort of lone wolf who never leaves the house and hisses at people.
+Okay, I never heard him hissing at anyone, but I’m sure that’s not too far from the truth.
+Either way, he seems to be my only hope right now.
+Not confident at all, I move cautious steps out of my apartment towards his front door.
+
+/SCENA 3 
+KNOCK KNOCK SOUND
+I can clearly hear someone moaning in annoyance from inside, but after a couple of minutes nobody answers the door. 
+KNOCK KNOCK
+I feel like this might be the dumbest thing I’ve done so far, but I knock again. 
+Finally, I hear the sound of some steps becoming louder, until my neighbor opens his front door, showing a face that doesn’t have a lot to envy from mine. 
+@char Morgan
+# DESCRIPTION_MORGAN
+@toast "MORGAN He lives next door. I cannot say much about him, since I’ve rarely talked to him in the time I’ve lived here. If we can consider bringing the mail to him “talking”.  He doesn’t go out much and he seems really coy about himself. The only thing that I managed to discover, by the loud music that I always hear coming from his apartment, is that he is a musician. I guess being mysterious is part of the whole “artist stereotype”. "
+@style default
+Morgan: What?
+@style b
+Today he is even less talkative than usual. He gazes at me with annoyed eyes, snorting.
+@style default
+Me: Oh, hi! I’m sorry but… do you have some instant coffee to lend me, by any chance?
+@style b
+I am almost certain by the way he is looking at me, that he is considering many ways to murder me.
+I bite my lower lip, while keeping my finger crossed behind my back. 
+Apparently, it doesn’t work. In fact, the guy cut me off with a 
+@style default
+Morgan: No, don’t bother me with these silly stuff
+@style b
+Actually, it did sound a bit silly once I said it aloud. 
+Morgan shuts his door, leaving me speechless. 
+It is the second time that someone shuts a door in my face during the last two days, but I have to admit that I sort of asked for it this time.  
+I rarely see him out of his apartment, what made me think he would have appreciate a seven o’clock in the morning visit? 
+Therefore, without drinking my coffee, I head off to work feeling like someone has passed over me with a car. 
+
+/SCENA 4 
+I've arrived at work pretty early today, but the lights are already on and I recognize one of my colleague roaming around the tables.
+
+# DESCRIPTION_ANGELICA
+@char Angelica
+@toast "ANGELICA: She has worked at the café for a long time and is always up for helping everyone. Probably the sweetest girl on earth, it's no secret that a lot of customers became regular thanks to her kindness and bright smile. "
+Angelica: Good morning, {name}! 
+Just like every other day, Angelica is literally shining up the whole café, even when it's still a bit dark being this early in the morning.
+@style default
+Me: Hi Angelica, how are you doing? 
+Angelica: Great! What about you? You look a bit tired. 
+Me: Oh, don't worry, I am fine. I just stayed up way past my bedtime... 
+Me: Is it just the two of us? 
+Angelica: Actually, Rei got here even earlier. He is already working around in the kitchen. 
+Angelica: I am so excited to have him here, he is amazing! 
+@style b
+Angelica is a kind girl, but even she wouldn’t be so head over heels for Rei if there wasn’t an actual reason to be.
+Curious from her words, I head over to the kitchen to see what Rei is up to.
+
+@hideChars
+/CUT TO KITCHEN
+@char Rei
+@style default
+Me: Hey Rei! You are here early. 
+Rei: Name, good morning! 
+Rei: You are here early too. 
+Me: Yeah, I didn't sleep a lot last night and woke up earlier than usual... 
+@style b
+I say, trying to stop myself from yawning. Rei seems to notice my effort and lets out a chuckle.
+My attention is then caught by the tray of cookies Rei takes out from the oven, filling the room with their sweet scent.
+@style default
+Me: Wow, those looks amazing! 
+@style b
+Rei might even be way too talented for this café.
+@style default
+Me: How long have you been doing this? 
+Rei: Well, it's my first time doing it as an actual job. 
+Rei: But I've always liked cooking, so I guess you can say it's been some time. 
+Rei: Oh, careful... 
+@style b
+He places a protective hand on my back and pushes me gently as he passes behind me with the hot tray.
+I keep looking at him for a bit more, mesmerized by his fluent movements as he works around in the kitchen, before leaving to start the day. 
+@stop

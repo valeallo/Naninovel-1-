@@ -184,6 +184,24 @@ MonoBehaviour:
     - name: 1_4_luka_dishes_scene
       pathPrefix: Scripts
       guid: bbd1e05a433f04b41aa7487b4ffd3599
+    - name: 1_5
+      pathPrefix: Scripts
+      guid: 515d20f2154c88743854e34aa293bfd6
+    - name: 1_6_milo_project1
+      pathPrefix: Scripts
+      guid: 08edb54fea887ad45ad43111a482ff71
+    - name: 1_7_rei_karaoke
+      pathPrefix: Scripts
+      guid: 4b6a5c1fb7d6ced4e9b4598abb96a06e
+    - name: 1_8_rick_intro
+      pathPrefix: Scripts
+      guid: fe3c89da741b8d64d8838bd6aaafaed2
+    - name: 1_9_noah_intro
+      pathPrefix: Scripts
+      guid: dec54e2e21e5d024884dc8a526daca84
+    - name: 1_10_morgan2
+      pathPrefix: Scripts
+      guid: dabc5182a4c67f44ea6b428e9f1b0bfa
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default

@@ -334,6 +334,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;1_4_luka_dishes_scene&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Default&lt;/Path&gt;
         &lt;Type&gt;Characters/Linda&lt;/Type&gt;
       &lt;/Resource&gt;
