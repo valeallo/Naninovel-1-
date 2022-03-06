@@ -214,7 +214,7 @@ MonoBehaviour:
       guid: 792fb697-ed39-4b63-8d7f-d08c8621c5f9
       customData:
         id: 0
-      Pivot: {x: -0.03, y: 0}
+      Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 200
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
@@ -424,7 +424,7 @@ MonoBehaviour:
       guid: 5c8337ac-04fd-4acf-b2f1-d3c244418a9e
       customData:
         id: 0
-      Pivot: {x: -0.03, y: 0}
+      Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 200
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
@@ -467,7 +467,7 @@ MonoBehaviour:
       customData:
         id: 0
       Pivot: {x: 0.5, y: 0}
-      PixelsPerUnit: 100
+      PixelsPerUnit: 120
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomTextureShader: {fileID: 0}

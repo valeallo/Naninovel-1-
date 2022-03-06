@@ -19,18 +19,17 @@ He does gardening work around the neighborhood and works part-time at the local 
 Never quite understood why though: whenever I see him with a plant, he�s usually dumping one that he�s killed in the bin. 
 He is a particular guy, always with a new book in his hands and some philosophical thoughts to share.  
 
- 
 Rick: Tough night? 
 (He asks, passing me by.) 
 Me: Is it that obvious? 
 Rick: Mh, should I be honest or what? 
-Me: I�ll go with �what�. 
+Me: I'll go with 'what'. 
 He laughs, looking at me as if I am some sort of funny experiment.
 Rick: You know, Epictetus once said, �Freedom is not procured by a full enjoyment of what is desired, but by controlling the desire�. 
-Me: Wow. Maybe it�s the hangover, but that sounded less strange than usual. 
+Me: Wow. Maybe it's the hangover, but that sounded less strange than usual. 
 Rick: You should remember it for the next time you go out to drink. 
 (He sure is confident if he thinks I even remember it now.) 
-Me: I think I�ll just stop going out to drink, instead. 
+Me: I think I'll just stop going out to drink, instead. 
 Rick: Hey, that�s one way to read into it. I guess philosophy is also about one�s perception after all� 
  
 
@@ -114,7 +113,7 @@ Rick: And I owe you big time.
 Me: Oh, you bet! Don't worry about it, I did it for those poor abused bushes. 
 Me: Good luck, don't mess up all my hard work, all right? 
 Rick: I'll try, thank you again. 
-@goto .common5
 
-  
+@hideAll
+@goto 1_9_noah_intro
 @stop

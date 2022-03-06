@@ -1,7 +1,6 @@
 
 *sound* 
 @back coffee_shop
-@char Felix
 @char Luka
 @style b
 His face is basically half covered by a pair of round and edgy sunglasses. He makes his way towards the center of the room.
@@ -21,6 +20,7 @@ Me: Hey, Luka... You are quite late today, the usual?
 Luka: Nah, I'm broke. 
 @style b
 He lets out a little sigh, glancing at the sweets counter with bright eyes. Right before I think he's about to start drooling, he scrolls his head and turns to look at Felix and me again.
+@char Felix
 @style default
 Luka: I just came to see how my two favorites coffee makers are doing. 
 @style b
@@ -50,5 +50,8 @@ Felix smiles back at me before going back to what he was doing.
 I follow his lead and start heading back to work, as I hear Luka almost chirping behind me.
 Luka: Thank youuuu~ you two are the best~ 
 I turn around right in time to regret it immediately, catching a glance of Lukas sending hearts with his fingers towards me.
+@hideChars
+@hideAll
 
+@goto 1_3_milo_intro
 @stop

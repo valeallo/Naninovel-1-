@@ -175,16 +175,13 @@ MonoBehaviour:
     - name: 1_2_luka_firstscene
       pathPrefix: Scripts
       guid: 1b9895dd1f334fb489f757933af4baf4
-    - name: chapter1
-      pathPrefix: Scripts
-      guid: e4956d9598a9b064dab85aae6b1d4bcf
-    - name: 1_3 Milo_introduction
+    - name: 1_3_milo_intro
       pathPrefix: Scripts
       guid: 363602363cdfdb64889567db6c64aceb
     - name: 1_4_luka_dishes_scene
       pathPrefix: Scripts
       guid: bbd1e05a433f04b41aa7487b4ffd3599
-    - name: 1_5
+    - name: 1_5_morgan_rei
       pathPrefix: Scripts
       guid: 515d20f2154c88743854e34aa293bfd6
     - name: 1_6_milo_project1
@@ -199,9 +196,12 @@ MonoBehaviour:
     - name: 1_9_noah_intro
       pathPrefix: Scripts
       guid: dec54e2e21e5d024884dc8a526daca84
-    - name: 1_10_morgan2
+    - name: 1_10_morgan_song
       pathPrefix: Scripts
       guid: dabc5182a4c67f44ea6b428e9f1b0bfa
+    - name: chapter1
+      pathPrefix: Scripts
+      guid: e4956d9598a9b064dab85aae6b1d4bcf
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default
@@ -254,12 +254,12 @@ MonoBehaviour:
     - name: parco
       pathPrefix: Backgrounds/MainBackground
       guid: 0031965b9a66e3444aae80ac3b8e8d71
-    - name: camera
-      pathPrefix: Backgrounds/MainBackground
-      guid: 3179ff12c91b7ed499f3547f9f0579c9
     - name: club
       pathPrefix: Backgrounds/MainBackground
       guid: 3abc5a600b9d12444913351df14a77a6
+    - name: camera
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3179ff12c91b7ed499f3547f9f0579c9
     - name: esterno_club
       pathPrefix: Backgrounds/MainBackground
       guid: 91efd2fda9ee9e4448929732901b466d
@@ -278,12 +278,15 @@ MonoBehaviour:
     - name: coffee_shop
       pathPrefix: Backgrounds/MainBackground
       guid: ea1dfda9c4705d447b0f9a3a2055ad84
+    - name: counter
+      pathPrefix: Backgrounds/MainBackground
+      guid: 7f69bb75e73c56c4e99fb82e45e89b1a
   - Id: Audio
     Resources: []
   - Id: Movies
     Resources: []
   - Id: Characters/d289e009-72ad-4f03-87da-838611d2e26c
     Resources:
-    - name: 
+    - name: Default
       pathPrefix: Characters/Luka
-      guid: 
+      guid: dcd881b8e7331d44c99667faed6c2855

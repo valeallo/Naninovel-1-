@@ -1,4 +1,5 @@
 
+@back counter
 @char Felix
 Felix: ...{name}?  
 
@@ -54,7 +55,6 @@ Lukas is using his puppy eyes with Felix, and I know it means that Felix won’t
 /(-10 affinità con V? Piatti = no) 
 @stop
 
- 
 
 # I_mean
 @style i
@@ -208,7 +208,6 @@ I am still a bit skeptical, but I guess if there's something bothering him that 
 I finish up what was left to do and, finally, lock the café front door.
 @goto .common2
 
- 
 
 # Lukas_dishes
 @style i
@@ -229,4 +228,6 @@ It's definitely later than usual. The air is chilly outside, hopefully I can cat
 I start walking towards the bus station when I receive a text. And then another, and another.
 Before I even have time to grab it from my pocket, my phone has been going off four times already.
 Once I finally get to look at the screen, I find texts coming from more than one of my classmates, and an email that was probably sent earlier today.
+@hideAll
+@goto 1_5_morgan_rei
 @stop

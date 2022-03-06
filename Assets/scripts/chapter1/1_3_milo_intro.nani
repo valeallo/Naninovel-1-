@@ -1,29 +1,21 @@
 
-@style i
-Me and Felix are just waiting for our shift to end, sitting at the counter chatting. As expected, in the end the café doesn't fill up at all during the day and nothing seems to change as the hours pass.
+@back coffee_shop
 @style b
+Me and Felix are just waiting for our shift to end, sitting at the counter chatting. As expected, in the end the café doesn't fill up at all during the day and nothing seems to change as the hours pass.
 Of course, I can't even finalize the thought in my mind that the doorbell rings once again, this time announcing the entrance of a group of guys.
 They make their way inside messily and loudly. 
 One of them walks forward, and I almost choke on my breath when I get a glance of his face.
-@style i
 @char Milo
-So, this is complicated... Around four years ago I would have talked a lot differently about Milo.
-We used to be friends, as in: best friends since we were six or something. The "When we get older we will marry each other" kind of friendship. 
-And we actually did date for a while during high school. Things were great, until one day out of the blue he just decided to move and study abroad. 
-When he came back, he was a completely different person, to say the least. 
-I find it hard to believe that he is the same scaredy-cat that used to be afraid of the dark when he was fifteen, but sadly it seems to be him. 
-Now we follow the same photography course, but I meticulously tried to avoid him on campus these past years. Let's just say his reputation is far from good. And he actually never came to me either, so I guess the feeling is mutual. 
-It's sad to think that our relationship just went down the drain and I have no idea why, but based on the rumors about him I can't say I'm not a tiny bit relieved he doesn't seem to want to have anything to do with me. 
+@toast "MILO So, this is complicated... Around four years ago I would have talked a lot differently about Milo. We used to be friends, as in: best friends since we were six or something. The 'When we get older we will marry each other' kind of friendship. And we actually did date for a while during high school. Things were great, until one day out of the blue he just decided to move and study abroad.  When he came back, he was a completely different person, to say the least. I find it hard to believe that he is the same scaredy-cat that used to be afraid of the dark when he was fifteen, but sadly it seems to be him. Now we follow the same photography course, but I meticulously tried to avoid him on campus these past years. Let's just say his reputation is far from good. And he actually never came to me either, so I guess the feeling is mutual. It's sad to think that our relationship just went down the drain and I have no idea why, but based on the rumors about him I can't say I'm not a tiny bit relieved he doesn't seem to want to have anything to do with me. "
 
 That made it a lot easier to just follow our different paths while in school... but now it seems like there's not much choice for me, uh?
 @style b
 His group of friends walks after him in a flock-like movement, they stop at a table sitting down with the class you would expect from an assembly like theirs: feet on the table and making loud, animal-like, grunting noises.
-@style i
 Okay, maybe I'm overreacting a bit, but even if they are not howling like wolves it doesn't mean their feet are allowed on the table.
 
 @style default
 Milo: So, can we get drinks? 
-@style i
+@style b
 It’s only when he speaks that I realize Milo has kept walking towards the counter, and I’ve been staring at him for far too long now.
 Even Felix seems at a loss of words in this situation, and he’s stuck on the spot just like I am.
 
@@ -75,5 +67,6 @@ Anyway, I’m happy Felix manages to be much more professional than me. He serve
 When I get back I am still burning with rage. That was unbelievable! He used to be such a kind and sweet guy and now he treats everyone like actual trash.
 And he has the nerve to tell ME I am annoying!
 Ugh! I just want to break something right now…
-
+@hideAll
+@goto 1_4_luka_dishes_scene
 @stop

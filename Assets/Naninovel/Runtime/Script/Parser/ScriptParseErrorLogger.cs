@@ -34,6 +34,7 @@ namespace Naninovel
         }
 
         public void Add (ScriptParseError item) => Debug.LogError(item.ToString(scriptName));
+
         public bool Remove (ScriptParseError item) => true;
         public void Clear () { }
         public bool Contains (ScriptParseError item) => false;
