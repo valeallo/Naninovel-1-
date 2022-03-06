@@ -37,15 +37,16 @@ I make my way t the mirror and, as if my life hasn’t been doing it enough, eve
 My eyes are puffed and red, while two big black circles stand under them.
 I can already hear Lukas making fun of me.
 And I know he will be at the café because he always is and because I am just that lucky.
-@if Ydishes
+;@if Ydishes
 ; (se piatti=si) At least I hope this time he won't try to help with anything.
-At least I hope this time he won't try to help with anything.
-@else
-Still, it was strange for him to react that badly. Usually he would have joked about the accident.
+;At least I hope this time he won't try to help with anything.
+;@else
+;Still, it was strange for him to react that badly. Usually he would have joked about the accident.
 ; (se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident.
 But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
 
 ; 2ND SCENE
+@back home_kitchen
 I drag myself to the kitchen and turn on the coffee machine.
 Sure, it’s a dump and it can only make some dark, bitter water that really doesn’t deserve to be called coffee, but it is the best that I can afford right now.
 Anyway, it seems like I won’t drink my daily poison today: when I open the cupboard, the world seems to stop, as I realize that I finished all my coffee powder yesterday and forgot to buy some more.
@@ -63,6 +64,7 @@ Either way, he seems to be my only hope right now.
 Not confident at all, I move cautious steps out of my apartment towards his front door.
 
 ; SCENA 3
+@back front_door
 KNOCK KNOCK SOUND
 I can clearly hear someone moaning in annoyance from inside, but after a couple of minutes nobody answers the door. 
 KNOCK KNOCK
@@ -89,8 +91,10 @@ Morgan shuts his door, leaving me speechless.
 It is the second time that someone shuts a door in my face during the last two days, but I have to admit that I sort of asked for it this time.  
 I rarely see him out of his apartment, what made me think he would have appreciate a seven o’clock in the morning visit? 
 Therefore, without drinking my coffee, I head off to work feeling like someone has passed over me with a car. 
+@hideChars
 
 ; SCENA 4
+@back counter
 I've arrived at work pretty early today, but the lights are already on and I recognize one of my colleague roaming around the tables.
 
 # DESCRIPTION_ANGELICA
@@ -108,9 +112,11 @@ Angelica: I am so excited to have him here, he is amazing!
 @style b
 Angelica is a kind girl, but even she wouldn’t be so head over heels for Rei if there wasn’t an actual reason to be.
 Curious from her words, I head over to the kitchen to see what Rei is up to.
-
 @hideChars
+
+
 ; CUT TO KITCHEN
+@back kitchen
 @char Rei
 @style default
 Me: Hey Rei! You are here early. 
