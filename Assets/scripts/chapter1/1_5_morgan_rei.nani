@@ -1,7 +1,18 @@
-@printer chat
+
+@back park
+
+@style b
+It's definitely later than usual. The air is chilly outside, hopefully I can catch the next bus without having to wait too much.
+I start walking towards the bus station when I receive a text. And then another, and another.
+Before I even have time to grab it from my pocket, my phone has been going off four times already.
+Once I finally get to look at the screen, I find texts coming from more than one of my classmates, and an email that was probably sent earlier today.
+
+@hidePrinter Dialogue
+@printer Chat
 The final projects will be in groups, did you see?? 
 Have you seen the groups? I don’t envy you D: 
 {name} you have to check the groups for photography 
+@hidePrinter Chat
 @printer Dialogue
 @style i
 Uhm… I suddenly don’t feel good about this.
@@ -12,10 +23,11 @@ My teacher is glad to inform us that the final project for the photography cours
 Me: Oh, crap. 
 @style i
 I already don’t like the idea of working in a group, but when I see my name next to Milo’s, all I can do is let out a scream of frustration.
+@back room
 
-/DAY 2 
-/1ST SCENE 
-/suono sveglia
+; DAY 2
+; 1ST SCENE
+; suono sveglia
 @style b
 I open my eyes lazily, while yawning loudly.
 I came home pretty late last night.
@@ -25,11 +37,15 @@ I make my way t the mirror and, as if my life hasn’t been doing it enough, eve
 My eyes are puffed and red, while two big black circles stand under them.
 I can already hear Lukas making fun of me.
 And I know he will be at the café because he always is and because I am just that lucky.
-/(se piatti=si) At least I hope this time he won't try to help with anything. 
-/(se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident. 
+@if Ydishes
+; (se piatti=si) At least I hope this time he won't try to help with anything.
+At least I hope this time he won't try to help with anything.
+@else
+Still, it was strange for him to react that badly. Usually he would have joked about the accident.
+; (se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident.
 But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
 
-/2ND SCENE 
+; 2ND SCENE
 I drag myself to the kitchen and turn on the coffee machine.
 Sure, it’s a dump and it can only make some dark, bitter water that really doesn’t deserve to be called coffee, but it is the best that I can afford right now.
 Anyway, it seems like I won’t drink my daily poison today: when I open the cupboard, the world seems to stop, as I realize that I finished all my coffee powder yesterday and forgot to buy some more.
@@ -40,13 +56,13 @@ Plus, I’ve already wasted a large part of my savings in meaningless things.
 Like that limited edition reproduction in scale 1:1 of Mrs. Hudson’s teapot.
 At least that makes drinking tea a lot less dull.
 The point is: I need some coffee, preferably free.
-(The only thing that I manage to think of is asking my neighbor, which shouldn’t be such a problem...
+The only thing that I manage to think of is asking my neighbor, which shouldn’t be such a problem...
 ...If only my neighbor wasn’t some sort of lone wolf who never leaves the house and hisses at people.
 Okay, I never heard him hissing at anyone, but I’m sure that’s not too far from the truth.
 Either way, he seems to be my only hope right now.
 Not confident at all, I move cautious steps out of my apartment towards his front door.
 
-/SCENA 3 
+; SCENA 3
 KNOCK KNOCK SOUND
 I can clearly hear someone moaning in annoyance from inside, but after a couple of minutes nobody answers the door. 
 KNOCK KNOCK
@@ -74,7 +90,7 @@ It is the second time that someone shuts a door in my face during the last two d
 I rarely see him out of his apartment, what made me think he would have appreciate a seven o’clock in the morning visit? 
 Therefore, without drinking my coffee, I head off to work feeling like someone has passed over me with a car. 
 
-/SCENA 4 
+; SCENA 4
 I've arrived at work pretty early today, but the lights are already on and I recognize one of my colleague roaming around the tables.
 
 # DESCRIPTION_ANGELICA
@@ -94,7 +110,7 @@ Angelica is a kind girl, but even she wouldn’t be so head over heels for Rei i
 Curious from her words, I head over to the kitchen to see what Rei is up to.
 
 @hideChars
-/CUT TO KITCHEN
+; CUT TO KITCHEN
 @char Rei
 @style default
 Me: Hey Rei! You are here early. 
@@ -116,6 +132,6 @@ Rei: Oh, careful...
 @style b
 He places a protective hand on my back and pushes me gently as he passes behind me with the hot tray.
 I keep looking at him for a bit more, mesmerized by his fluent movements as he works around in the kitchen, before leaving to start the day. 
-@hideAll
+@hideChars
 @goto 1_6_milo_project1
 @stop

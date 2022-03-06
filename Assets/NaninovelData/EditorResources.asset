@@ -251,13 +251,13 @@ MonoBehaviour:
       guid: 34523b008f3b99b42b38d071bee6140e
   - Id: Backgrounds/640fe547-a0c4-4ea6-ab85-12113c40cd09
     Resources:
-    - name: parco
+    - name: park
       pathPrefix: Backgrounds/MainBackground
       guid: 0031965b9a66e3444aae80ac3b8e8d71
     - name: club
       pathPrefix: Backgrounds/MainBackground
       guid: 3abc5a600b9d12444913351df14a77a6
-    - name: camera
+    - name: room
       pathPrefix: Backgrounds/MainBackground
       guid: 3179ff12c91b7ed499f3547f9f0579c9
     - name: esterno_club
@@ -281,6 +281,9 @@ MonoBehaviour:
     - name: counter
       pathPrefix: Backgrounds/MainBackground
       guid: 7f69bb75e73c56c4e99fb82e45e89b1a
+    - name: kitchen
+      pathPrefix: Backgrounds/MainBackground
+      guid: d70697a9626aa2b4e9a67346eba5caa4
   - Id: Audio
     Resources: []
   - Id: Movies

@@ -49,10 +49,10 @@ Lukas: Come on~ Filly~
 Lukas is using his puppy eyes with Felix, and I know it means that Felix won’t be able to say no to him.
 @style default
 
-@choice "I mean, what could possibly happen?" goto:.I_mean
-/(Piatti = sì) 
-@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes
-/(-10 affinità con V? Piatti = no) 
+@choice "I mean, what could possibly happen?" goto:.I_mean set:Ydishes
+; (Piatti = sì)
+@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes set:Ndishes
+; (-10 affinità con V? Piatti = no)
 @stop
 
 
@@ -70,6 +70,7 @@ Be careful and… actually, don’t touch anything and try to move the least you
 Lukas: Okay, okay! You can trust me guys. 
 Yeah, I'm sure we can... 
 Felix: I'll go take care of the kitchen, good luck. 
+@hide Felix
 Lukas: Thank you!~ 
 @style b
 Lukas is quick to answer, but I am pretty sure that was directed to me.
@@ -89,6 +90,7 @@ Lukas: But I...
 Me: Lukas! 
 Lukas: Okay, fine! 
 @style i
+@hideChars
 Lukas finally gives in, heading towards the kitchen where Felix is.
 I should say I feel sorry for my colleague, but as soon as it gets quieter once Lukas is gone I can’t even feel the guilt anymore...
 What's done is done right?
@@ -104,6 +106,9 @@ Felix: Lukas §@&%*!"
 @style i
 Or, maybe, I should keep always trusting my guts.
 I run to the kitchen where the noises came from, only to find a graveyard of dishes on the floor.
+@back kitchen
+@char Luka
+@char Felix
 @style default
 Me: What happened?! 
 Felix: Damn... We are so screwed {name} 
@@ -143,6 +148,7 @@ Me: I think you did enough for now. We... will see you later-.
 Lukas: S-sure..
 @style b
 Lukas starts leaving, when Felix suddenly stops him.
+@hide Luka
 @style default
 Felix: It's okay {name}.. Let's just forget about this. I am sure everything will work out. 
 @style b
@@ -179,7 +185,7 @@ Lukas: I won't touch anything, I swear.
 Felix: That’s reassuring... Goodnight! 
 
 
-/cut
+; cut
 @style b
 I sit with Lukas by the counter after Felix leaves, and let him choose something from the leftovers.
 He looked pretty upset before, which was so unlike him it made me kind of worried.
@@ -196,7 +202,7 @@ Me: Shut up, you already made me change my mind. I think I liked you better when
 Lukas: Haha, try harder, you are not a good liar 😛 (notgoodliar=yes) 
 Lukas: Seriously, thank you. *blush* 
 Me: Ehy, Lukas, are you okay? 
-/change expression
+; change expression
 Me: You can tell me if there's any proble... 
 Lukas: I am fine! Really! No need to worry. 
 Lukas: Actually, I'll better let you close now, it's getting late... 
@@ -204,7 +210,7 @@ Lukas: See you!
 @style b
 Well that was quick.
 I am still a bit skeptical, but I guess if there's something bothering him that he would like to talk about, he will eventually do it. Right?
-/CUT
+; CUT
 I finish up what was left to do and, finally, lock the café front door.
 @goto .common2
 
@@ -223,11 +229,6 @@ Even if I would like it to be otherwise, my job right now is more important than
 @goto .common2
 
 # common2
-@style b
-It's definitely later than usual. The air is chilly outside, hopefully I can catch the next bus without having to wait too much.
-I start walking towards the bus station when I receive a text. And then another, and another.
-Before I even have time to grab it from my pocket, my phone has been going off four times already.
-Once I finally get to look at the screen, I find texts coming from more than one of my classmates, and an email that was probably sent earlier today.
-@hideAll
+@hideChars
 @goto 1_5_morgan_rei
 @stop
