@@ -1,10 +1,9 @@
-@printer Fullscreen
-@back clouds
-"{name}?"
+@back black
+???:  {name}?
 @style i
 Wow, that was strange. I feel confused and dizzy all of a sudden, as if I passed out or something.
 @style default
-"{name}? Can you hear me?" 
+???: {name}? Can you hear me? 
 @style i
 But I didn't, right? I remember speaking with the new cook just a moment ago. 
 I'm sure it's nothing. I probably didn't have enough sleep last night and I am now facing the consequences of my poor life choices.

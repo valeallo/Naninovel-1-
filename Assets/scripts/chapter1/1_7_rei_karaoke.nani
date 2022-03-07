@@ -1,7 +1,7 @@
 
 @back esterno_club
 ; SCENA 5
-
+@style i
 Rei's arrive has seemed to put everyone in a good mood at the café, so when it's finally closing time, the others employees decide that we should all celebrate at karaoke.
 Unlike everyone else, I am not in the best mood for a get together, but Felix kind of begged me to go and implied he wouldn't if I don't.
 Plus, it would be rude towards Rei to skip this, and we haven't talked that much yet. It can be a nice way to get to know him a bit better.
@@ -26,7 +26,7 @@ I probably stared at new guy for far too long for him not to notice.
 He turns to me, looking puzzled for a moment before smiling brightly.
 @style default
 Rei: {name}! You haven't sung a song! Come here! 
-@style b
+@style i
 I freeze for a moment, uncertain on what to say.
 Actually, I know what I would like to tell him.
 I did sing one song, but probably he's not looking for literal answers as he reach for my arm to drag me in front of the screen with him.
@@ -38,18 +38,21 @@ Even to a point where I stop worrying about everyone else, and follow my compani
 I'm definitely not a good singer, but I like to believe I almost sound good as I am singing my duet with Rei.
 @style default
 Rei: That was great! {name}, let's do another one! 
-@style b
+@style i
 Rei must really be magical, because I find myself agreeing almost immediately and jumping at his side to start singing the new song.
 The night goes on smoothly, maybe a bit too much since at some point, I start losing track of what is happening.
 
 ; SCENA 7
+@hideChars
+@back black
 I find it hard to open my eyes, and my head hurt so bad I can barely think of something clear. 
 I squeeze my eyes a couple of times and then try to reach for my phone. 
 @style default
 Me: Uh?
 Me: Strange. When I stretch out my arm next to me, my hand doesn't encounter the bedside table as it should. 
-@style b
+@style i
 I try again, waving my hand in the air a couple of time before opening my eyes with more conviction. 
+@back room_rei
  What the?
 This is definitely not my house. 
  Definitely not my room. 
@@ -72,7 +75,7 @@ That's not a good start, nor a good look on his face.
 Please, please, please: tell me nothing happened between us.
 This whole situation is already as cliché as it can get.
 Rei: You were just pretty drunk last night. Not even able to stand on two feet
-(Rei is amused as he tells me what happened, making me want to bury myself even more.
+Rei is amused as he tells me what happened, making me want to bury myself even more.
 Rei: I don't know where you live and you were definitely not going to tell me, so I brought you here
 Me: God, I'm sorry. I hope I didn't puke on you or anything
 Rei: Haha, don't worry. We missed that luckily 
@@ -88,7 +91,6 @@ Rei: I'm sorry, I should've definitely looked for him a bit more
 @choice "(It's not his fault...)" goto:.its_not_his_fault
 
 @stop
- 
 # Yeah_you_should_have
 ; Get angry (awkward relationship)
 Sure, he wanted to help me, but still. 
@@ -101,7 +103,7 @@ Rei just nods, showing me the way to the front door. His voice is low and weak a
 Rei: I'll see you at work, okay? 
 I try, the anger already dissipating seeing him beaten like this. Rei is not a bad guy, he just did something stupid. I can empathize with that. I did something just as stupid and I'm putting all the blame on him. 
 Me: 'Sure
-/disappears
+@hide Rei
 @goto 1_8_rick_intro
 @stop
 
@@ -115,7 +117,7 @@ Not when it's mostly my fault, anyway.
 I massage my forehead, letting out a big, desolated, sigh. 
 Me: Okay, it doesn't matter right now. I'll just go home. Thanks, I guess just please, forget about all of this
 Rei just nods, showing me the way to the front door. He tells me how to get to my neighborhood from here, giving me a last mortified smile as I leave his apartment to get home.  
-@hideAll
+@hideChars
 @goto 1_8_rick_intro
 @stop
 
