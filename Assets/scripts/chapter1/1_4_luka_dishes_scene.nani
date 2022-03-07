@@ -49,9 +49,9 @@ Lukas: Come on~ Filly~
 Lukas is using his puppy eyes with Felix, and I know it means that Felix won’t be able to say no to him.
 @style default
 
-@choice "I mean, what could possibly happen?" goto:.I_mean set:Ydishes
+@choice "I mean, what could possibly happen?" goto:.I_mean
 ; (Piatti = sì)
-@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes set:Ndishes
+@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes
 ; (-10 affinità con V? Piatti = no)
 @stop
 
@@ -176,7 +176,7 @@ I pat him gently on his back, and look over to Felix who seems to have come back
 @style default
 Felix: Of course! I was overreacting earlier. 
 Me: Come on, there’s some really good sweets left from today today back in the café. Let's cheer up a bit. 
-Lukas:You don't have to do this, really. 
+Lukas: You don't have to do this, really. 
 Me: Do what? I don't know about you but I really need the extra sugar right now. Come on! 
 Felix: You guys go on then. Name? I really need to leave now. You don't mind closing up by yourself, right? 
 Me: Of course, I'll see you tomorrow. 

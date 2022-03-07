@@ -1,104 +1,117 @@
 
-/SCENA 5 
-(Rei's arrive has seemed to put everyone in a good mood at the café, so when it's finally closing time, the others employees decide that we should all celebrate at a karaoke.) 
-(Unlike everyone else, I am not in the best mood for a get together, but Felix kind of begged me to go and implied he wouldn't if I don�t.) 
-(Plus, it would be rude towards Rei to skip this, and we haven't talked that much yet. It can be a nice way to get to know him a bit better.) 
-(Therefore, I find myself walking towards the karaoke place, hoping that this will end soon.) 
+@back esterno_club
+; SCENA 5
 
-/SCENA 6 
-(The karaoke room is filled with people and hot, unbreatheble air.) 
-(I sang one song, only because I'm physically unable to say no to Felix, and then passed the rest of the evening laying on the sofas, between my collegues coats, drinking unknown cocktails.) 
-(It looks like Rei has already made his way through the heart of everyone.) 
-(They all sang with him, offered him drinks, and I am pretty sure his phone is fuller by at least a hundred pictures.) 
-(I am happy for him, but at the same time I can't hide a bit of jealously.) 
-(It took me two months to get comfortable with everyone at work and, in one day, he managed to get the whole caf� at his feet.) 
-(I swallow a burning sip from my cocktail before leavi* ng it on a table nearby.) 
-(I probably stared at new guy for far too long for him not to notice.) 
-(He turns to me, looking puzzled for a moment before smiling brightly.) 
+Rei's arrive has seemed to put everyone in a good mood at the café, so when it's finally closing time, the others employees decide that we should all celebrate at karaoke.
+Unlike everyone else, I am not in the best mood for a get together, but Felix kind of begged me to go and implied he wouldn't if I don't.
+Plus, it would be rude towards Rei to skip this, and we haven't talked that much yet. It can be a nice way to get to know him a bit better.
+Therefore, I find myself walking towards the karaoke place, hoping that this will end soon.
+
+; SCENA 6
+@back club
+@style b
+@char Angelica
+@char Felix
+@char Rei
+The karaoke room is filled with people and hot, unbreatheble air.
+I sang one song, only because I'm physically unable to say no to Felix, and then passed the rest of the evening laying on the sofas, between my collegues coats, drinking unknown cocktails.
+It looks like Rei has already made his way through the heart of everyone. 
+They all sang with him, offered him drinks, and I am pretty sure his phone is fuller by at least a hundred pictures. 
+I am happy for him, but at the same time I can't hide a bit of jealously.
+It took me two months to get comfortable with everyone at work and, in one day, he managed to get the whole café at his feet.
+I swallow a burning sip from my cocktail before leaving it on a table nearby.
+@hide Angelica
+@hide Felix
+I probably stared at new guy for far too long for him not to notice.
+He turns to me, looking puzzled for a moment before smiling brightly.
+@style default
 Rei: {name}! You haven't sung a song! Come here! 
-(I freeze for a moment, uncertain on what to say.) 
-(Actually, I know what I would like to tell him.) 
-(I did sing one song, but probably he's not looking for literal answers as he reach for my arm to drag me in front of the screen with him.) 
-(At first, it's awkward. So awkward I want to die right now.) 
-(Rei can sing, of course, and maybe it's because he sang all night, but he looks pretty comfortable with the mic in his hands.) 
-(Me, on the other hand, I'm a whole other story.) 
-(But, maybe it's the alcohol, maybe it's Rei that is actually capable of all sort of things, including magic, I slowly start to loosen up.) 
-(Even to a point where I stop worrying about everyone else, and follow my companion through the song.) 
-(I�m definitely not a good singer, but I like to believe I almost sound good as I am singing my duet with Rei.) 
-Rei: That was great! Name, let's do another one! 
-(Rei must really be magical, because I find myself agreeing almost immediately and jumping at his side to start singing the new song.) 
-(The night goes on smoothly, maybe a bit too much since at some point, I start losing track of what is happening.) 
+@style b
+I freeze for a moment, uncertain on what to say.
+Actually, I know what I would like to tell him.
+I did sing one song, but probably he's not looking for literal answers as he reach for my arm to drag me in front of the screen with him.
+At first, it's awkward. So awkward I want to die right now.
+Rei can sing, of course, and maybe it's because he sang all night, but he looks pretty comfortable with the mic in his hands.
+Me, on the other hand, I'm a whole other story.
+But, maybe it's the alcohol, maybe it's Rei that is actually capable of all sort of things, including magic, I slowly start to loosen up.
+Even to a point where I stop worrying about everyone else, and follow my companion through the song.
+I'm definitely not a good singer, but I like to believe I almost sound good as I am singing my duet with Rei.
+@style default
+Rei: That was great! {name}, let's do another one! 
+@style b
+Rei must really be magical, because I find myself agreeing almost immediately and jumping at his side to start singing the new song.
+The night goes on smoothly, maybe a bit too much since at some point, I start losing track of what is happening.
 
-/SCENA 7 
-Some unidentified noises wake me up. 
+; SCENA 7
 I find it hard to open my eyes, and my head hurt so bad I can barely think of something clear. 
 I squeeze my eyes a couple of times and then try to reach for my phone. 
+@style default
 Me: Uh?
-Me: Strange. When I stretch out my arm next to me, my hand doesn�t encounter the bedside table as it should. 
+Me: Strange. When I stretch out my arm next to me, my hand doesn't encounter the bedside table as it should. 
+@style b
 I try again, waving my hand in the air a couple of time before opening my eyes with more conviction. 
-/room 
-( What the�?)
-( This is definitely not my house. )
-( Definitely not my room. )
-( And I�m definitely freaked out. )
-( I don�t recognize anything around me, and that makes me even more confused than I am already. )
-( The memories from last night aren�t blurred out: they simply don�t show up. )
-Me: Stupid karaoke�
+ What the?
+This is definitely not my house. 
+ Definitely not my room. 
+ And I'm definitely freaked out. 
+I don't recognize anything around me, and that makes me even more confused than I am already. 
+The memories from last night aren't blurred out: they simply don't show up.
+Me: Stupid karaoke
 I stand up, stretch out a bit making crackling sounds with my entire body. 
 More noises come from an uncertain location, and then they become steps, heading in my direction. 
 I look around, searching for something to protect me. 
-Whoever the owner of this house is, they still offered me their couch when I was in who knows what state. Maybe they�re not dangerous� but you never know. 
-Oh, you�re awake
-(I�m about to use the tv remote as a last-minute weapon, but the voice is familiar.)
-(Still confusing, though. )
+Whoever the owner of this house is, they still offered me their couch when I was in who knows what state. Maybe they're not dangerous but you never know. 
+Oh, you're awake
+I'm about to use the tv remote as a last-minute weapon, but the voice is familiar.
+Still confusing, though. 
 @char Rei
 Rei is standing by a door, with his toothbrush in one hand.  
 Me: What am I doing here?
-Rei: Ah, well�
-(That�s not a good start, nor a good look on his face.)
-(Please, please, please: tell me nothing happened between us.)
-(This whole situation is already as clich� as it can get.)
-Rei: You were� just pretty drunk last night. Not even able to stand on two feet
-(Rei is amused as he tells me what happened, making me want to bury myself even more.) 
-Rei: I don�t know where you live and you were definitely not going to tell me, so I brought you here
-Me: God, I�m sorry. I hope I didn�t puke on you or anything
+Rei: Ah, well
+That's not a good start, nor a good look on his face.
+Please, please, please: tell me nothing happened between us.
+This whole situation is already as cliché as it can get.
+Rei: You were just pretty drunk last night. Not even able to stand on two feet
+(Rei is amused as he tells me what happened, making me want to bury myself even more.
+Rei: I don't know where you live and you were definitely not going to tell me, so I brought you here
+Me: God, I'm sorry. I hope I didn't puke on you or anything
 Rei: Haha, don't worry. We missed that luckily 
 Me: What about Felix?
-(If Felix brought me home, my home, it wouldn�t be a problem. Embarrassing, still, but not a problem.  )
-(But, obviously, it was Rei to rescue me.  Rei, a guy whom I�ve known for barley a day, a new co-worker it wouldn�t have sucked to impress. )
-(Just the fact I had to be rescued was mortifying by itself. )
-Rei: I didn�t see him around and I thought it was better to just take you away as soon as possible
-Rei: I�m sorry, I should�ve definitely looked for him a bit more
+If Felix brought me home, my home, it wouldn't be a problem. Embarrassing, still, but not a problem.  
+But, obviously, it was Rei to rescue me.  Rei, a guy whom I've known for barley a day, a new co-worker it wouldn't have sucked to impress. 
+Just the fact I had to be rescued was mortifying by itself. 
+Rei: I didn't see him around and I thought it was better to just take you away as soon as possible
+Rei: I'm sorry, I should've definitely looked for him a bit more
 
 
-@choice "Yeah, you should�ve. It would have made everything easier for both of us" goto:.Yeah_you_should_have
+@choice "Yeah, you should have. It would have made everything easier for both of us" goto:.Yeah_you_should_have
 @choice "(It's not his fault...)" goto:.its_not_his_fault
 
 @stop
  
 # Yeah_you_should_have
- /Get angry (awkward relationship) 
-(Sure, he wanted to help me, but still. )
-(Rei acted carelessly, without even thinking. )
-(Would it have costed him so much to ask the others before doing anything? )
-(This is such an embarrassing, annoying and, honestly, kind of creepy situation. What even is my life? )
+; Get angry (awkward relationship)
+Sure, he wanted to help me, but still. 
+Rei acted carelessly, without even thinking. 
+Would it have costed him so much to ask the others before doing anything? 
+This is such an embarrassing, annoying and, honestly, kind of creepy situation. What even is my life? 
 Rei: I'm really, really sorry {name}. I thought
 Me: Don't, please. I just want to go home right now.
 Rei just nods, showing me the way to the front door. His voice is low and weak as he tells me how to get to my neighborhood from here. 
 Rei: I'll see you at work, okay? 
-(I try, the anger already dissipating seeing him beaten like this. Rei is not a bad guy, he just did something stupid. I can empathize with that. I did something just as stupid and I�m putting all the blame on him. )
+I try, the anger already dissipating seeing him beaten like this. Rei is not a bad guy, he just did something stupid. I can empathize with that. I did something just as stupid and I'm putting all the blame on him. 
 Me: 'Sure
 /disappears
-@goto .common3
+@goto 1_8_rick_intro
 @stop
 
 
 
 # its_not_his_fault
-/(2) It's not his fault (good relationship) 
-(Rei is, for sure, a charmer.)
-(His gaze is soft and reassuring; I can't bring myself to be angry. Not when it's clear he had only good intentions.)
-(Not when it's mostly my fault, anyway.) 
+; (2) It's not his fault (good relationship)
+Rei is, for sure, a charmer.
+His gaze is soft and reassuring; I can't bring myself to be angry. Not when it's clear he had only good intentions.
+Not when it's mostly my fault, anyway.
 I massage my forehead, letting out a big, desolated, sigh. 
 Me: Okay, it doesn't matter right now. I'll just go home. Thanks, I guess just please, forget about all of this
 Rei just nods, showing me the way to the front door. He tells me how to get to my neighborhood from here, giving me a last mortified smile as I leave his apartment to get home.  

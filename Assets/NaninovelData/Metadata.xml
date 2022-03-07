@@ -89,9 +89,9 @@
         &lt;Id&gt;MainBackground&lt;/Id&gt;
         &lt;Type&gt;Backgrounds&lt;/Type&gt;
         &lt;Appearances&gt;
-          &lt;string&gt;parco&lt;/string&gt;
+          &lt;string&gt;park&lt;/string&gt;
           &lt;string&gt;club&lt;/string&gt;
-          &lt;string&gt;camera&lt;/string&gt;
+          &lt;string&gt;room&lt;/string&gt;
           &lt;string&gt;esterno_club&lt;/string&gt;
           &lt;string&gt;casa&lt;/string&gt;
           &lt;string&gt;college&lt;/string&gt;
@@ -99,6 +99,7 @@
           &lt;string&gt;clouds&lt;/string&gt;
           &lt;string&gt;coffee_shop&lt;/string&gt;
           &lt;string&gt;counter&lt;/string&gt;
+          &lt;string&gt;kitchen&lt;/string&gt;
         &lt;/Appearances&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
@@ -401,7 +402,7 @@
         &lt;Type&gt;Characters/Mascotto&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;parco&lt;/Path&gt;
+        &lt;Path&gt;park&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -409,7 +410,7 @@
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;camera&lt;/Path&gt;
+        &lt;Path&gt;room&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -438,6 +439,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;counter&lt;/Path&gt;
+        &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;kitchen&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

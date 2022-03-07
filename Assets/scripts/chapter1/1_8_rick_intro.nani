@@ -1,5 +1,4 @@
 
-# common3
 
 (The walk home is tiring but much needed to clear my mind. Luckily (or maybe not, I still don't know) Rei's place isn't far from mine. I feel like crap, but the chilly air is pleasant and refreshing. )
 (I really should have stopped after the first couple of drinks, last night. That was silly and useless. It's like my brain is bouncing all over my skull. ) 
@@ -85,8 +84,10 @@ Me: Sorry, Iï¿½m kind of a mess right now. I donï¿½t know how much of a help Iï¿
 Rick: Oh, sure. Donï¿½t worryï¿½ You should rest. I should have guessed you were tired, sorry. 
 (Rick turns his gaze down on his feet, looking miserable.) 
 (It's not that I don't feel bad for him, but I just don't have the strength to care for the neighborhood bushes right now.) 
-(I wish him good luck, heading to my apartment.) 
-goto: .common5
+(I wish him good luck, heading to my apartment.)
+@hideChars
+@goto 1_9_noah_intro
+
 @stop
 
 # I_should_help
@@ -114,6 +115,6 @@ Me: Oh, you bet! Don't worry about it, I did it for those poor abused bushes.
 Me: Good luck, don't mess up all my hard work, all right? 
 Rick: I'll try, thank you again. 
 
-@hideAll
+@hideChars
 @goto 1_9_noah_intro
 @stop

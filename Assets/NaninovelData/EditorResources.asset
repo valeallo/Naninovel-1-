@@ -166,9 +166,6 @@ MonoBehaviour:
     - name: testing
       pathPrefix: Scripts
       guid: 573d3d35272a2e24aa2c7fe18b1cce5b
-    - name: tutorial
-      pathPrefix: Scripts
-      guid: 08bd134f5871ca448878d6c419764308
     - name: 1_1_wakeupfelix
       pathPrefix: Scripts
       guid: 97672bf29b6e6e14c871928b17d04d36
@@ -202,6 +199,12 @@ MonoBehaviour:
     - name: chapter1
       pathPrefix: Scripts
       guid: e4956d9598a9b064dab85aae6b1d4bcf
+    - name: chapter2
+      pathPrefix: Scripts
+      guid: 8217bf09697fe654ebcc55efbe2909ad
+    - name: tutorial
+      pathPrefix: Scripts
+      guid: 08bd134f5871ca448878d6c419764308
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default
@@ -284,6 +287,18 @@ MonoBehaviour:
     - name: kitchen
       pathPrefix: Backgrounds/MainBackground
       guid: d70697a9626aa2b4e9a67346eba5caa4
+    - name: home_kitchen
+      pathPrefix: Backgrounds/MainBackground
+      guid: 712fd6e2695bb9a4882b5c541c2159db
+    - name: front_door
+      pathPrefix: Backgrounds/MainBackground
+      guid: cec39ef12ce10a94c8d9a4d3e7f97a52
+    - name: room_rei
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8bca6a36f7ac060499ee3cbd8ef7e230
+    - name: black
+      pathPrefix: Backgrounds/MainBackground
+      guid: effd896048fbc074db19f8b776e12dbf
   - Id: Audio
     Resources: []
   - Id: Movies
@@ -292,4 +307,4 @@ MonoBehaviour:
     Resources:
     - name: Default
       pathPrefix: Characters/Luka
-      guid: dcd881b8e7331d44c99667faed6c2855
+      guid: 5ac8020df74fa414c80c327f704f94a5

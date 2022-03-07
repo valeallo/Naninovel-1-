@@ -37,11 +37,11 @@ I make my way t the mirror and, as if my life hasn’t been doing it enough, eve
 My eyes are puffed and red, while two big black circles stand under them.
 I can already hear Lukas making fun of me.
 And I know he will be at the café because he always is and because I am just that lucky.
-;@if Ydishes
+; @if Ydishes
 ; (se piatti=si) At least I hope this time he won't try to help with anything.
-;At least I hope this time he won't try to help with anything.
-;@else
-;Still, it was strange for him to react that badly. Usually he would have joked about the accident.
+; At least I hope this time he won't try to help with anything.
+; @else
+; Still, it was strange for him to react that badly. Usually he would have joked about the accident.
 ; (se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident.
 But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
 
