@@ -299,6 +299,9 @@ MonoBehaviour:
     - name: black
       pathPrefix: Backgrounds/MainBackground
       guid: effd896048fbc074db19f8b776e12dbf
+    - name: livingroom
+      pathPrefix: Backgrounds/MainBackground
+      guid: 58cc0cba4d30a3a40b7fd6db63aed8c6
   - Id: Audio
     Resources: []
   - Id: Movies
