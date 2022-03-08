@@ -49,14 +49,15 @@ Lukas: Come on~ Filly~
 Lukas is using his puppy eyes with Felix, and I know it means that Felix won’t be able to say no to him.
 @style default
 
-@choice "I mean, what could possibly happen?" goto:.I_mean
+@choice "I mean, what could possibly happen?" goto:.I_mean 
 ; (Piatti = sì)
-@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes
+@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes 
 ; (-10 affinità con V? Piatti = no)
 @stop
 
 
 # I_mean
+@set dishes=true
 @style i
 Yeah, it’s not like he’s that irresponsible… right? Plus, I can’t really say no to him either.
 @style default
@@ -216,6 +217,7 @@ I finish up what was left to do and, finally, lock the café front door.
 
 
 # Lukas_dishes
+@set dishes=false
 @style i
 No, that definitely doesn’t sound good.
 If he makes some disaster, which is highly possible, Felix and I might get into serious trouble this time.
@@ -230,5 +232,6 @@ Even if I would like it to be otherwise, my job right now is more important than
 
 # common2
 @hideChars
+@save
 @goto 1_5_morgan_rei
 @stop

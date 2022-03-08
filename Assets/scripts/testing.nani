@@ -1,8 +1,5 @@
 @back clouds
-
 @input name summary:"Choose your name"
-
-
 @stop
-@goto 1_1_wakeupfelix
+@goto 1_4_luka_dishes_scene
 @stop

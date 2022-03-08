@@ -104,6 +104,7 @@
           &lt;string&gt;front_door&lt;/string&gt;
           &lt;string&gt;room_rei&lt;/string&gt;
           &lt;string&gt;black&lt;/string&gt;
+          &lt;string&gt;livingroom&lt;/string&gt;
         &lt;/Appearances&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
@@ -467,6 +468,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;black&lt;/Path&gt;
+        &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;livingroom&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

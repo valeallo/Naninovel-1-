@@ -1,0 +1,81 @@
+@back street
+@style i
+After many failed attempts, today I managed to get a full night of sleep and to leave for work on time.
+It feels like a dream to be able to casually walk my way over to the café without running and praying to make it on time.After a while, I notice a familiar figure walking a bit further down the road.
+@char Felix
+@style default
+Me: Felix! Hi! 
+@style i
+It's been a while since we walked to work together. We both live on the same way to the café, so it became quite natural to meet in the mornings when we work the same shift.) 
+Felix turns around to look at me, before starting to walk again. Strange.
+@style default
+Me: Hey Felix, wait up! 
+@style i
+I run a bit faster until I reach him, but he doesn’t even pretend to slow down.
+@style default
+Me: Is something bothering you? 
+Felix: Why would you say that? 
+@style i
+Wow. That was cold.
+At least he talked to me, I guess that’s something.
+@style default
+Me: I don’t know? Maybe because you’re acting so strange? You didn’t even stop when I asked you to. 
+Felix: Well, sorry if I didn’t do what you wanted like always. 
+@style i
+Definitely strange.
+@style default
+Me: What? Felix are you being serious? You’re talking nonsense right now. 
+Felix: Am I? I think I have the right to be mad... 
+Me: So you are mad. 
+@style i
+I try to think of what I could have done to upset him so much, but I can’t even stop for a couple of seconds that Felix is already a few steps ahead of me.
+@style default
+Me: Please Felix, tell me what’s wrong. 
+@style i
+Nothing, he is still walking and he even seems to speed up a bit.
+@style default
+Me: Listen, I’m sorry if I did something to you, but it would be a lot easier if you could just… 
+ 
+
+@choice "Confront him" goto:.confront_him
+; (Harder to make up with him, you have to ask him out) 
+@choice "Let him cool off" goto:.common
+; (Easier to make up with him, he will ask you out) 
+@stop
+
+# confront_him
+Me: Felix stop!
+@style i
+I yell out loud, not caring of the people around us. 
+That probably did the trick, because Felix quickly walks back in my direction 
+@style default
+Felix: Are you insane?
+; angry blush
+Me: You have to tell me what's wrong, I won't leave you like that
+Felix: Ah! I don't have to do anything, name! 
+Felix: In fact, I am kind of sick of feeling like you can always have it your way with me
+Me: Felix... what are you talking about?
+Felix: Listen, you really want to know why I am so mad?
+Felix: You left me alone the other night, and went home with the first person that offered to take you
+Felix: Do you have any idea of how worried I was?
+Me: I...
+Felix: Don't answer that. Of course you don't. You didn't even bother to give me a call after that
+Me: Felix I am sorry for that, but you are not responsible for me. And I don't owe you any explanation for what I do
+Felix: Yeah, of course, I am not your mum
+Felix: But I am your friend.
+Felix: And if you believe so, then I don't think I owed you this explanation either, so please leave me alone next time since that's the kind of friendship you seem to like
+@style i
+Felix turns his back to me once again, but this time I don't try anything more. 
+I feel like I have not only screwed things up the other night, but I managed to make everything worse while trying to make it better. 
+Felix words hit right through me. I know that we will make up eventually, but even this thought seems bitter. 
+Is it true? Do I really take Felix so much for granted? 
+I'm not even sure if I want to answer that. 
+I don’t think Felix is even listening to whatever I’m trying to say anymore, he’s already too far and anything I will say from now on would just be useless. 
+@goto .common
+@stop
+
+# common 
+@style i
+@hideChars
+With the good feeling I had just a few moments ago as a far memory, I make my way to the café keeping my head low and completely beaten up. 
+@stop

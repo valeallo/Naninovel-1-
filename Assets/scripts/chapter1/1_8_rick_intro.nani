@@ -1,5 +1,5 @@
 
-@back park
+@back street
 @style i
 The walk home is tiring but much needed to clear my mind. Luckily (or maybe not, I still don't know) Rei's place isn't far from mine. I feel like crap, but the chilly air is pleasant and refreshing. 
 I really should have stopped after the first couple of drinks, last night. That was silly and useless. It's like my brain is bouncing all over my skull. 
@@ -37,23 +37,22 @@ He sure is confident if he thinks I even remember it now.
 @style default
 Me: I think I'll just stop going out to drink, instead. 
 Rick: Hey, that's one way to read into it. I guess philosophy is also about one's perception after all!
- 
 
 @choice "I can't cope with this deepness right now" goto:.I_cant_cope
-; -3 affinity with R (He won't tell you anything next time) 
+; -3 affinity with R (He won't tell you anything next time)
 @choice "I give him one last uncertain look before saying bye to him and heading to my apartment. " goto:.I_give_him
 @stop
 
 # I_cant_cope
 @style i
 Yeah, I guess I still can't get him too well. And all this talking made my head hurt even more. 
-@goto common4
+@goto .common4
 @stop
 
 # I_give_him
 @style i
  Come on, that was nice, in a way 
-; 4 affinity with RM (He will share more quotes) 
+; 4 affinity with RM (He will share more quotes)
 Yeah, I can consider myself satisfied with what I got. Moreover, I kind of appreciate his, unique, suggestion; at least he showed some interest.  
 Maybe I will bring him one more muffin than usual next time. 
 Me: Thanks for the tip. Anyway, have fun with those
@@ -61,10 +60,8 @@ Me: Thanks for the tip. Anyway, have fun with those
 I say, giving one last concerned look to the assembly of tools he's trying to balance in just two hands before heading back to my apartment.
 @style default
 Rick:  He I'll try
-@goto common4
+@goto .common4
 @stop
-
- 
 
 # common4
 
@@ -81,10 +78,9 @@ Then again  Rick does seem pretty troubled, biting his lower lip and shifting hi
 It's not like I don't know what a mess he is with plants. I've seen him.
 Plenty of times I've seen him cutting off perfectly fine branches instead of dead ones, trimming bushes to the bone, and touching spiny flower with bare hands
 
-*choice* 
 
 @choice "I'm sure he'll be fine, right?" goto:.Im_sure_itll_be
-; (shitty bushes) 
+; (shitty bushes)
 @choice "I should definitely help " goto:.I_should_help
 ; he will mention this later
 @stop
@@ -141,5 +137,6 @@ Me: Oh, you bet! Don't worry about it, I did it for those poor abused bushes.
 Me: Good luck, don't mess up all my hard work, all right? 
 Rick: I'll try, thank you again. 
 @hideChars
+@save
 @goto 1_9_noah_intro
 @stop

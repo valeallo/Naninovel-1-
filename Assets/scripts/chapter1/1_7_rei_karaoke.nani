@@ -59,7 +59,9 @@ This is definitely not my house.
  And I'm definitely freaked out. 
 I don't recognize anything around me, and that makes me even more confused than I am already. 
 The memories from last night aren't blurred out: they simply don't show up.
+@style default
 Me: Stupid karaoke
+@style i
 I stand up, stretch out a bit making crackling sounds with my entire body. 
 More noises come from an uncertain location, and then they become steps, heading in my direction. 
 I look around, searching for something to protect me. 
@@ -69,20 +71,27 @@ I'm about to use the tv remote as a last-minute weapon, but the voice is familia
 Still confusing, though. 
 @char Rei
 Rei is standing by a door, with his toothbrush in one hand.  
+@style default
 Me: What am I doing here?
 Rei: Ah, well
+@style i
 That's not a good start, nor a good look on his face.
 Please, please, please: tell me nothing happened between us.
 This whole situation is already as cliché as it can get.
+@style default
 Rei: You were just pretty drunk last night. Not even able to stand on two feet
+@style i
 Rei is amused as he tells me what happened, making me want to bury myself even more.
+@style default
 Rei: I don't know where you live and you were definitely not going to tell me, so I brought you here
 Me: God, I'm sorry. I hope I didn't puke on you or anything
 Rei: Haha, don't worry. We missed that luckily 
 Me: What about Felix?
+@style i
 If Felix brought me home, my home, it wouldn't be a problem. Embarrassing, still, but not a problem.  
 But, obviously, it was Rei to rescue me.  Rei, a guy whom I've known for barley a day, a new co-worker it wouldn't have sucked to impress. 
 Just the fact I had to be rescued was mortifying by itself. 
+@style default
 Rei: I didn't see him around and I thought it was better to just take you away as soon as possible
 Rei: I'm sorry, I should've definitely looked for him a bit more
 
@@ -93,15 +102,19 @@ Rei: I'm sorry, I should've definitely looked for him a bit more
 @stop
 # Yeah_you_should_have
 ; Get angry (awkward relationship)
+@style i
 Sure, he wanted to help me, but still. 
 Rei acted carelessly, without even thinking. 
 Would it have costed him so much to ask the others before doing anything? 
 This is such an embarrassing, annoying and, honestly, kind of creepy situation. What even is my life? 
+@style default
 Rei: I'm really, really sorry {name}. I thought
 Me: Don't, please. I just want to go home right now.
 Rei just nods, showing me the way to the front door. His voice is low and weak as he tells me how to get to my neighborhood from here. 
 Rei: I'll see you at work, okay? 
+@style i
 I try, the anger already dissipating seeing him beaten like this. Rei is not a bad guy, he just did something stupid. I can empathize with that. I did something just as stupid and I'm putting all the blame on him. 
+@style default
 Me: 'Sure
 @hide Rei
 @goto 1_8_rick_intro
@@ -111,14 +124,17 @@ Me: 'Sure
 
 # its_not_his_fault
 ; (2) It's not his fault (good relationship)
+@style i
 Rei is, for sure, a charmer.
 His gaze is soft and reassuring; I can't bring myself to be angry. Not when it's clear he had only good intentions.
 Not when it's mostly my fault, anyway.
 I massage my forehead, letting out a big, desolated, sigh. 
+@style default
 Me: Okay, it doesn't matter right now. I'll just go home. Thanks, I guess just please, forget about all of this
+@style i
 Rei just nods, showing me the way to the front door. He tells me how to get to my neighborhood from here, giving me a last mortified smile as I leave his apartment to get home.  
 @hideChars
+@save
 @goto 1_8_rick_intro
-@stop
 
 @stop

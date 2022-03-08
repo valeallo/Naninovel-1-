@@ -166,6 +166,9 @@ MonoBehaviour:
     - name: testing
       pathPrefix: Scripts
       guid: 573d3d35272a2e24aa2c7fe18b1cce5b
+    - name: tutorial
+      pathPrefix: Scripts
+      guid: 08bd134f5871ca448878d6c419764308
     - name: 1_1_wakeupfelix
       pathPrefix: Scripts
       guid: 97672bf29b6e6e14c871928b17d04d36
@@ -202,9 +205,9 @@ MonoBehaviour:
     - name: chapter2
       pathPrefix: Scripts
       guid: 8217bf09697fe654ebcc55efbe2909ad
-    - name: tutorial
+    - name: 2_1_felix_walktowork
       pathPrefix: Scripts
-      guid: 08bd134f5871ca448878d6c419764308
+      guid: 82a0434be0d53f644bf426a1af30d956
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default
@@ -302,6 +305,9 @@ MonoBehaviour:
     - name: livingroom
       pathPrefix: Backgrounds/MainBackground
       guid: 58cc0cba4d30a3a40b7fd6db63aed8c6
+    - name: street
+      pathPrefix: Backgrounds/MainBackground
+      guid: fe48e456289d146419e6da571f92c161
   - Id: Audio
     Resources: []
   - Id: Movies
@@ -311,3 +317,8 @@ MonoBehaviour:
     - name: Default
       pathPrefix: Characters/Luka
       guid: 5ac8020df74fa414c80c327f704f94a5
+  - Id: Characters/71ba2294-94cf-4e78-b868-fe68088ac764
+    Resources:
+    - name: default
+      pathPrefix: Characters/???
+      guid: 5c10f7ad3669521478b945772f8f509b

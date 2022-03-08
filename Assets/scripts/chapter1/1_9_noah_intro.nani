@@ -110,7 +110,7 @@ Noah: Is that BunxBun?
 @style i
 I follow his lost gaze to the object that caused him to black out so suddenly.
 My eyes drop on the bookshelf behind me, then on a glittery, golden DVD case.
-@style deafult
+@style default
 Me: Uh, yes 
 Noah: That spin-off is really rare. 
 Me: Oh, I think I got it from a friend...
@@ -119,7 +119,6 @@ Me: Oh, I think I got it from a friend...
 ; + 6 with Noah and he will be less awkward from now on
 @choice "I can lend it to you if you want" goto:.I_can_lend_it
 ; +2 with Noah because you're kind, he will be still a bit awkward (until the second time you help him?)
-@toast "Noah now has your DVD"
 ; (appears on screen?)
 @stop
 
@@ -144,6 +143,7 @@ The good feeling from spending such a great time totally disappears, as I rememb
 @stop
 
 # I_can_lend_it
+@toast "Noah now has your DVD"
 @style default
 Noah: Oh, no It's not necessary. 
 Me: I don't mind, really, you can take it. 
@@ -166,6 +166,7 @@ I wave at him from my front door, as I watch him heading towards his house.
 Before turning to my apartment, my glance falls over the door next to me.
 The good feeling from making progress with my shy neighbor totally disappears, as I remember how I messed everything with my other neighbor, Morgan, just yesterday.
 @hideChars
+@save
 @goto 1_10_morgan_song
 
 @stop

@@ -1,4 +1,5 @@
 @style i
+@back livingroom
 I'd really like to hit myself with something heavy right now, as I think how stupid I've been.
 We could have been going on without talking to each other, but still keeping a safe relationship built up on indifference.  
 But no, I HAD to ruin it all. And, actually, it doesn't surprise me at all. 
@@ -12,6 +13,7 @@ I mean, I could always try and make things up with him
 
 
 # Apologize
+@back front_door
 @style i
 Yeah, what else could happen anyway?
 I mean, he dislikes me already, it's not like I can make it worse, right?
@@ -19,9 +21,9 @@ Okay, maybe there is a little chance that I do make things even worse.
 I stare at his door for what seems like an hour, unable to move an inch.
 
 @choice "Knock" goto:.knock
-; +5 affinità con Morgan 
+; +5 affinità con Morgan
 @choice "Just DON'T" goto:.dont_knock
-; +0 affinità con suga 
+; +0 affinità con suga
 @stop
 
 # knock
@@ -29,6 +31,7 @@ I stare at his door for what seems like an hour, unable to move an inch.
 @style i
 There's music coming from inside, but I hear some footstep heading towards the door almost immediately.
 Morgan opens the door, showing that he hasn't changed clothes since yesterday and he probably also hasn't had a shower since a lot.
+@char Morgan
 @style default
 Morgan: You again? 
 @style i
@@ -69,9 +72,10 @@ That was random.
 I try to listen more carefully at the melody, but it's not like I know a lot about music.
 
 @choice "Yeah, it's really nice!" goto:.really_nice
-; -3 affinità con suga 
+; -3 affinità con suga
 @choice "Maybe it could be better?" goto:.could_be_better
-; +8 affinità suga 
+; +8 affinità suga
+@stop
 
 # really_nice
 @style default
@@ -88,6 +92,7 @@ Morgan: Well, thanks for the help. I'll see you around.
 Me: No problem! And sure... Goodnight! 
 @style i
 Morgan closes his door murmuring a goodnight under his breath as I start heading to my apartment.
+@hide Morgan
 @goto .common7
 @stop
 
@@ -129,6 +134,7 @@ Morgan: And don't obsess over yesterday morning, just try not to come knock at m
 Me: He, okay. I'll keep that in mind... I think I should go now And good luck with your song! 
 @style i
 Morgan closes his door murmuring a goodnight under his breath as I start heading to my apartment.
+@hide Morgan
 @goto .common7
 @stop
 
@@ -141,12 +147,14 @@ Plus, I think I've bothered my neighbor enough for the next twenty years.
 He dislikes me already, no need to make him grow an homicide instinct towards me. 
 @goto .common7
 
-# .common7
-; *room* 
+# common7
+; *room*
+@back livingroom
 @style i
 The room is silent, as always, but it's actually more pleasant than lonely right now. 
 The past few days were a shot of adrenaline to my usually flat life, calm is much more than welcome and appreciated right now. 
 I drag myself to the shower, the hot water leaves me warm and fuzzy. 
 I slip into bed, putting an end to this insane day. 
 @hideAll
+@save
 @stop

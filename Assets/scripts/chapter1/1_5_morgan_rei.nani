@@ -1,5 +1,5 @@
 
-@back park
+@back street
 
 @style b
 It's definitely later than usual. The air is chilly outside, hopefully I can catch the next bus without having to wait too much.
@@ -37,14 +37,13 @@ I make my way t the mirror and, as if my life hasn’t been doing it enough, eve
 My eyes are puffed and red, while two big black circles stand under them.
 I can already hear Lukas making fun of me.
 And I know he will be at the café because he always is and because I am just that lucky.
-; @if Ydishes
-; (se piatti=si) At least I hope this time he won't try to help with anything.
-; At least I hope this time he won't try to help with anything.
-; @else
-; Still, it was strange for him to react that badly. Usually he would have joked about the accident.
-; (se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident.
+@if "dishes == true"
+At least I hope this time he won't try to help with anything.
+@else
+Still, it was strange for him to react that badly. Usually he would have joked about the accident.
 But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
 
+@endIf
 ; 2ND SCENE
 @back home_kitchen
 I drag myself to the kitchen and turn on the coffee machine.
@@ -139,5 +138,6 @@ Rei: Oh, careful...
 He places a protective hand on my back and pushes me gently as he passes behind me with the hot tray.
 I keep looking at him for a bit more, mesmerized by his fluent movements as he works around in the kitchen, before leaving to start the day. 
 @hideChars
+@save
 @goto 1_6_milo_project1
 @stop
