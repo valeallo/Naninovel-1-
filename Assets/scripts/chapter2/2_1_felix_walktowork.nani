@@ -38,12 +38,13 @@ Me: Listen, I’m sorry if I did something to you, but it would be a lot easier 
  
 
 @choice "Confront him" goto:.confront_him
-; (Harder to make up with him, you have to ask him out) 
-@choice "Let him cool off" goto:.common
-; (Easier to make up with him, he will ask you out) 
+; (Harder to make up with him, you have to ask him out)
+@choice "Let him cool off" goto:.dont_confront_him
+; (Easier to make up with him, he will ask you out)
 @stop
 
 # confront_him
+@set confront=true
 Me: Felix stop!
 @style i
 I yell out loud, not caring of the people around us. 
@@ -70,11 +71,15 @@ I feel like I have not only screwed things up the other night, but I managed to 
 Felix words hit right through me. I know that we will make up eventually, but even this thought seems bitter. 
 Is it true? Do I really take Felix so much for granted? 
 I'm not even sure if I want to answer that. 
-I don’t think Felix is even listening to whatever I’m trying to say anymore, he’s already too far and anything I will say from now on would just be useless. 
 @goto .common
 @stop
 
-# common 
+# dont_confront_him
+@set confront=false
+I don’t think Felix is even listening to whatever I’m trying to say anymore, he’s already too far and anything I will say from now on would just be useless. 
+@goto .common
+
+# common
 @style i
 @hideChars
 With the good feeling I had just a few moments ago as a far memory, I make my way to the café keeping my head low and completely beaten up. 

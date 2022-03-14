@@ -202,12 +202,24 @@ MonoBehaviour:
     - name: chapter1
       pathPrefix: Scripts
       guid: e4956d9598a9b064dab85aae6b1d4bcf
-    - name: chapter2
-      pathPrefix: Scripts
-      guid: 8217bf09697fe654ebcc55efbe2909ad
     - name: 2_1_felix_walktowork
       pathPrefix: Scripts
       guid: 82a0434be0d53f644bf426a1af30d956
+    - name: 2_2_felix
+      pathPrefix: Scripts
+      guid: 8ad83696c9eddd548ab7d3a8fdb58827
+    - name: 2_2_1
+      pathPrefix: Scripts
+      guid: c438998788c125747aee7b4ce9371cfb
+    - name: 2_2_2
+      pathPrefix: Scripts
+      guid: 0d01cbd8f15426f46b8f9f00312a33a8
+    - name: 2_3_ice_rink
+      pathPrefix: Scripts
+      guid: 1ab4b0d8c4dce2b4db659ee2eea75b49
+    - name: 2_4
+      pathPrefix: Scripts
+      guid: c7673c95f5ac07441b7fe6bdc3798795
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default

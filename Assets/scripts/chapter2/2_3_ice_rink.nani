@@ -1,0 +1,450 @@
+; 4TH SCENE - (if you go out with Felix)
+@style i
+The ice rink is beautifully light up for the evening and swamped with couples, probably enjoying the freedom from children that only at this hour can be experienced.
+Felix and I make our way to the rink which is not so busy, luckily. 
+As soon as we step on the ice, though, I can clearly see Felix having some balance problem. 
+For a moment he tries to play it off, before holding onto my coat to avoid falling on the ground.
+@style default
+Felix: Sorry, I just... tripped on something" 
+@style i
+I can barely believe I might have found something I am better in than Felix.
+
+@choice "(Pretend to need help from him)" goto:pretend_to_need set:felixlove++
+@choice "(Show off)" goto:.show_off
+@choice "(Help him)" goto:.help_him set:felixlove=felixlove+2
+; 3) Help him (+2 – he offers you something to eat)
+@stop
+
+
+# pretend_to_need
+; Pretend to need help from him (+1)
+@style default
+Me: Felix, I don't think I am really good at this... 
+@style i
+I decide to save his pride, reaching out to grab his coat myself as I pretend to lose balance for a moment.
+Felix looks preoccupied for a moment, but then he regains his posture and smiles at me.
+@style default
+Felix: Well, I am not an expert but I read some tutorial online on our way here... 
+@style i
+So that’s what he was doing...
+@style default
+Me: Then you can teach me something! 
+Felix: S-sure... okay uhm... hold my hand? 
+@style i
+I comfortably take his hand, which feel warm and soft, and let him guide me, even if it's clear that internet tutorials can only get you so far.
+Felix is still a little unstable and stumbles and trips more than one time, but it's incredibly cute.
+Especially the fact he can't seem to stop staring at our hands totally alarmed, and the genuine smile he has whenever he succeeds in showing me how to do something.
+@style default
+Felix: S-sorry... 
+@style i
+He mumbles when he got the two of us against the rink border for the nth time.
+@style default
+Felix: Try going by yourself now... 
+@style i
+Felix lets go of my hand and I make my way over the centre of the rink.
+@style default
+Felix: Good! Just like tha... Oh, careful! 
+@style i
+I put a foot in the wrong position, which causes me to slip on the ice and makes me a bit unstable. And, as much as I would like to say I did it on purpose, this one was not planned. 
+I might have deserved it for kind of tricking Felix.
+Luckily, he readily gets over to me. He let me hold onto him for stability and it's just so funny, I can't help but laugh cheerfully.
+@style default
+Me: Phew, thank you. 
+Felix: N-no problem... I think you got it, let's just go slow for the moment" 
+Felix: And stay close so that I can help you. 
+@style i
+Needless to say, he trips over right after saying that but eventually we manage to roam around the ink without many problems.
+@goto .common
+@stop
+
+# show_off
+@set nohelp=true
+; 2) Show off (0)
+@style default
+Me: Let me show you! 
+@style i
+I quickly glance at him before speeding up and starting to skate comfortably in the rink. 
+I go on for a while, as Felix tries to gain more stability.
+Eventually he starts getting more comfortable as well and skates around the ink for a few times.
+@style default
+Me: Good job Felix! 
+@style i
+I yell at him as I surpass him.
+I stop, waiting for him to reach him.
+@style default
+Me: See? Not that hard right? 
+Felix: Y-yeah, I think I got it. 
+@goto .common
+@stop
+
+ 
+# help_him
+@set food=true
+; 3) Help him (+2 – he offers you something to eat)
+@style default
+Me: Here, Felix, hold my hand. 
+Felix: W-wha...what? 
+Me: I want to help you! 
+Felix: Uh... you don't have to, really. I just have to get used to... 
+@style i
+Without even finishing his sentence, Felix slips and fall right against the rink border. 
+@style default
+Felix: Ouch... 
+Me: You okay? 
+Felix: Yeah, I am fine, really. 
+Me: Come on! I'll show you. 
+@style i
+I reach over to him, inviting him to finally take my hand. Eventually, he gives up and let me guide him around.
+I drag him gently showing him how to keep his balance and, like that, we start roaming around the ink.
+Felix keeps taking quick glances at our finger interlaced together, almost falling down every time he does that.
+His face is so red I think you could see him from an airplane if you flied over us right now. Still, he also doesn’t stop smiling genuinely.
+@style default
+Me: We are doing great! 
+@style i
+I raise our hands up in victory and start speeding up a little.
+@style default
+Me: Now you have to move your legs too though. 
+Felix: A-ah, yeah... 
+; *blushissimo*
+@style i
+Eventually, Felix gets comfortable enough and we manage to roam around the rink without many problems. 
+@style default
+Me: Felix, let's do a pirouette! 
+Felix: Uh... that might be a bit too ambitious. 
+Me: You have to! Come on, just follow me! 
+@style i
+I take both his hands to face him as I start twirling around.
+@style default
+Me: Just move your feet like mine... Yes! Like that! 
+Me: Aren't we the best? 
+@style i
+Felix looks around himself, noticing all the couples that are skating around us.
+@style default
+Felix: Haha, definitely not. 
+Me: Shhh, we are! 
+@style i
+His cheeks are now adorably red, I don’t think i have ever seen him blushing so many times in such a short time.
+@goto .common
+@stop
+
+
+# common
+
+@style default
+Felix: Oh, right, I thought of some songs that we can listen to while skating when we were coming here... If you want to do that of course. 
+@style i
+Felix searches h in his pocket, taking out his cell phone and a pair of earphones.
+
+@choice "(Listen to the music together)" goto:.listen_to set:felixlove++
+; +1
+@choice "(Take the earphones first)" goto:.Take_earphone
+; +0
+@stop
+
+# listen_to
+; (1) Listen to the music together (+1)
+@style default
+Me: That's super nice!
+@style i
+I take one of the earphone and pass the other one to Felix
+@style default
+Felix: You can listen to it first... it would be tricky to share. 
+Me: But it's not fun like that! Come on, we can do it. 
+@style i
+In reality, we cannot do it at all.
+@if "nohelp == true"
+Even if he got better, Felix is still really unstable, and having him right beside me makes everything a bit harder.
+@else
+if we were already unstable before, now we are officially a death threat on skates
+@endIf
+@style i
+But still, we have a lot of fun. Felix laces our arms together and we keep skating and singing along the songs he chose for a while until we both get tired and decide to leave.
+@goto .common2
+@stop
+   
+# Take_earphone
+; (2) Take the earphones first (0)
+@style default
+Me: That's a good idea! Thank you for thinking of that. 
+Me: I'll go first and then I'll leave it to you, okay? 
+Felix: Uh... sure... It's going to be a lot easier I guess. 
+@style i
+I take the earphones and start skating for a while listening to the songs Felix choose.
+It's definitely a lot nicer to skate with some music as a background, rather than the noise of all the people around us.
+Then I leave the phone to Felix and get ready to leave the rink and wait for him outside.
+@goto .common2
+@stop
+
+ 
+# common2
+; COMMON2
+
+@style default
+Felix: It's super cold today. 
+Me: Let's go eat something, all this skating made me hungry. 
+Felix: I agree. 
+@style i
+We enter to the first restaurant that comes on our way, both just wanting to warm ourselves as soon as possible.
+The place is pleasantly cozy and warm like we needed it.
+We sit at a table and start looking at the menu.
+
+@if "food == true"
+Felix: Order everything you want, it's my treat! 
+Me: Oh, you don't have to... 
+Felix: Yeah, I do, you were a great teacher before. 
+Felix: Sorry, I wanted to come prepared and read a lot of tutorials on our way but that didn't help... 
+Me: That's why you were so quiet then! 
+Felix: ... 
+Me: It's fine, really. I actually had a lot of fun. 
+Felix: I had fun too! 
+Me: Then I guess I deserve to order what I want... 
+Felix: Yes, please, I really want to thank you. 
+@goto .common3
+
+@else
+
+@choice "(Offer to pay)" goto:.offer_to_pay set:felixlove++
+@choice "(Ask him to pay for you)" goto:.ask_him_to_pay set:felixlove--
+@choice "(Pay for yourself)" goto:.pay_for_yourself
+
+@stop
+
+
+# offer_to_pay
+; (1) Offer to pay (+1)
+@style default
+Me: Take what you want, it’s my treat today! 
+Felix: It's okay, you don't have to... 
+Me: Yeah, but I want to. Pretty please? 
+Felix: Okay then, but next time is on me. 
+Me: I count on it! 
+@goto .common3
+@stop
+
+ 
+# ask_him_to_pay
+; (2) Ask him to pay for you (-1)
+@style default
+Me: So, what are you offering me? 
+Felix: W-what? 
+Me: I'm just kidding, haha. 
+@style i
+Well, kind of...
+@style default
+Felix: Oh, all right... 
+@goto .common3
+@stop
+
+# pay_for_yourself
+; (3) Pay for yourself (0)
+; ***nothing happens***
+@goto .common3
+@endIf
+
+
+  
+# common3
+
+@style i
+Our food arrives quickly and we start eating. 
+
+@if "felixlove < 2"
+@hide Felix
+; IF POINTS < 2 -> FELIX LEAVES RIGHT AFTER
+@style i
+When we both finish, Felix starts getting up.
+@style default
+Felix: I have to go now, but it was fun. 
+Me: Thank you for today! 
+Felix: Oh, sure, thank you too... 
+Me: See you at work? 
+Felix: Of course, bye! 
+@style i
+I was hoping to spend a bit more time with him, but I am happy we got to at least make up and forget about our discussion.
+
+@else
+; IF POINTS > 2
+@style default
+Felix: You know, I had a lot of fun today. 
+Me: Yeah, me too! We should really do it again. 
+Felix: I know, it's rare to see each other outside of the café. But I enjoyed it a lot so I really hope we'll do it another time. 
+Me: Okay, let's promise we will! 
+Me: Actually, I have a lot of free time lately. 
+Felix: Oh, right, you're finished with your photography lessons? 
+Me: Yeah, I just need to build up a portfolio to graduate. Let’s say I am working on it. 
+@style i
+I immediately think of the project that I’m doing with Milo but I try to push  
+@style default
+Me: What about you? You never tell me anything of what you do besides working at the café. 
+Felix: Haha, come on that's not true. 
+@style i
+Felix shrugs, but what he said doesn't really answer my question.
+@style default
+Me: It is! I just know you like dancing, but I've never actually seen you either! 
+Felix: Uhm... {name}? 
+Me: Yes? 
+@style i
+Felix stops me from finishing my sentence and looks like he's trying to find the right words for a moment.
+@style default
+Me: You have... here. 
+@style i
+He reaches across the table, and place his thumb on my upper lip, wiping off what I guess was some cream left from the hot chocolate I am drinking.
+He gets back to his sit, then suddenly he seems to realize what he just did.
+@style default
+Felix: Gosh I am... so sorry, I... 
+Me: Uh... 
+
+@choice "Just don't do that again, all right? Haha..." goto:.just_dont_do_that
+@choice "(I can't even think straight right now)" goto:.I_cant_even set:felixlove++
+@stop
+*choice* 
+
+# just_dont_do_that
+; (1) Just don't do that again, all right? Haha... (0)
+
+Felix: I... I absolutely won't. Sorry. 
+@goto .common4
+@stop
+
+# I_cant_even
+; (2) (I can't even think straight right now) (+1)
+@style default
+Me: Uh.......... 
+@style i
+I just can't seem to find the right words to express what I am feeling right now. Felix looks like he's dying on his sit, his cheeks going on fire just as much as mine.
+We both turn away avoiding each other's eyes for what seems like ages. Then I look up at him, finding he was looking at me back and we just chuckle awkwardly for a moment.
+@goto .common4
+@stop
+
+# common4
+
+@style default
+FELIX: So... Uhm, can I ask you something? 
+@style i
+(Felix looks still embarrassed, but I am glad he found the courage to start talking. If it were up to me, we might as well have spent the day in silence.) 
+@style default
+ME: Shoot. 
+@style i
+He takes a deep breath, like he’s bracing himself for a task bigger than him.
+@style default
+FELIX: What do you think about Luka? 
+@style i
+And, of course, it has to be something embarrassing. You know, just to balance things out a bit.
+Felix opens his eyes wide as if he just realized what he asked, and starts to panic.
+@style default
+FELIX: S-sorry, that sounded weird. I didn’t mean it in that way... 
+ME: No, no, it's fine... 
+
+; CONTINUARE DA QUA
+
+@choice "I like him" goto:.I_like_him
+@choice "He's weird, right?" goto:.he_is_weird set:felixlove++
+@choice "I like you better" goto:.like_you_better set:felixlove--
+@stop
+
+
+# I_like_him
+; (1) I like him (0)
+
+@style default
+ME: He is funny! 
+FELIX: Ah, right... 
+FELIX: So, do you think he's... nice? 
+ME: Uhm... sure. And pretty special too, haha 
+FELIX: Felix looks down for a moment. 
+
+@choice "Are you okay?" goto:.are_you_ok
+@choice "I like you better though" goto:.like_you_better2 set:felixlove++
+@stop
+
+# are_you_ok
+; (1) Are you okay? (0)
+@style default
+ME: Y-yeah, of course. 
+FELIX: I was just... uh... worried, you know? 
+FELIX: He acted pretty strangely last time, right? When he wouldn’t leave. 
+@style i
+This sounds a lot like he's changing the subject all of a sudden, but I decide not to investigate further.
+@style default
+ME: Yeah, I guess. But you know Lukas, he’s always a bit... peculiar. 
+FELIX: Maybe, but I think we could talk to him... 
+ME: Let’s keep an eye on him and, if we notice something, we’ll talk to him. 
+@goto .common5
+@stop
+
+# like_you_better2
+; (2) I like you better though! (+1)
+@style i
+Felix literally melts at that, and at this point his whole face is bright red.
+@style default
+Felix: U-uh... thanks? 
+@style i
+He covers his face with his hands after saying it and I can see his ears getting red 
+@style default
+Felix: I meant... I like you too? 
+Felix: Ah, forget it... 
+@style i
+I burst out laughing, Felix is just too cute sometimes.
+@goto .common5
+@stop
+
+# he_is_weird
+; (2) He's strange, right? (0, o –1 se hai aiutato V)
+@style default
+Me: And quite annoying sometimes", right? 
+Felix: Uh, I don’t think that's really nice to say... 
+@if "dishes == true"
+@style default
+Felix: Especially because I think he really likes you. 
+Felix: You shouldn't be nice to him if you don't mean it. 
+Me: Uh, yeah maybe you are right... 
+@style i
+I look down feeling a bit embarrassed now that Felix kind of called me out.
+It was kind of inconsiderate of me to say that...) 
+His question remains odd nonetheless, but the conversation doesn’t seem to go in that direction anymore.
+@goto .common5
+@stop
+@else
+@goto .common5
+@stop
+@endIf
+
+# like_you_better
+
+; (3) I like you better! (-1)
+@style default
+Me: Felix blushes and turn his gaze around at that, before sighing loudly. 
+Felix: Don't say things that you don't mean... 
+Me: But I do mean it. 
+Felix: It's okay, you don't have to be nice all the time. 
+@style i
+(Felix is like the best person you could ever meet, but still. He has to be harsh on himself like this.) 
+(He just can’t accept to be appreciated sometimes, and I do think it’s because he’s the first not giving himself enough credit.) 
+@goto .common5
+@stop
+
+# common5
+; COMMON
+
+We stay a bit longer at the restaurant making small talk before leaving. 
+We walk home together for a bit, before reaching Felix's apartment 
+@if "felixlove >= 5"
+Felix: It's okay I can walk home with you
+Me: I would like that, thank you
+@style i
+We walk side by side until we arrive in front of my apartment. The walk was quiet but I think we just enjoyed each other's company. 
+Felix embraces me before saying bye, holding onto the hug just a little longer than I would have expected  and he leaves me with this feeling of peaceful happiness only someone who just spent a day with Park Felix can understand. 
+@goto .common6
+@stop
+@else
+@style i
+We hug before saying bye, and I head towards my house. 
+@goto .common6
+@stop
+@endIf
+
+
+# common6
+I have the time to do some chores around the house and then being a couch potato in front of the TV, before going to bed. 
+@hideChars
+@stop
