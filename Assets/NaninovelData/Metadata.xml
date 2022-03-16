@@ -400,6 +400,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;2_4&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Default&lt;/Path&gt;
         &lt;Type&gt;Characters/Linda&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -513,7 +517,10 @@
       &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants /&gt;
-    &lt;Variables /&gt;
+    &lt;Variables&gt;
+      &lt;string&gt;felixlove&lt;/string&gt;
+      &lt;string&gt;lukalove&lt;/string&gt;
+    &lt;/Variables&gt;
     &lt;Functions /&gt;
   &lt;/Metadata&gt;
 &lt;/UpdateMetadata&gt;</SerializedMessage>

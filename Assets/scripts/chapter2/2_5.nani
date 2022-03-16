@@ -1,0 +1,189 @@
+
+; CHAPTER 2.2
+; DAY 3
+@style i
+Sometimes having a day off is kind of bittersweet.
+I'm not trying to be ungrateful here: it’s lovely not to worry about work. But, at the same time, I know tomorrow I will have to start again with my routine and that doesn't motivate me to do anything but lie down and sleep. Which will only lead to more distress when, at the end of the day, I realize I haven't accomplished anything once again.
+Since I’ve finished my lessons at the photography school, I have plenty of free time. Too much, I may add. On top of that, today I woke up definitely earlier than usual, and I can't seem to fall asleep again. Just the perfect scenario to start thinking about work, my future and how late I am with decisions about both.
+Maybe I should try doing something to keep myself busy, otherwise I will just fall into a pit of self-pitying and desperation, curl up in a ball and, since I can't sleep, probably cry. I'm sensing a pattern here.
+Just at the right time, my phone dings with a notification.
+I grab it from the bedside table, almost blinding myself with the brightness of the screen. 
+
+@if "felixlove>1"
+@printer Chat
+; *phone view* It’s a text from Felix.
+FELIX: “Work’s boooring… ㅜㅡㅜ” 
+@printer Dialogue
+@style i
+I giggle at that. Maybe I am not doing so bad here, in the warmth of my bed and comfortable pajama pants. 
+
+@choice "Try to sleep again" goto:.try_to_sleep
+@choice "Go to the café" goto:.go_to_café
+@stop
+
+# try_to_sleep
+
+I send some encouraging stickers to Felix, wishing him luck. 
+I turn on some music then, and fickle through my phone for a while 
+Eventually I just roll over a bit more on my bed before I start to doze off again. 
+@stop
+
+# go_to_café
+
+I guess I can pay Felix a visit and have an excuse to get some nice breakfast too. 
+That seems like a nice way to spend the morning. 
+I’m using my day off to go to my job place. Something doesn’t really set well in that sentence but maybe it just means I am getting more responsible 
+I can also take some photographs on my way, to try and get some inspiration. 
+If I have to do this project with Milo, I might as well get a heads up. It might even make our time working together shorter than needed.
+
+@stop
+
+@else
+@style i
+It’s just a notification from a new video that’s been uploaded. 
+I swipe it away, and check my mail while I'm at it. 
+Among the spam and promotions, I notice the email about the photography project. 
+Right, I have to do it with Milo. 
+The thought makes me feel almost like throwing up a little. 
+I still haven’t heard from him, and I have no intention of going to look for him either actually. He didn’t give me his number so if that’s how he wants to play it I’ll give him a couple of days and then I’ll just do it by myself. 
+I scoff my damned phone away with a sigh, falling on my stomach and pressing my face on the pillow. 
+
+@choice " Spend the morning at home " goto:.morning_at_home
+@choice "Go to the park" goto:.go_to_the_park
+@stop
+
+# morning_at_home
+@style i
+I shift my position to land on a comfortable side and tug myself even more in the blanket. 
+I search for my phone again, lost in a mingle of covers, and end up spending all morning watching motivational videos. 
+
+@stop
+
+# go_to_the_park
+@style i
+Maybe, I have better options than mope around all day. I guess it won’t be a bad idea to try and shoot some pictures.
+The park is usually a good place for me to get inspired and, if I start doing something, it might make my time working with Milo even shorter and honestly, that’s all I could ask for.
+@stop
+
+@endIf
+
+# common
+@style i
+The streets are quiet and pretty empty at this hour, which is great.  
+Actually stepping out of my apartment and having a plan for today already makes me feel a lot better. 
+I walk by the bus stop right when the bus is coming 
+
+@if "felixlove > 1"
+
+@choice "Walk to the café"
+@choice "Walk to the park"
+
+# walk_to_the_café
+
+@style i
+It's so nice and calm outside, it would be a shame not to enjoy it completely as long as I can. 
+I should also use the chance to walk through the park. 
+It’s probably the best place to look for pictures inspiration, especially when we are right in the middle of fall and the trees are all beautifully colored. 
+The park is occupied just by old people walking carefully around and some early-risers jogging. 
+I can feel my mind clearing out already thanks to the serene atmosphere. 
+I grab my camera from its bag and look around me. 
+
+@else
+@goto .walk_to_the_park
+@endIf
+
+# walk_to_the_park
+; IF YOU DIDN’T MAKE UP WITH FELIX
+@style i
+The streets are so nice and calm, it would be a shame not to enjoy it completely as long as I can. 
+I start shooting around while on my way. 
+The park is occupied just by old people walking carefully around and some early-risers jogging. 
+I can feel my mind clearing out already thanks to the serene atmosphere. 
+I grab my camera from its bag and look around me. 
+
+@choice "take pictures of the swans"
+@choice "Walk to the basketball court"
+@choice "Go to the playground"
+
+
+
+# pictures_of_swans
+@style i
+I make my way to the little pond in the middle of the park, where a couple of people are throwing crumbles to the swans that usually hang around here. 
+The scenery looks perfect for some pictures 
+I get down to catch the right angle and start shooting from different spots 
+After a while, I consider myself satisfied with what I got and decide to keep walking in direction of the café  
+
+@if "felixlove < 1"
+
+After a while, I consider myself satisfied with what I got and decide to walk back home and maybe shoot a bit more on my way there. 
+
+# basketball_court
+
+It would be nice to catch someone playing. I hardly ever try this sort of pictures, it could be fun to test new ways. 
+; *cut*
+Sadly, there’s barely anyone playing right now. Figures. 
+I just shoot around for a while without finding anything really exciting, before deciding to just walk back home, not in the mood to do something else anymore. 
+@stop
+
+# playground
+
+I always find playgrounds to have a special vibe, even when there’s not many children around. 
+Today it’s definitely one of those days. 
+The playground looks almost creepy, but in a way that could be nice on a picture, so that’s fine by me. 
+As I am taking my pictures, I notice the place is unexpectedly not completely deserted. 
+A guy is sitting on one of the swing, barely moving back and forth dragging his feet on the sand. 
+The image already looks awesome just by looking at it, I get really excited at the thought of taking a picture of it. 
+It just takes me to shift a little to a different angle to notice that I might know that guy, though. 
+I move closer to get a better look and, yes, that’s definitely a familiar face. 
+What is Noah doing there?  
+Actually, he doesn’t look good at all. 
+I get to see his face for just a moment before he covers it with his hands and he collapses down on his lap. 
+What could have happened to put him in such a state? 
+
+@choice 
+
+# Go_talk_to_him
+
+# leave_him_alone
+
+It’s not really my place to ask him anything. 
+Noah is pretty reserved, I don’t want him to think I’m noisy. 
+Plus, it would get late if I don’t start walking to the café yet. 
+Satisfied with pictures I got, I leave the park and walk to my job. 
+
+; IF YOU DIDN’T MAKE UP WITH FELIX
+
+I think I will just shoot some more pictures before going back home. 
+
+
+(2) Take the bus 
+# take_the_bus
+
+I immediately take the chance and jump on the bus just before it’s about to leave. 
+If I am treating myself to breakfast, I might as well give a ride too. 
+Plus, it’s not everyday I get to enjoy the bus being this quiet. 
+I place myself in the best sit, put my earphones on and relax as the road flows outside of the window. 
+After a while, the bus starts going slower every minute, until we are pretty much stuck in the traffic. Probably for an accident down the road. 
+It was nice to take it easy, this is a bit too much. 
+It takes something like another thirthy minutes before the bus engine turns up again and it starts driving bit by bit down the road. 
+By the time we get to the next station, I already wasted enough time and decide to get off. 
+This was pretty underwhelming. 
+
+; IF YOU MADE UP WITH FELIX
+
+I decide on just walking to the café and take some picture on my way there. 
+
+; IF YOU DIDN’T MAKE UP WITH FELIX
+
+Completely worn-out by the turn of events, I just walk back home, not feeling in the mood for doing anything else anymore. 
+
+
+COMMON IF YOU STILL WALK TO THE CAFÉ 
+
+Felix is pleasantly surprised to see me. I spend some time with him and we chat and drink coffee during his break. 
+I show him some of my pictures and sneakily take more of him as he tries to lick a drop of foam from the tip of his nose. 
+Felix: “H-hey! Let me see!” *blush* 
+I stay there just a bit longer, until Felix has to go back to work, and I leave the café to walk back home. 
+
+@stop

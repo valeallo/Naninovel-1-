@@ -1,0 +1,1589 @@
+; DAY 2
+; MORGAN
+; 1ST SCENE
+
+@style i
+I am always happy to start a new day when I can wake up whenever I want, free from ringing alarms and having to hit the snooze button a thousand times.
+And maybe this should go without saying, but staying in bed for another hour after waking up is everything I could wish for.
+Anyway, I have to eventually remind myself I am supposedly an adult, and as such, I should probably try not to lie in bed all day and actually do something productive.
+I eye the clock just to make sure it's still a socially accepted time for breakfast, and even when I realize it's actually not, I still put the coffee machine at work.
+The problem is, I don't think I would ever be able to drink it without the flashbacks from the discussion I had with my neighbour hitting me right in the face.
+Sure, I apologized and everything, but that doesn't erase how dumb I feel about going to his place in the first place.
+There must be something I can do, just to make sure we are okay, and to show that I can be a normal and lovely neighbour too.
+But what do neighbours usually do to show kindness to each other? And is me wondering this an actual prove I should just give up?
+
+@choice "No, I have to try something "
+@choice "It probably is. I am sure he will appreciate it more if I just ignore him forever. (if you didn't make up)"
+@choice "It probably is. I am sure I did enough by apologizing. (if you made up)"
+@stop
+
+; (1) No, I have to try something
+
+; (2) It probably is. I am sure he will appreciate it more if I just ignore him forever. (if you didn't make up)
+
+; (2) It probably is. I am sure I did enough by apologizing. (if you made up)
+
+
+Yeah, sometimes it's better not to stretch these things too much. I am sure we can both survive like this.  
+People mess up every day, right? I am not the first one and I won't be the last. 
+Yes, I almost convinced myself there. 
+I just have to accept I was an idiot and move on with my life. 
+I try to think of the best way to clear my mind that also makes me feel like I am doing something with my life, and end up doing the dishes for ten minutes before crashing on the couch. 
+I guess I can try going out for a walk, get some fresh air and some vitamin D out in the sun. 
+
+@choice "But I probably won't "
+@choice "Yeah, that sounds like a mature way to spend my time.(JUMP TO RICK'S SCENE) "
+
+# But_I_probably_wont
+
+And, just like that, my day off turns out being not so productive, but at least pretty relaxing. 
+
+
+
+
+# no_i_have_to_try_something
+
+I can't just run away from my problems. I want to get along with Morgan and, for once, act like a normal person would.
+; *CUT*
+I am not really sure when "normal person" turned into "suburban housewife" but here I am, trying to bake some cookies to polish my good neighbouring skills.
+But, in the end, I do think this is going to be a good idea.
+Who doesn't like free treats, right?
+
+; (IF YOU MADE UP)
+
+Plus, he looked tired when I talked to him last time. I am sure he can only benefit from this.
+And at least I know I am good at baking, so, if he refuses to eat them, I can always munch on them to cheer myself up.
+I take a taste of the dough just to make sure and then put it into scoops on the tray.
+The smell of baked cookies quickly fills the kitchen, I think even Rei would be proud of me if he were here.
+
+; 2ND SCENE
+
+Morgan's door stands right in front of me just as threatening as I remembered it.
+I move the cookies basket on one arm to knock.
+Actually, I didn't even think about the possibility he won't be at home.
+Or maybe, he just doesn't want to be bothered.
+And if I catch him at a bad time, he would probably assume I am just the worst neighbour ever, wouldn't he?
+Then me making these cookies will be completely useless.
+Gosh, why is he taking so long? The more time I spend here the more I am going to overthink everything and just run off.
+I am just about to knock one more time before giving up, but the door finally opens and I am this close to knock on Morgan's face.
+I quickly retrieve my hand as he gives me some questioning looks.
+
+Morgan: Hi... 
+Me: Uh, hello! I hope I am not bothering you. 
+
+He doesn't say anything, so I take that as an invitation to keep talking.
+
+Me: I... Uh, I brought you these cookies I made, you know... 
+
+@choice "… I thought you could use something to eat (-1 SUGA DOESN'T INVITE YOU IN) "
+@choice "(I guess I can try going out for a walk, get some fresh air and some vitamin D out in the sun.) (choice from before) "
+
+
+
+*choice* 
+
+; … I thought you could use something to eat (-1 SUGA DOESN'T INVITE YOU IN)
+
+Morgan: Uh... I am not a stray cat, you know that right? 
+Morgan: But thanks, I guess. 
+
+Morgan looks totally unamused. He takes the basket from my end and closes his door before letting me say anything else. 
+I had a good feeling about this, but I think in the end I just ruined everything.
+And now I don't even have my cookies to eat as a comfort food.
+But... People mess up every day, right? I am not the first one and I won't be the last.
+Yes, I almost convinced myself there.
+I just have to accept I was an idiot and move on with my life.
+I try to think of the best way to clear my mind that also makes me feel like I am doing something with my life, and end up doing the dishes for ten minutes before crashing on the couch.
+
+
+; (I guess I can try going out for a walk, get some fresh air and some vitamin D out in the sun.) (choice from before)
+
+
+(2) ... I made too much and wanted to share some (0) 
+
+"Oh, that's nice... Thank you"
+
+; 2) (IF YOU DIDN'T MAKE UP"
+
+Me: I also wanted to apologize about last time, I don't usually do that, I wanted you to know. 
+Morgan: I surely hope so! 
+Morgan: It's okay, don't worry. I reacted pretty badly anyway, so I guess we are even... 
+
+Morgan scratches his neck tacking quick glances at everything but my face, looking definitely uneasy with the situation.
+I look at him in surprise, not expecting some sort of an apology in return or to see him actually feeling guilty.
+
+Morgan:
+
+But you even made me cookies, it's really nice of you. 
+
+Me: Oh, no problem, I just thought... Yeah, your welcome, haha... 
+
+Why is it so stressing whenever I have to talk to him?
+It must be all in my mind, because he isn't doing anything to explain how hard it is for me to speak right now.
+
+Morgan: Do you... want to come in and eat some? I think it's the least I can do, really. 
+
+@choice "Uhm, sure, thank you!"
+@choice "Don't worry, just enjoy them"
+
+(1) "Uhm, sure, thank you!" 
+
+*JUMPS TO COMMON* 
+"
+(2) Don't worry, just enjoy them" 
+
+It would be too awkward to stay longer, but I am happy it turned out well anyway. 
+I say bye to Morgan and head back to my apartment feeling a lot less uneasy. 
+
+*JUMPS TO CHOICE ABOUT GOING FOR A WALK* 
+
+
+2) (IF YOU MADE UP) " 
+
+Morgan: You know you don't have to keep apologizing right? We are okay, really. 
+Me: O-oh, no, it's not for that... Well, not entirely at least. 
+Me: I just wanted to do something nice. 
+Morgan: Sure, as you say, just know that we are totally fine. 
+Me: ... 
+Morgan: You look like I'm holding your family hostage! Come on, you can come eat them with me if you need more proves. 
+
+I stare at him for a moment, trying not to open my mouth in surprise.
+I totally didn't expect him to propose something like that.
+
+Morgan: Hey, I am going to eat them by myself if you don't want to join... 
+Me: N-no, no, it's okay! I'll come, thank you. 
+Morgan: Good, come in then... watch out for the step. 
+
+Morgan turns his back to me and makes his way into the apartment, as I follow him in total disbelief.) 
+This was completely not what I pictured, but I am quite eager to know how it will turn out.) 
+
+
+; (3) … I thought you might like them (+1) (ONLY IF YOU GAVE HIM GOOD ADVICE FOR HIS MUSIC)
+
+Morgan: O-oh, thank you... 
+
+Morgan actually looks touched for a moment, but he switches to his usual expression before I can even realize if what I saw was a little smile or just a hallucination.
+
+Morgan: If it's about the other morning again, you really don't have to do this, we are fine, I told you. 
+Me: It's not about that, really! Well, not entirely at least... 
+Me: I did want to show you I can be nice too... 
+Morgan: Haha, so is this what it is? Are you bribing me with cookies to make me like you? 
+Me: ...Only if it's working?" 
+
+
+(Morgan smiles for sure this time, before sighing deeply) 
+
+Morgan: I guess I'll have to see how they taste first. 
+Morgan: But I didn’t behave my best the other day, so maybe I should show you I am nice too. 
+Morgan: Care to join me to eat these? 
+
+I stare at him for a moment, trying not to open my mouth in surprise. 
+I totally didn't expect him to propose something like that, but I guess I should be happy? It means my plan worked out even better than I presumed.
+But, is it going to be awkward? Going into his apartment? I can barely think about it.
+
+Morgan: I am just going to assume they're not great if you refuse, you know? 
+Me: All right, all right... haha! 
+Morgan: Good, come in then... watch out for the step. 
+
+Morgan turns his back to me and makes his way into the apartment, as I follow him in total disbelief.) 
+This was completely not what I pictured, but I am quite eager to know how it will turn out.) 
+
+
+; 3RD SCENE
+; COMMON
+
+Morgan’s apartment is incredibly tidy, but I keep form saying it out loud.
+I should definitely reconsider the way I view him.
+Right now I am basing my thoughts on so many stereotypes I can barely count them, and on the other hand he is crushing them one by one.
+If you ever told me I would be eating cookies with the grumpy guy next door who I thought fed himself just by being pissed off at the world…
+
+Me: It’s... nice here. 
+Morgan: You look surprised. 
+Me: N-no, it’s not like that. 
+Morgan: Did you think I lived in a cave or something? 
+Me: Of course not! 
+Me: I just expected it to be a bit messier… 
+Morgan: Well you weren’t wrong. Usually it is. I wouldn’t have invited you if I didn’t tidy up. 
+Morgan: I may be a scary caveman… 
+
+He grins playfully.
+
+…But I still have manners, you know? Just don’t look under my bed. 
+Me: Hey, I never called you a caveman! 
+Morgan: Right, people usually go with vampire… 
+Me: Okay, okay! I got it, let’s start eating before I change my mind. 
+
+We sit by the kitchen counter and Morgan places the cookies in front of us and starts looking through the cupboards.
+
+Morgan: It’s been way too long since I’ve used real plates. 
+Morgan: Do you want something to drink? 
+
+He asks, while searching the fridge.
+Me: I’m good, thanks. 
+Morgan: All right. 
+
+He grabs a beer for himself and comes to sit beside me.
+I eye him sceptically for a moment.
+
+Me: Beer and cookies, the dynamic duo! 
+Me: I used to think it was milk and cookies but... Mandela effect? 
+Morgan: Oh no, it’s this. Santa’s favourite as well! 
+Me: Ah, of course... 
+Morgan: Hey, if it doesn’t go with beer I am not eating it. 
+Me: Okay, what’s your favourite food then? 
+Morgan: I don’t know... Meat? 
+Morgan: What’s up with that face? 
+Me: Uh, nothing… I wasn’t sure if you were serious or still going for the caveman thing. 
+Morgan: … 
+Morgan: Pfff... You are quite funny. 
+Morgan: Wow, these are good. 
+Morgan: Gosh, I was hungry
+
+Morgan stuffs his face with two more cookies, downing them with a sip of beer.
+Definitely not the healthiest pair, but then again: Morgan doesn’t look like someone who is leading a healthy life.
+And that’s not me going by stereotypes, it’s just clear looking at the dark circle which only got worse since last time and the fact that he is still wearing the same clothes.
+Morgan is being incredibly chirpy today, but he looks incredibly tired too.
+
+Morgan: Do you like baking? 
+Me: I do, I work in this coffee shop... Well I mostly serve the table but sometimes I help out in the kitchen. 
+Morgan: Really? My sister works in a café as well... 
+Me: Oh, that’s cool, I didn’t know you had a sister. 
+
+Gosh, what am I saying? Why would I know anything about his family?
+
+Morgan: Yeah, well, she doesn’t bake though... luckily I might add. 
+Morgan: What about you, do you want to be a baker in the future? 
+Me: Umh… No, that’s not really my dream job. I am just doing it to maintain myself until I graduate from photography school. 
+Morgan: So that’s what you want to do. 
+
+@choice "(1) Yeah, it’s just a bit hard but... I am trying. (+1) "
+@choice "(2) That’s the plan, but... who knows. (0) "
+@stop
+
+; (1) Yeah, it’s just a bit hard but... I am trying. (+1)
+
+Morgan: That’s good already. 
+Morgan: Trust me, you should just go with what you’re sure you will like or you will only regret it later. 
+Morgan: Even if it’s hard, it’s just more worth it. 
+
+; (2) That’s the plan, but... who knows. (0)
+
+Me: I might end up keeping my spot at the coffee shop. 
+Morgan: Yeah well... you shouldn’t really do that if it’s not what you want. Trust me. 
+Morgan: Even if it’s hard, it’s just more worth it. 
+
+# common
+
+The way he says it makes it sounds like he has some experience, and I realize I actually don’t know much about him or what he does for a living.
+
+Me: What about you? I mean, I feel like all I know is that you like music, beer and meat. 
+Morgan: That’s already a good summary, and more than a lot of people know. 
+Morgan: Come on, I am serious! 
+Morgan: Fine, fine! But really there’s nothing more interesting... I… 
+
+*BARK*
+
+Morgan: Uh? 
+
+Morgan stops to turn his attention to the source of that sound.
+Wait... Is that…
+
+Morgan: Oh, look who just woke up… 
+
+A dog?
+
+Morgan: Goji, come! 
+
+Morgan pats on his legs and a little, brown fur ball makes his way clumsily to him barking excitedly.
+
+Morgan: Good boy… 
+Morgan: Sorry, he must have smelled the cookies… No Goji, you can’t eat these, you know. 
+
+Morgan smiles so fondly as he pets the puppy’s head. There’s something totally different in him as he kneels down to stroke Goji’s tummy, something warm and cute.
+
+Morgan: You are not afraid of dogs, are you? 
+Me: No, no… Honestly, I just had no idea you had one” 
+Morgan: Ah, yeah… well I got him just a couple months ago but he’s usually not that loud. 
+Me: I wonder who he took that from. 
+Morgan: Yeah right? 
+Me: He’s really cute! 
+
+Goji starts running around the apartment, putting his little nose in every corner. 
+
+@choice "(1) Pet him (0) "
+@choice "(2) Give him a cookie (-1) "
+@choice "(3) Call him (+1)"
+@stop
+
+*choice* 
+
+; (1) Pet him (0)
+
+I lower down to reach his height when he stops near us, petting him. His fur is ridiculously soft, and it’s pretty clear that Morgan cares for him a lot. I bet he treats him like a prince.
+
+Me: I actually really like dogs, but my parents had an allergy so we never had one. 
+Me: And now, I don’t have a lot of time to care for one” 
+Morgan: Yeah, this little guy always wants to go out... I kind of neglected him a bit the past days. 
+Morgan: I should probably take him out for a walk now... 
+Me: Okay, I’ll let you do that then... bye little Goji. 
+
+; (2) Give him a cookie (-1)
+
+Me: You want some? 
+
+I reach out to hand him a cookie when he stops in front of me, eyeing the sweets with demanding eyes, but Morgan takes him up in his lap, stopping him from eating. 
+Morgan: Sorry, but they are probably bad for him. 
+Me: Uh... yeah, of course... I am sorry. 
+Morgan: He’s usually a lot more quiet. 
+Morgan: I guess I didn’t spend much time with him the past few days... I should take him out for a walk. 
+Me: Oh, yeah, that would be good for him... Then I’ll leave you to it... 
+
+; (3) Call him (+1)
+
+Me: Hey, Goji, come here! 
+
+The puppy stops from roaming around the room to look at me with his little ears perked up, before starting to run away.
+
+Morgan: Haha, don’t take it personally. 
+
+But before I can get offended at an innocent puppy, Goji come s back running towards me with his leash between his teeth.
+
+Me: What is it, Goji? You want to go out? 
+
+The puppy starts wailing is tail and jumping around excitedly.
+
+Me: He’s so cute! 
+Morgan: He loves going out... I definitely didn’t take care of him that well the past few days. 
+Morgan: I should take him for a walk. 
+Me: Oh, sure, go ahead. I’ll see you around? 
+Morgan: You are not coming? 
+Me: O-oh, don’t worry, I’ll leave you to it. 
+Morgan: You sure? It looks like Goji already decided for you though. 
+
+Goji is still trying to get me to take his leash, and he sits calmly prepared to wear it as soon as I take it from him.
+
+@choice "Haha, I guess I can’t say no to him"
+@choice "No, really don't worry"
+
+; (1) "Haha, I guess I can’t say no to him"
+; (2) "No, really don't worry"
+
+I hand the leash back to Morgan who takes it without saying much more.
+Morgan: Okay, then I'll see you around I guess? 
+Me: Of course! Have fun. 
+
+
+; IF POINTS > OR = 2 (and you didn't call Goji)
+
+7) “You can come too, if you want” 
+
+8) “Oh, it’s okay...” 
+
+9) “No, really. I feel bad you never had a dog now” 
+
+*chioice* 
+
+(1) “Okay then” 
+
+1) “Great, I’ll just have to put him his leash.” 
+
+2) “Okay, I’ll go take my coat back home and meet you outside” 
+
+(2) “It’s not a problem, I’ll see you around”  
+
+IF POINTS < 2 OR CHOICE 2 
+
+7) I pat the puppy one last time and say bye to Morgan before heading back home. 
+
+*JUMPS TO CHOOSING IF GOING OUT FOR A WALK OR NOT* 
+
+ 
+
+4TH SCENE  
+
+1) If you would have asked me a couple of days ago, even before I made a fool out of myself asking Morgan for some coffee, I honestly don't think I would have ever imagined something like this to happen. 
+
+2) Not only I am seeing Morgan out of his apartment, with a jacket that doesn't look like he slept in it for a month, but I am actually walking beside him, joining him as he walks his dog. 
+
+3) Morgan is extra careful when it comes to Goji, which is indeed cute, and I can't help but stare at him every time he shortens the leash to keep the puppy from bigger dogs, a bit too excited for him I guess. 
+
+4) Or whenever he picks him up to cross the street and he speaks to him just like you would do to a child. 
+
+5) "What is it?" 
+
+6) "U-uh?" 
+
+7) "You've been staring" 
+
+8) Crap. Maybe I did stare for a bit too long for it to go unnoticed. 
+
+9) And Morgan may be mesmerized by Goji, but he's not completely blinded by his love for the puppy I guess. 
+
+ 
+
+*choice* 
+
+(1) "You are really cute with him" (+1) 
+
+1) "I am... cute?" 
+
+2) It's the first time I see Morgan looking almost embarrassed and not so confident, he's not blushing but that would be probably too much 
+
+3) "Uh... With him... You're cute... with him... You treat him really nicely..." 
+
+4) "O-oh, of course" 
+
+5) "Well, he's really special. Aren't you pup?" 
+
+6) He looks softly at Goji as he speaks. 
+
+7) "I can see that..." 
+
+(2) "It's just a bit strange to see you care this much" (-1) 
+
+1) "It's not like I don't give a fuck about anything, you know?" 
+
+2) "O-of course, I didn't mean to..." 
+
+3) "Plus, he's my dog. It's only normal that I care about him." 
+
+4) "Yeah, I'm sorry... It's clear he's really special to you" 
+
+(3) "Uh... it's nothing" (-1) 
+
+1) "You should really stop treating me like I'm going to kill you anytime" 
+
+2) "Feel free to say whatever you want." 
+
+3) "Trust me, I won't cry" 
+
+4) Morgan smiles wryly before letting out a sigh. 
+
+5) "You're right, sorry. It's just that it looks like Goji is really special for you" 
+
+ 
+
+COMMON 
+
+1) "Did someone important give it to you? 
+
+2) "It's more like he came just at the right time" 
+
+3) That doesn't answer any of my questions, but I'm not surprised 
+
+4) "What do you mean?" 
+
+5) I expect him to turn down my next question, but he doesn't show any sign of annoyance 
+
+6) "Well... I have been struggling for quite a lot on my music" 
+
+7) (IF YOU MADE UP) "You know... We talked about it the other day" 
+
+8) "There was a time where everything seemed to came to me so easily, and now I came to a point where I can spend sleepless nights ending up doing nothing productive" 
+
+9) I just nod as Morgan explains his troubles, it's not every day he shares so much about himself, so the best thing I can do is just listen to him. 
+
+10) "Gosh, I think it's almost been three days now I haven’t slept at all to prepare for a dj job" 
+
+11) "I can't take my mind out of it. All I do is think about music all day, and that only makes me more depressed." 
+
+I can’t help but to frown at the “more”. Morgan is still a stranger to me, but it looks like there’s so much he went through. 
+
+12) "But... having Goji with me has changed things a lot" 
+
+13) Morgan picks his puppy up with a soft smile as we cross the road, we are now back at the apartment complex. He doesn't let him go and start ruffling the curls on the tip of his floppy ears.  
+
+14) I almost expect him to just end his story and leave when we get in front of our apartments, but instead he leans on a wall and keeps petting Goji who just lies quietly in his owner arms 
+
+15) "I still can't do shit with my music..." 
+
+16) he laughs bitterly 
+
+17) "...but at least I have someone I have to take care of, and who lets me take my mind off of work from time to time" 
+
+18) "It's really easy to remember to sleep when you have this little guy howling from your bed until you lie down with him... sometimes I wonder who is taking care of who” 
+
+19) What Morgan says almost melts my heart, I can just picture the little fur ball doing something like that. But it's also sad that he has to feel this way. 
+
+20) It’s clear that something is troubling him, the fact that he actually told me is probably an even bigger prove that he needs help. 
+
+21) Or maybe is just me imagining things?  
+
+The words “even more depressed”, “struggling” and all of that keep ringing in my mind. 
+
+I really feel like I should ask him, even if that means crossing a line.  
+
+22) I bite my lip uncertain of what to say exactly, thinking how to make it sound like I am worried about him and I am not just trying to be noisy. In the end, I just ask him. 
+
+23) "Hey, Morgan, are you really okay?" 
+
+24) "If there's anything I can do..." 
+
+25) "*name*, don't worry." 
+
+26) "But..."  
+
+27) "I will figure something out. It's not the first time I feel uninspired, it will pass." 
+
+*choice* 
+
+(1) "I think you should try harder than that, you can't expect things to just adjust themselves!" (–2) ( If nodreams=yes GAME OVER if points < 4 GAME OVER) 
+
+1) (IF NODREAMS=YES) "It's really brave of you to say something like that when you are planning on giving up on your dreams one step from graduation just because "it's hard"" 
+
+2) "I barely sleep anymore, and you assume I am just "expecting things to happen"? You really don't have any right to say that to me." 
+
+3) "I'll go now. Bye." 
+
+1) (IF NODREAMS=NO) "I told you, I barely sleep anymore." 
+
+2) "But is that what you think? I believe I am definitely trying hard enough. I hoped you at least would understand" 
+
+3) "O-of course you are... I didn't mean it like that" 
+
+4) "Okay, it's better if I go now. Have a nice day *name*" 
+
+__ 
+
+5) Morgan looks really pissed off when he leaves barely looking me in the eyes. 
+
+6) Great job, *name* 
+
+7) I just hope I didn't screw up everything. I definitely didn't choose the right words and I definitely didn't help him with any of his problems. 
+
+(2) "You shouldn't do everything by yourself, though. Maybe sometimes you could accept someone else's help... even if it's hard, it will be worth it if it makes things easier, right?" (+1) 
+
+1) “I see you've been listening to my advices" :D 
+
+2) "Hey, what did you expect?" 
+
+3) "But, seriously, maybe I will be of help somehow. Try me! You never know” 
+
+4) "Okay, okay... I get it" 
+
+5) "You know, you act like everything I do is a surprise for you" 
+
+6) I look at my feet for a moment. My reactions definitely didn't go unnoticed at all. 
+
+7) And Morgan is far more observant than what I thought. 
+
+8) "See, you are doing it again" 
+
+9) "But actually, I've been surprised by you just as much lately (IF YOU MADE UP) 
+
+9) "But maybe you will surprise me too" (IF YOU DIDN’T) 
+
+10) His grin is the same as always, but right now it's really making me nervous. And I feel my cheeks starting to get hotter 
+
+11) "Goji is falling asleep. It’s quite cold for him... I should probably get going" 
+
+12) "But... Today was fun. If you ever want to... who knows, I might let you come with us again" 😀 
+
+13) "Oh! Thank you, it's really kind of you" 
+
+14) "And I had fun too" 
+
+15) "Remember what I told you, okay?" 
+
+16) "Sure, sure I will" 
+
+17) "See you around?" 
+
+18) "If it's not at six am... sure" 
+
+19) Morgan waves at me, gently enough not to wake up Goji, and disappears in his apartment. 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+COMMON 
+
+6TH SCENE 
+
+*cut to the apartment*  
+
+1) In the end, I spent far more time than I thought with Morgan. 
+
+2) Which led me to do nothing useful today. 
+
+3) Maybe I should get a hold of myself and do something productive that will almost make me feel like a responsible adult. 
+
+ 
+
+*choice* 
+
+(1) Do the dishes 
+
+1) I have bowls which have been sitting in the sink for three days now, which is not my worst but also not something to be proud of. 
+
+2) I head to the kitchen to face the disgusting pile of dishes, a reflection of my unstable adulthood actually. 
+
+3) I brace myself, putting on the semi-new gloves and holding my sponge as the ultimate weapon. 
+
+(2) Throw out the trash 
+
+1) My trash bag are still waiting for me to let them finally free, and I guess after having them in the entrance for days now, it’s finally time to do that. 
+
+(3) Clean the floors 
+
+1) I’ve dropped  some lettuce the other day, and never picked it up. 
+
+2) Now the once green and crispy leaf is sadly dying on my floor, soggy and brown. 
+
+3) Around it, many other stains to keep it company. 
+
+4) Just describing it makes it clear how disgusting everything is right now, and how I should really get a move on with the cleaning. 
+
+ 
+
+ 
+
+ 
+
+COMMON IF (1) OR (3) 
+
+That was definitely some work, but now it almost look like I take care of my apartment like I should, and I couldn’t be more satisfied. 
+
+I think I got myself the right to treat me to a relaxing night on the sofa, and refusing would be mean, right? 
+
+The night goes on calmly and quietly, and as some strange commercial starts airing I feel my eyes closing in and I doze off on the sofa 
+
+ 
+
+IF (2)  
+
+7TH SCENE 
+
+It’s the second time I go out today, which already feels like reaching a milestone. But going out to throw out the trash? 
+
+Now that’s something else. 
+
+Sure, the garbage cans are only a few feet away from the apartment, but it’s the motivation that counts. 
+
+I reach the cans, obviously, very quickly, but what I find leaves me shocked for a moment. 
+
+It looks like a crime took place around here, as the ground and the cans themselves are covered in dirt, pieces from probably broken pots and tons of mushed plants. 
+
+Right when I thought my life was starting to be normal, I have to deal with a plants serial-killer threatening the neighbourhood. 
+
+ 
+
+*choice* 
+
+(1) The problem is, I can’t be bothered by this. 
+
+ 
+
+It’s not like I always have to put myself in any situation. 
+
+Sometimes it’s better to mind your own business, which is the philosophy I am embracing for today. 
+
+Especially when there are a movie and a sofa waiting just for me at home. 
+
+*cut to the apartment* 
+
+The night goes on calmly and quietly, and as some strange commercial starts airing I feel my eyes closing in and I doze off on the sofa 
+
+  
+
+(2) Luckily, I know exactly where to look. 
+
+1) It’s not like I know a lot of potential plants exterminator, and the only one I know is not someone who would do such a mess willingly. 
+
+2) which makes me think they (or should I say “he”) could definitely need some help right now. 
+
+3) I walk towards the neighborhood florist and, just as I step near enough to hear, I catch a some clashing sounds and swearing from inside. 
+
+4) I try getting inside but, despise the sign saying “We are open!”, the door is definitely locked. 
+
+5) I try taking a peek from the window but the shop looks pretty empty. 
+
+6) Which is not, I am sure. 
+
+7) I heard all of that noise clearly, it would be hard to imagine something like that. 
+
+8) *noise* 
+
+9) Exactly. 
+
+10) This time the swearing came muffled, probably from the back of the store. 
+
+ 
+
+*choice* 
+
+(1) Go check out the back 
+
+1) I walk around the shop, finding an old wooden door that probably leads to its back. 
+
+2) The noise are definitely louder from here. 
+
+3) I walk up a crippling staircase, and before I can even try doing anything the door slams open in front of me. (Rick) 
+
+(2) Knock to catch their attention (helpnam=no) 
+
+1) I try knocking loudly on the door, the noises stop but no one comes to answer. 
+
+2) After something like five minutes, I decide if whoever is in there doesn’t want any help, I can’t really do anything more. (Jumps to end of the day) 
+
+ 
+
+RICK 
+
+It’s really no surprise to see Rick getting out of there, covered in dirt  and with his hands full of trash bags. 
+
+He was surely not expecting to see me, and almost drops everything he’s holding. 
+
+“*n-name*? What are you doing here?” 
+
+Rick hides his hands quickly behind his back, as if that would be enough to erase the state of total mess he is right now. 
+
+“It’s not the best time…” 
+
+“Yeah, I can see that” 
+
+“And that’s exactly why you shouldn’t be here” 
+
+He walks past me, completely ignoring me and starts heading for the trash cans 
+
+ 
+
+ 
+
+*choice* 
+
+(1) Call out for him 
+
+1) “Hey Rick! Just wait a moment” 
+
+2) He definitely doesn’t wait and keeps walking, which starts to annoy me a bit. 
+
+3) Does he really believe he's being sneaky right now? 
+
+4) “What are you dumping?” 
+
+5) At that, Rick turns pale and drops everything to the ground to reach me. 
+
+6) “What is…” 
+
+7) All of a sudden, his hand is on my mouth. 
+
+8) His covered in dirt hand, may I add. 
+
+9) “Hmpfchskf?” 
+
+10) “Please don’t yell, I can’t catch anyone’s attention right now” 
+
+11) “I am just… Oh gosh, sorry!” 
+
+12) Finally he releases me, and he holds his hands up in the air like he’s surrendering. 
+
+13) “What the hell are you doing?” 
+
+14) “It’s nothing, really! You don’t have to worry okay?” 
+
+15) “Yeah? Than what is that?” 
+
+16) When he ran to me a moment before, he probably didn’t realize dropping all the bags meant they would spill everywhere. 
+
+17) In fact, now the ground is covered in even more plants and dirt.  
+
+18) At least he wasn't hiding a body. From the way he acted that wouldn't have been such a wild guess. 
+
+19) "Care to fill me in now?" 
+
+ 
+
+ 
+
+(2) Follow him (helpnam=no) 
+
+ 
+
+1) Rick gets to the cans, keeping on ignoring me as I walk behind him. 
+
+2) He dumps everything in one of the trash can, now totally full and does the same with the plants that were on the ground before, until everything is finally cleared out. 
+
+3) "Did something happen?" 
+
+4) Rick gasps in surprise, probably not expecting to have me still there watching him. 
+
+5) Then he simply shrugs 
+
+6) "Oh, that was nothing. Don't worry." 
+
+7) "Are you sure?" 
+
+"Pretty much, yeah" 
+
+8) It's a bit upsetting that he's keeping this big secret, especially since it's pretty clear that he did something and he is trying to cover that. 
+
+9) Does he think I am that oblivious? Or doesn't he trust me enough to tell me? 
+
+10) Either way, it's pretty offensive.  
+
+11) But if this is how he wants to play it, then he can suit himself. 
+
+12) I am not getting involved with any more of his problems (IF YOU HELPED HIM THE FIRST TIME) 
+
+13) At least, since it's Rick we are talking about (A giant clumsy goof whose mind is mostly occupied by existential questions), I am pretty sure it's not a big, evil plant-related crime he's trying to cover up. 
+
+14) He probably just destroyed something in the store and he's trying to hide the evidence. 
+
+15) "Okay, then good luck with whatever problem you "don't" have. I'll see you around" 
+
+16) "Yeah, bye..." 
+
+17) Finally, I leave him and go back home to put an end to this day. 
+
+ 
+
+ 
+
+ 
+
+IF (1) 
+
+ 
+
+1) Rick seems to be wondering for a while, but the he takes a quick glance at the trash on the ground and finally gives up with a big sigh. 
+
+2) "Okay, but promise me you won't tell anyone" 
+
+3) "Who would I even tell?" 
+
+4) "I don't know! Just promise" 
+
+5) "Fine, fine, I promise!" 
+
+6) This is getting insane, but I guess the only thing I can do is bear with him if I want him to explain. 
+
+7) "I made a huge mess in the shop" 
+
+8) "Yeah, I got this far... It's not really hard with all the plants smashed around here" 
+
+9) "And that's just a part of it..." 
+
+10) "Okay, how big of a mess we are talking?" 
+
+11) "Like... end of the world big?" 
+
+12) I just stare at him in disbelief for a moment. now I am definitely concerned. 
+
+13) "Okay, just come and see for yourself" 
+
+ 
+
+ 
+
+1) "Oh... Damn..." 
+
+2) Rick wasn't joking. Nope. Without a doubt. 
+
+3) If anything, he minimized the situation. 
+
+4) At first, the shop may look totally normal. But it only takes you a slight turn to the right, where all the shelves that covered one of the wall are now scattered on the ground, together with the plants that were placed on them. 
+
+5) "How did you even do it?" 
+
+6) "I... there was a fly and..." 
+
+7) "O-okay, it's not important" 
+
+8) "I told you it was bad... will you help me then?" 
+
+9) "Gosh, Rick I'll try but... I am not sure of what to do" 
+
+10) "My boss is on vacation, but I have to solve this before he comes back tomorrow..." 
+
+11) "Tomorrow?!" 
+
+12) Rick drops himself on the ground, burying his face between his knees. 
+
+13) "I'm screwed, right? Be honest. I already know anyway" 
+
+14) "Okay... Let me think" 
+
+ 
+
+*choice* 
+
+(1) "Let's not give up yet, we have to clean everything up first" (the boss shows up early, you have to convince him) 
+
+ 
+
+1) "You are right. I already dumped most of the dirt and the plants that fell out of their pots" 
+
+2) "I just have to hang the shelves up again and put whatever survived back on them" 
+
+3) "All right, let's do that then" 
+
+4) "You can start with the shelves and I'll clean the floor" 
+5) "And cheer up, okay? Maybe you are not completely screwed" 
+6) I smile at him trying to be reassuring and we both start to work. 
+
+7) "Thank you. I really owe you for this" 
+
+8) "It's no problem. I wouldn't want you to be fired or something" 
+
+9) "Yeah, that would suck" 
+
+ 
+
+_________ 
+
+ 
+
+(2) Don't beat yourself up... Look, that plant still look savable, right?" 
+
+ 
+
+1) Rick looks up with the tiniest hint of hope, following my gaze to the plant I am talking about. 
+
+2) "But it's out of its pot..." 
+
+3) "Yeah but... you can still put it inside again... if we do that quickly and the roots are intact..." 
+
+4) "We can?" 
+
+5) I look at him worried for a moment 
+
+ 
+
+*choice* 
+
+(1) Didn't you know that? (+1) 
+
+1) "U-uh of course I did!" 
+
+2) "Are you sure you didn't just throw everything away?" 
+
+3) Ricks shifts his gaze from one side of the shop to another, without saying anything 
+
+ 
+
+(2) "How did you even got this job?" (-1) 
+
+1) "Did you throw everything just like that?" 
+
+2) "Hey there's no need to be mean..." 
+
+3) "Just..." 
+
+4) He sighs heavily, then look at me with pure desperation in his eyes. 
+
+5)"Show me how to do it, please?" 
+
+ 
+
+COMMON IF (2) 
+
+1) "Okay, first of all we have to take back the plants you dumped" 
+
+2) "I can do that, go look for some replacement for the pots that are completely shattered" 
+
+3) "And cheer up, okay? Maybe you are not completely screwed" 
+
+4) I try giving him a reassuring smile, before heading for the garbage cans. 
+
+5) I pick up the plants that fell on the ground first and, luckily, most of them still had their roots and all. 
+
+6) Then I take back the trash bags and go back to Rick in the store. 
+
+7) "Did you find enough replacement?" 
+
+8) "I think so, there were plenty in the storage room" 
+
+9) "Okay, let's try to save the most of them, then we can think about cleaning up" 
+
+10) "All the ones with roots are still okay, find them and put them here" 
+
+11) "I will fill the pots and put the plants inside them" 
+
+12) "All right, roots equal savable. I got this" 
+
+13) We both get to work and even if with a rusty start, things go on pretty smoothly. 
+
+ 
+
+COMMON 
+
+*choice* 
+
+(1) "Isn't this job really hard?" (+1) 
+
+1) Rick chuckles a bit at that 
+
+2) "That's a nice way to say I'm bad at it" 
+
+3) "I didn't mean to say that..." 
+
+4) "But you don't look like you love it, you know?" 
+
+5) "That's why I wondered why you work here..." 
+
+(2) "Why did even you choose this job?" (-1) 
+
+1) "You mean even if I'm terrible at it?" 
+
+2) "N-no, that's not what I wanted to..." 
+
+3) "Really, it's okay, because it's the truth anyway." 
+
+ 
+
+COMMON 
+
+4) Rick shrugs and bites his bottom lip looking around the shop. 
+
+5) "I know I'm a mess, but it's not like I should give up on everything just because I'm a failure, right?" 
+
+6) "Hey, don't say that. You are not a failure" 
+
+7) "Haha, try tell my parents that..." 
+
+8) "Uh... Sorry, that was too personal" 
+
+9) He clears his throat, looking uncomfortable for a second before starting to talk again 
+
+9) "Anyway, if you really want to know, it's them who got me this job" 
+
+10) "I didn't exactly choose it, nor I would have probably." 
+
+11) "Did  you need a job or something...?" 
+
+12) "Kind of. I'm doing a thesis on the meaning of flowers and their role in ancient philosophy" 
+
+13) Just him saying that sounded hard enough. But it's not as have any idea what that kind of study would even involve. 
+
+13) "They thought it would help if I worked here for a while" 
+
+ 
+
+*choice* 
+
+(1) Shouldn't you be glad for it? (-1) 
+
+1) "I... I am!" 
+2) Rick almost shouts, as if I touched a sensitive spot with my question. 
+3) "I never said I wasn't" 
+4) "R-right, sorry..." 
+
+(2) And is it helping? (+1) 
+
+1) "I guess it is kind of helping" 
+2) "But you still don't like it... right?" 
+3) Rick sighs, scratching his forehead. He smiles weakly. 
+4) "I didn't say that okay?" 
+
+(3) "Shouldn't they have asked you first?" (-1) 
+1) "Well, they did. It's not like I do whatever they want" 
+2) "And it was nice enough of them" 
+3) "Y-yeah, I guess it was" 
+
+ 
+
+IF YOU TRIED SAVING THE PLANTS 
+
+1) RM "Anyway... I am done here, need help with those pots?" 
+
+2) "Don't worry, I can do it. Maybe you should fix the shelves though." 
+
+3) "Okay, I'm on it" 
+
+4) Rick starts hanging up the shelves on the wall, as I sort out all the plants we managed to save. 
+
+*choice* 
+
+(1) Pick a chrysanthemum for Rick (-1) 
+
+1) "Hey Rick, look at this" 
+
+2) I pick a flower from the ones that, sadly, didn't make it and hand him to Rick 
+
+3) "You can take it for good luck" 
+
+4) Rick looks unsure for a moment, but as I am just there hanging he eventually takes it. 
+
+5) "That’s not the luckiest flower but... thank you” 
+
+6) Yeah, of course it isn’t.  
+
+7) Sorry, I am not doing a thesis on flowers behaviour or whatever, I would like to add, but I know I shouldn’t. 
+
+(2) Pick a sunflower for Rick (0) 
+
+1) "Hey Rick, look at this" 
+
+2) I pick a flower from the ones that, sadly, didn't make it and hand him to Rick 
+
+3) "You can take it for good luck" 
+
+4) Rick smiles brightly and puts the flower behind his ear. 
+
+5) "Haha, thank you. Let's hope it works" 
+
+(3) Pick an orange rose for Rick (+1) 
+
+1) "Hey Rick, look at this" 
+
+2) I pick a flower from the ones that, sadly, didn't make it and hand him to Rick 
+
+3) "You can take it for good luck" 
+
+4) Rick looks shocked when he sees the flower I am handing him. 
+
+5) Then he turns totally red, even on the tip of his ears, looking flustered for something I have totally no idea. 
+
+6) "U-uh... Uhm... T-thank you..." 
+
+7) His eyes are looking everywhere but my face right now. 
+
+8) "Do you... Uh... Know what it means?" 
+
+9) I shake my head to say no, completely confused by his reaction. 
+
+“I just never saw an orange rose and thought it would be sad to throw it away...” 
+
+10) Rick looks just a tiny bit less frustrated now. 
+
+11) Then he takes the flower smiling and he puts it behind his ear. 
+
+COMMON 
+
+1) We get to work again, everything almost set up now. 
+
+2) As the shelves starts filling up, they look more and more like they did before. 
+
+3) "I don't remember the exact order they were but... I'll just tell my boss I wanted to rearrange things" 
+
+4) "Let's hope he likes it!" 
+
+5) "It looks great" 
+
+6) "Well, it doesn't mean a lot said by me. I'm not the best at this things" 
+
+7) "You should be less hard on yourself" 
+
+8) He turns up one corner of his mouth in a dimpled smile. 
+
+9) (IF YOU PICKED ALL THE RIGHT ANSWERS, RICK ROMPE LA QUARTA PARETE) "You always have the right things to say..." 
+
+10) "But seriously, you seem good at this. Does it have something to do with the café or...?" 
+
+11) "Mh, I study photography too, maybe that helped me develop a good eye or something? I literally have no idea" 
+
+12) "Oh, you like photography?" 
+
+13) Rick almost drops the last pot we have to put on the shelf when he hears that. 
+
+14) He turns to me with dreaming eyes 
+
+15) "Do you take picture of the stars too?" 
+
+16) "I always try but my phone camera can never give them justice" 
+
+17) "Yeah, phone camera lenses usually don't have enough aperture to..." 
+
+"…" *change expression Rick* 
+
+18) "Uhm... Sorry, that probably doesn't mean anything to you" 
+
+19) I stop myself before I start diving in too deep talking about photography, Rick probably doesn't care anyway. And I can get quite boring with that. 
+
+20) "No, no, it's interesting! Besides, I would feel like I'm the only one talking nonsense otherwise" 
+
+21) Rick smiles sheepishly, a bit self-conscious, but it's pretty cute. 
+
+22) He's always a bit clumsy and light-headed, but it's clear he's sensitive in his own ways. 
+
+23) "So..." 
+
+24) He clears his throat and looks around. 
+
+25) "Looks like we are finished" 
+
+26) "Wow, it's amazing really" 
+
+27) "I am so relieved, you have no idea. I could squeeze you in a hug right now"  
+
+28) "Uh... what I mean is to give you a rough idea of how thankful I am, but I won't do that. Don't worry" 
+
+30) "Haha, I am happy to have helped you" 
+
+31) "You are the best, really. If you ever need anything, just ask me..." 
+
+32) "Right! You don't have my phone number, I'll write it down on your cell phone..." 
+
+I pass him my cell phone, just a bit (yeah, just a bit...) worried about its safety in Rick's clumsy hands, has he write his number on it.  
+
+I can't really tell if he's just this naïve, or if this move was just so freaking smooth.  
+
+33) "Okay, you can call me in the middle of the night, I'll even put a special ringtone for you just in case" 
+
+34) I laugh loudly at that, Rick being this grateful is just an adorable sight. 
+
+35) "Don't tempt me or I will call you every time I need to do the dishes" 
+
+36) "I am really tired now though, I think I will leave you to deal with the trash if it's not a problem" 
+
+37) "Of course, you can definitely go now. Thank you" 
+
+38) (IF YOU PICKED ALL THE RIGHT ANSWERS) "Oh and *name*!" 
+
+39) I turn back as I am almost outside, Rick is holding the rest of the flowers left. 
+
+40) "You can take them, they're a bit ruined to sell them but... I hope you like them" 
+
+41) I take the bouquet from his hand, smiling brightly behind it. 
+
+42) "They're beautiful, don't worry... Thank you" 
+
+43) "No, thank you, really. I'll let you leave now" 
+
+44) I leave the shop and wave at Rick from the street before going back home, feeling exhausted but satisfied of having helped him. 
+
+45) It would have been just a sad neighbourhood without Rick's messy bushes. 
+
+________________________________________________________________________________ 
+
+IF YOU CLEANED EVERYTHING UP 
+
+1) RM "Anyway, I'm done here, what about you?" 
+
+2) "Me too, I think we can put the pots back to their place" 
+
+3) I look around and the wall looks a lot emptier than what I remembered it when we put everything in order, but at least now the shop is tidy and clean again. 
+
+4) "Phew, I'm a lot calmer now that everything is fixed" 
+
+5) "I just hope my boss will feel the same about it" 
+
+6) "CERCARE UN’ALTRA CITAZIONE" 
+
+7) I glance at him with concern, Rick suddenly looks so hopeless. 
+
+8) (IF YOU DIDN'T APPRECIATE HIS QUOTE) "Sorry, I know you are not a fan of quotes" 
+
+8) (IF YOU DID) "Sorry, it was just a quote. I'm rambling" 
+
+9) "It's not worth it to keep beating yourself up, there's not much more we can do" 
+
+10) Uh, that sounded wrong. I am not sure if it was the most helpful thing to say right now. 
+
+*choice* 
+
+(1) Pat his back (0) 
+
+1) I reach over to pat his back and we sit there awkwardly for a moment before I dare to speak. 
+
+2) "Sorry if I am not reassuring you..." 
+
+3) "Don't worry, I know myself that it's not going to go well. We just have to see how bad it will be" 
+
+(2) Offer him your hand (-1) 
+
+1) I try smiling and reach out with my hand for him to hold it. 
+
+2) He looks awkward for a moment and glances quickly at my face as to study my expression to see if I am serious. 
+
+3) I wait for just a few more moments before giving up on Rick free will and taking his hand in mine. 
+
+4) For a moment he just sits there, completely frozen in embarrassment. Then he retrieves his hand smiling awkwardly at me. 
+
+(3) "Don't worry too much" (0) 
+
+1) "But how can I not?" 
+
+2) "It's hard, but it's useless to keep beating yourself up like this." 
+
+3) "I know I am being over sensitive, but I can't help it" 
+
+4) "This job is too important. I can't lose it" 
+
+5) Rick looks totally helpless and his voice is barely a whisper. 
+
+*choice* 
+
+(1) Offer him your hand (+1) 
+
+1) I try smiling and reach out with my hand for him to hold it. 
+
+2) He looks awkward for a moment and glances quickly at my face as to study my expression to see if I am serious. 
+
+3) I wait for just a few more moments before giving up on Rick free will and taking his hand in mine. 
+
+4) At first, he just sits there, completely frozen in embarrassment. Then his cheeks start getting redder and squeezes my hand back, his dimples showing of as he smiles 
+
+(2) "I am sure your boss will understand" (-1) 
+
+1) "You don't have to sugar coat it... I know I am still going to be in trouble..." 
+
+2) "I'll just have to see how bad it's going to be..." 
+
+ 
+
+COMMON 
+
+1) *door unlocked sound* 
+
+2) Suddenly, we both turn to look at the entrance where Rick's boss is standing. 
+
+3) I stare at Rick whose face has completely turned white, he stands up in a blink of an eye and walks over to the man 
+
+4) "Mr. Lee, I thought you would come back tomorrow" 
+
+5) "No, I told you I would come back today" 
+
+6) "O-oh, right" 
+
+7) Rick looks totally uneasy as Mr. Lee starts pacing the store. 
+
+8) "Did you clean up?" 
+
+9) "U-uh yeah, we just finished actually" 
+
+10) ""We"? Why do you make others help you with... Wait a moment, what happened to the shelves?" 
+
+11) We both freeze as Rick boss walks over to the wall, touching each pot and studying them with careful eyes. 
+
+12) "Uh... nothing it's..." 
+
+13) "Where are the other plants?" 
+
+14) "Rick, did you break something else? What did you do to the shelves?" 
+
+15) Rick starts mumbling something, visibly shaken and unable to say one thing that could take him out of this situation. 
+
+ 
+
+*choice* 
+
+(1) "It wasn't his fault!" (+1) 
+
+1) Mr. Lee turns to me, looking furious. 
+
+2) Rick also looks at me, completely taken back by my intervention. 
+
+2) "Then whose fault was this?" -> choice 2 
+
+(2) Say nothing 
+
+1) Mr. Lee "Do you even have anything to say about this?" 
+
+2) RM "I... It was an accident..." 
+
+3) "I am going to need more than just this. Excuse us young lady, we have to discuss in private about this" 
+
+4) I glance at Rick, worried and unsure on what to do, but even now he manages to show me a little smile 
+
+5) "It's okay *name*, you can go. You did enough already" (X) 
+
+(3) "Someone must have stolen them" 
+
+1) Mr. Lee "Do you expect me to believe something like this? Who would even think of stealing plants?!" 
+
+2) "It's okay *name*, you don't have to cover for me" 
+
+3) "Rick, tell your friends she can leave now. We have to talk"  
+
+4) "I am not leaving!" 
+
+5) Rick reaches out to touch my arm 
+
+6) "Yes, *name*, just go... you did a lot already. I have to face this myself now..."  (X) 
+
+ 
+
+*choice 2* 
+
+(1) "I did it" 
+
+1) "No, she didn't" 
+
+2) Rick bursts out immediately, putting himself between me and Mr. Lee 
+
+3) "It's my fault, I'm not a kid. You don't have to cover for me" 
+
+4) "Rick what is happening?" 
+
+5) "I broke the shelves, *name* was just trying to help me, but she's going to leave now." (X) 
+
+(2) "It was an accident" (+1) 
+
+1) “So someone must have done it!” 
+
+2) “No, that’s not what I meant...” 
+
+3) Mr. Lee sighs deeply, already tired by this discussion. 
+
+4) “Then what happened? Can you two explain it clearly?” -> choice 3 
+
+(3) "We found them like this” 
+
+1) “And what happened to the plants? They just disappeared? Or do you really expect me to believe someone took them? 
+
+2) "It's okay *name*, you don't have to cover for me" 
+
+3) "Rick, it’s better for your friend to leave now. We have to talk"  
+
+4) "I am not leaving!" 
+
+5) Rick reaches out to touch my arm 
+
+6) "Yes, *name*, just go... you did a lot already. I have to face this myself now..."  (X) 
+
+ 
+
+*choice 3* 
+
+1) Rick looks like he has literally no idea what I am trying to do 
+
+2) and honestly, I don’t either 
+
+3) but the game is on at this point. It’s at least worth a try, right? 
+
+(1) Wood moths! 
+
+1) "This is ridiculous!" 
+
+2) "If there were so many moths to destroy an entire wall, I doubt you would have fixed it this easily” 
+
+3) “And I would have definitely noticed” 
+
+4) He adds, looking deeply insulted that I even dared to assume he doesn’t take care of his shop properly. 
+
+5) “This is getting ridiculous, Rick can we talk alone?” 
+
+6) “Uh... Yes sir, of course. *name*, you can go. I have to take care of this myself (X) 
+
+(2) The shelves just fell! (+1) 
+
+1) "What?" (mr.) 
+
+2) Rick looks like he's about to say something too, but I shot him an eloquent look. 
+
+3) "I was trying to pick a plant to buy, but I barely touched anything and the shelves collapsed or something!" 
+
+3) "You're lucky Rick was there!" 
+
+4) I wonder if I'm not being to dramatic, but Mr. Lee looks shocked more than doubtful, which is already something. 
+
+5) Rick looks just as surprised, but he doesn't say anything. 
+
+6) "If it wasn't for him pushing me away just at the right time, who knows what might have happened!" 
+
+7) "You should really check the quality of this building, this time we avoided a tragedy..." 
+
+8) I'm definitely overdoing it 
+
+9) "But it won't be like this every time" 
+
+10) "Is... Is it true, Rick?" 
+
+11) Both I and Mr. Lee turn over to Rick, who looks really confused for a moment. 
+
+12) I sneakily nod at him, and luckily he takes the hint, immediately changing his facial expression to a more concerned one. 
+
+13) "Yeah, that was really a close one" 
+
+14) "Well..." 
+
+15) Mr. Lee looks thoughtful for a moment, and I am sure both me and Rick are crossing our fingers behind our backs. 
+
+16) "I am glad nothing too serious happened... and you also cleaned up everything..." 
+
+17) "I am sure we can all forget about this, right?" 
+
+18) Yes! It worked! Somehow, it freaking worked. I want to scream in joy, probably Rick too, but we both contain ourselves. 
+
+19) "Of course, the important thing is everything ended up well" 
+
+20) "Absolutely. And if you think about going to get checked up, I am sure Rick will be more than happy to take you" 
+
+21) "Oh, sure" 
+
+22) "That won't be necessary, but thank you." 
+
+23) "I can still at least walk you home, it won't take long... Mr. Lee?" 
+
+24) "Yes, yes! Don't even ask." 
+
+25) Rick and I leave the shop and walk just as necessary not to be in Mr. Lee’s sight, before we both look at each other and exclaim of joy 
+
+26) Rick open his arms to hug me, but as if he has realized too late what he's doing, the embrace turns out stiff and clumsy. But still cute somehow. 
+
+He steps back quickly, blushing a little on his cheeks. 
+
+27) "*name*, you are absolutely the best, how did you even think of that?" 
+
+28) "I don't even know myself! I just went with the flow" 
+
+29) "Well, whatever it was, it was amazing. Consider me your slave for life" 
+
+30) "Haha, be careful, I might take you seriously on that" 
+
+31) "You have to! Really, if you ever need anything at all... Right, you don't have my number, I'll give it to you just give me your cell phone... here..." 
+
+32) "All right, call me whenever you want.  I'll even put a special ringtone for you just in case" 
+
+33) I laugh loudly at that, Rick being this grateful is just the cutest thing. 
+
+34) I save his number and send him a bunch of cute sticker so that he can save mine too. 
+
+35) "I am super happy I have helped you with my acting skills, but now I'm seriously exhausted" 
+
+36) "Sure, just go and rest. I'll see you around" 
+
+44) I wave at Rick from the front door of the apartment complex before going home, feeling tired but satisfied of having helped him. 
+
+45) I would have been just a sad neighbourhood without Rick's messy bushes. 
+
+ 
+
+ 
+
+IF YOU DIDN'T SUCCED (X) 
+
+1) I want to answer back with something, but Rick's gaze makes me understand it's not my place to say anything else. 
+
+2) When I leave the shop, I feel awful. 
+
+2) I barely make it to the street and hear Rick's boss yelling at him already, which only makes me feel worse 
+
+3) I really hope he will survive this somehow.  
+
+4) (IF YOU HELPED HIM WITH THE BUSHES) I pass by the bushes I helped him cut just the other day, and it kind of hurts looking at them right now. 
+
+4) (IF YOU DIDN'T HELP HIM WITH THE BUSHES) I pass by the bushes he cut just the other day. They are terrible, but I also realize it would suck not to see them anymore. 
+
+5) With my morale under my feet, I move slow steps back home. 
+
+ 
+
+ 
+
+ 
+@stop
