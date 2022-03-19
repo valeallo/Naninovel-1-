@@ -1,0 +1,169 @@
+
+
+; 4TH SCENE
+@style i
+If you would have asked me a couple of days ago, even before I made a fool out of myself asking Morgan for some coffee, I honestly don't think I would have ever imagined something like this to happen. 
+Not only I am seeing Morgan out of his apartment, with a jacket that doesn't look like he slept in it for a month, but I am actually walking beside him, joining him as he walks his dog. 
+Morgan is extra careful when it comes to Goji, which is indeed cute, and I can't help but stare at him every time he shortens the leash to keep the puppy from bigger dogs, a bit too excited for him I guess. 
+Or whenever he picks him up to cross the street and he speaks to him just like you would do to a child. 
+@style default
+Morgan: What is it?
+Me: U-uh?
+Morgan: You've been staring
+@style i
+Crap. Maybe I did stare for a bit too long for it to go unnoticed. 
+And Morgan may be mesmerized by Goji, but he's not completely blinded by his love for the puppy I guess. 
+
+@choice "You are really cute with him" goto:.you_are_cute set:morganlove++
+@choice "It's just a bit strange to see you care this much" goto:.a_bit_strange set:morganlove--
+@choice "Uh... it's nothing" goto:.nothing set:morganlove--
+@stop
+
+*choice* 
+# you_are_cute
+; (1) "You are really cute with him" (+1)
+Morgan: I am... cute?
+@style i
+It's the first time I see Morgan looking almost embarrassed and not so confident, he's not blushing but that would be probably too much 
+@style default
+Me: Uh... With him... You're cute... with him... You treat him really nicely...
+Morgan: O-oh, of course
+Morgan: Well, he's really special. Aren't you pup?
+@style i
+He looks softly at Goji as he speaks. 
+@style default
+Me: I can see that..." 
+@goto .common
+@stop
+
+; (2) "It's just a bit strange to see you care this much" (-1)
+# a_bit_strange
+@style default
+Morgan: It's not like I don't give a fuck about anything, you know?
+Me: O-of course, I didn't mean to...
+Morgan: Plus, he's my dog. It's only normal that I care about him.
+Me: Yeah, I'm sorry... It's clear he's really special to you
+@goto .common
+@stop
+
+; (3) "Uh... it's nothing" (-1)
+# nothing
+@style default
+Morgan: You should really stop treating me like I'm going to kill you anytime
+Morgan: Feel free to say whatever you want.
+Morgan: Trust me, I won't cry
+@style i
+Morgan smiles wryly before letting out a sigh. 
+@style default
+Me: You're right, sorry. It's just that it looks like Goji is really special for you
+@goto .common
+@stop
+
+ 
+
+# common
+@style default
+Me: Did someone important give it to you?
+Morgan: It's more like he came just at the right time
+Me: That doesn't answer any of my questions, but I'm not surprised 
+Morgan: What do you mean?
+Me: I expect him to turn down my next question, but he doesn't show any sign of annoyance 
+Morgan: Well... I have been struggling for quite a lot on my music" 
+@if "morganpeace == true"
+7) (IF YOU MADE UP) 
+Morgan: You know... We talked about it the other day
+Morgan: There was a time where everything seemed to came to me so easily, and now I came to a point where I can spend sleepless nights ending up doing nothing productive
+@style i
+I just nod as Morgan explains his troubles, it's not every day he shares so much about himself, so the best thing I can do is just listen to him. 
+@style default
+Morgan: Gosh, I think it's almost been three days now I haven’t slept at all to prepare for a dj job
+Morgan: I can't take my mind out of it. All I do is think about music all day, and that only makes me more depressed.
+@style i
+I can’t help but to frown at the “more”. Morgan is still a stranger to me, but it looks like there’s so much he went through. 
+@style default
+Morgan: But... having Goji with me has changed things a lot
+@style i
+Morgan picks his puppy up with a soft smile as we cross the road, we are now back at the apartment complex. He doesn't let him go and start ruffling the curls on the tip of his floppy ears.  
+I almost expect him to just end his story and leave when we get in front of our apartments, but instead he leans on a wall and keeps petting Goji who just lies quietly in his owner arms 
+@style default
+Morgan: I still can't do shit with my music...
+@style i
+he laughs bitterly 
+@style default
+Morgan: ...but at least I have someone I have to take care of, and who lets me take my mind off of work from time to time" 
+Morgan: It's really easy to remember to sleep when you have this little guy howling from your bed until you lie down with him... sometimes I wonder who is taking care of who
+
+What Morgan says almost melts my heart, I can just picture the little fur ball doing something like that. But it's also sad that he has to feel this way. 
+It’s clear that something is troubling him, the fact that he actually told me is probably an even bigger prove that he needs help. 
+Or maybe is just me imagining things?  
+The words “even more depressed”, “struggling” and all of that keep ringing in my mind. 
+I really feel like I should ask him, even if that means crossing a line.  
+I bite my lip uncertain of what to say exactly, thinking how to make it sound like I am worried about him and I am not just trying to be noisy. In the end, I just ask him. 
+@style default
+Me: Hey, Morgan, are you really okay?
+Me: If there's anything I can do..." 
+Morgan: {name}, don't worry.
+Me: But...
+Morgan: I will figure something out. It's not the first time I feel uninspired, it will pass.
+
+@choice "I think you should try harder than that, you can't expect things to just adjust themselves!" goto:.try_harder set:"morganlove = morganlove-2"
+; (–2) ( If nodreams=yes GAME OVER if points < 4 GAME OVER)
+@choice "You shouldn't do everything by yourself, though. Maybe sometimes you could accept someone else's help... even if it's hard, it will be worth it if it makes things easier, right?(+1)" goto:.shouldnt_do_everything set:morganlove++
+@stop
+
+; (1) "I think you should try harder than that, you can't expect things to just adjust themselves!" (–2) ( If nodreams=yes GAME OVER if points < 4 GAME OVER)
+# try_harder
+
+@if "nodreams == true"
+Morgan: It's really brave of you to say something like that when you are planning on giving up on your dreams one step from graduation just because "it's hard"
+Morgan: I barely sleep anymore, and you assume I am just "expecting things to happen"? You really don't have any right to say that to me.
+Morgan: I'll go now. Bye.
+@stop
+
+@else
+Morgan: I told you, I barely sleep anymore.
+Morgan: But is that what you think? I believe I am definitely trying hard enough. I hoped you at least would understand
+Me: O-of course you are... I didn't mean it like that
+Morgan: Okay, it's better if I go now. Have a nice day {name}
+@stop
+__ 
+@style i
+Morgan looks really pissed off when he leaves barely looking me in the eyes. 
+@style default
+Morgan: Great job, {name} 
+@style i
+I just hope I didn't screw up everything. I definitely didn't choose the right words and I definitely didn't help him with any of his problems. 
+
+; (2) "You shouldn't do everything by yourself, though. Maybe sometimes you could accept someone else's help... even if it's hard, it will be worth it if it makes things easier, right?" (+1)
+# shouldnt_do_everything
+@style default
+Morgan: I see you've been listening to my advices" :D 
+Me: Hey, what did you expect?
+Me: But, seriously, maybe I will be of help somehow. Try me! You never know
+Morgan: Okay, okay... I get it
+Morgan: You know, you act like everything I do is a surprise for you
+@style i
+I look at my feet for a moment. My reactions definitely didn't go unnoticed at all. 
+And Morgan is far more observant than what I thought. 
+@style default
+Morgan: See, you are doing it again
+@if "morganpeace == true"
+Morgan: But actually, I've been surprised by you just as much lately 
+; (IF YOU MADE UP)
+@else
+Morgan: But maybe you will surprise me too
+; (IF YOU DIDN’T)
+@endIf
+@style i
+His grin is the same as always, but right now it's really making me nervous. And I feel my cheeks starting to get hotter 
+@style default
+Morgan: Goji is falling asleep. It’s quite cold for him... I should probably get going
+Morgan: But... Today was fun. If you ever want to... who knows, I might let you come with us again
+Me: Oh! Thank you, it's really kind of you
+Me: And I had fun too
+Me: Remember what I told you, okay?
+Morgan: Sure, sure I will
+Morgan: See you around?" 
+Me: If it's not at six am... sure
+Morgan: Morgan waves at me, gently enough not to wake up Goji, and disappears in his apartment. 
+@stop

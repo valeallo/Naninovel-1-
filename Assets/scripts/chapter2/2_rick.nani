@@ -1,0 +1,785 @@
+; 6TH SCENE 
+; *cut to the apartment*  
+@style i
+In the end, I spent far more time than I thought with Morgan. 
+Which led me to do nothing useful today. 
+Maybe I should get a hold of myself and do something productive that will almost make me feel like a responsible adult. 
+
+@choice "Do the dishes" goto:.do_the_dishes
+@choice "Throw out the trash" goto:.throw_the_trash
+@choice "Clean the floors" goto:.clean
+@stop
+
+# do_the_dishes
+@style i
+I have bowls which have been sitting in the sink for three days now, which is not my worst but also not something to be proud of. 
+I head to the kitchen to face the disgusting pile of dishes, a reflection of my unstable adulthood actually. 
+I brace myself, putting on the semi-new gloves and holding my sponge as the ultimate weapon. 
+@goto .common
+@stop
+
+
+# throw_the_trash
+@style i
+My trash bag are still waiting for me to let them finally free, and I guess after having them in the entrance for days now, it’s finally time to do that. 
+@goto .scene_seven
+@stop
+
+# clean
+@style i
+I’ve dropped  some lettuce the other day, and never picked it up. 
+Now the once green and crispy leaf is sadly dying on my floor, soggy and brown. 
+Around it, many other stains to keep it company. 
+Just describing it makes it clear how disgusting everything is right now, and how I should really get a move on with the cleaning. 
+@goto .common
+@stop
+ 
+; COMMON IF (1  OR (3  
+# common
+@style i
+That was definitely some work, but now it almost look like I take care of my apartment like I should, and I couldn’t be more satisfied. 
+I think I got myself the right to treat me to a relaxing night on the sofa, and refusing would be mean, right? 
+The night goes on calmly and quietly, and as some strange commercial starts airing I feel my eyes closing in and I doze off on the sofa 
+@stop
+ 
+
+IF (2   
+# scene_seven
+; 7TH SCENE 
+@style i
+It’s the second time I go out today, which already feels like reaching a milestone. But going out to throw out the trash? 
+Now that’s something else. 
+Sure, the garbage cans are only a few feet away from the apartment, but it’s the motivation that counts. 
+I reach the cans, obviously, very quickly, but what I find leaves me shocked for a moment. 
+It looks like a crime took place around here, as the ground and the cans themselves are covered in dirt, pieces from probably broken pots and tons of mushed plants. 
+Right when I thought my life was starting to be normal, I have to deal with a plants serial-killer threatening the neighbourhood. 
+
+@choice "The problem is, I can’t be bothered by this." goto:.the_problem_is
+@choice "Luckily, I know exactly where to look." goto:.luckily
+@stop
+
+
+# the_problem_is
+@style i
+It’s not like I always have to put myself in any situation. 
+Sometimes it’s better to mind your own business, which is the philosophy I am embracing for today. 
+Especially when there are a movie and a sofa waiting just for me at home. 
+; *cut to the apartment* 
+The night goes on calmly and quietly, and as some strange commercial starts airing I feel my eyes closing in and I doze off on the sofa 
+@stop
+  
+
+# luckily
+@style i
+It’s not like I know a lot of potential plants exterminator, and the only one I know is not someone who would do such a mess willingly. 
+which makes me think they (or should I say “he”  could definitely need some help right now. 
+I walk towards the neighborhood florist and, just as I step near enough to hear, I catch a some clashing sounds and swearing from inside. 
+I try getting inside but, despise the sign saying “We are open!”, the door is definitely locked. 
+I try taking a peek from the window but the shop looks pretty empty. 
+Which is not, I am sure. 
+I heard all of that noise clearly, it would be hard to imagine something like that. 
+*noise* 
+Exactly. 
+This time the swearing came muffled, probably from the back of the store. 
+
+@choice "Go check out the back" goto:.back
+@choice "Knock to catch their attention" goto:.knock set:helpnam=false
+@stop
+ 
+# back
+@style i
+I walk around the shop, finding an old wooden door that probably leads to its back. 
+The noise are definitely louder from here. 
+I walk up a crippling staircase, and before I can even try doing anything the door slams open in front of me. 
+@goto .rick
+
+# knock
+@style i
+I try knocking loudly on the door, the noises stop but no one comes to answer. 
+After something like five minutes, I decide if whoever is in there doesn’t want any help, I can’t really do anything more. (Jumps to end of the day  
+@stop
+
+# rick
+@style i
+It’s really no surprise to see Rick getting out of there, covered in dirt  and with his hands full of trash bags. 
+He was surely not expecting to see me, and almost drops everything he’s holding. 
+@style default
+Rick: {name}? What are you doing here?
+@style i
+Rick hides his hands quickly behind his back, as if that would be enough to erase the state of total mess he is right now. 
+@style default
+Rick: It’s not the best time…
+Me: Yeah, I can see that
+Rick: And that’s exactly why you shouldn’t be here
+@style i
+He walks past me, completely ignoring me and starts heading for the trash cans 
+
+@choice "Call out for him" goto:.call_out
+@choice ""
+@stop
+
+# call_out
+@style default
+Me: Hey Rick! Just wait a moment
+@style i
+He definitely doesn’t wait and keeps walking, which starts to annoy me a bit. 
+Does he really believe he's being sneaky right now? 
+@style default
+Me: What are you dumping? 
+@style i
+At that, Rick turns pale and drops everything to the ground to reach me. 
+@style default
+Me: What is…
+@style i
+All of a sudden, his hand is on my mouth. 
+His covered in dirt hand, may I add. 
+@style default
+Me: Hmpfchskf? 
+Rick: Please don’t yell, I can’t catch anyone’s attention right now
+Rick: I am just… Oh gosh, sorry!
+@style i
+Finally he releases me, and he holds his hands up in the air like he’s surrendering. 
+@style default
+Me: What the hell are you doing?
+Rick: It’s nothing, really! You don’t have to worry okay?
+Me: Yeah? Than what is that?
+@style i
+When he ran to me a moment before, he probably didn’t realize dropping all the bags meant they would spill everywhere. 
+In fact, now the ground is covered in even more plants and dirt.  
+At least he wasn't hiding a body. From the way he acted that wouldn't have been such a wild guess. 
+@style default
+Me: Care to fill me in now?
+
+@choice "Follow him" goto:.follow_him
+@choice
+
+# follow_him
+@set helpnam=false
+@style i
+Rick gets to the cans, keeping on ignoring me as I walk behind him. 
+He dumps everything in one of the trash can, now totally full and does the same with the plants that were on the ground before, until everything is finally cleared out. 
+@style default
+Me: Did something happen?  
+@style i
+Rick gasps in surprise, probably not expecting to have me still there watching him. 
+Then he simply shrugs 
+@style default
+Rick: Oh, that was nothing. Don't worry.  
+Me: Are you sure?  
+Rick: Pretty much, yeah  
+@style i
+It's a bit upsetting that he's keeping this big secret, especially since it's pretty clear that he did something and he is trying to cover that. 
+Does he think I am that oblivious? Or doesn't he trust me enough to tell me? 
+Either way, it's pretty offensive.  
+But if this is how he wants to play it, then he can suit himself. 
+I am not getting involved with any more of his problems (IF YOU HELPED HIM THE FIRST TIME  
+At least, since it's Rick we are talking about (A giant clumsy goof whose mind is mostly occupied by existential questions , I am pretty sure it's not a big, evil plant-related crime he's trying to cover up. 
+He probably just destroyed something in the store and he's trying to hide the evidence. 
+@if "ricklove == 1"
+@goto .secret
+@stop
+@else
+@style default
+Me: Okay, then good luck with whatever problem you  don't  have. I'll see you around  
+Rick: Yeah, bye...  
+@style i
+Finally, I leave him and go back home to put an end to this day. 
+@stop
+
+
+; IF (1  
+
+# secret 
+@style i
+Rick seems to be wondering for a while, but the he takes a quick glance at the trash on the ground and finally gives up with a big sigh. 
+@style default
+Rick: Okay, but promise me you won't tell anyone  
+Me: Who would I even tell?  
+Rick:  I don't know! Just promise  
+Me: Fine, fine, I promise!  
+@style i
+This is getting insane, but I guess the only thing I can do is bear with him if I want him to explain. 
+@style default
+Rick: I made a huge mess in the shop  
+Me:  Yeah, I got this far... It's not really hard with all the plants smashed around here  
+Rick:   And that's just a part of it...  
+Me: Okay, how big of a mess we are talking?  
+Rick: Like... end of the world big?  
+@style i
+I just stare at him in disbelief for a moment. now I am definitely concerned. 
+@style default
+Rick:  Okay, just come and see for yourself  
+Me:  Oh... Damn...  
+@style i
+Rick wasn't joking. Nope. Without a doubt. 
+If anything, he minimized the situation. 
+At first, the shop may look totally normal. But it only takes you a slight turn to the right, where all the shelves that covered one of the wall are now scattered on the ground, together with the plants that were placed on them. 
+@style default
+Me:  How did you even do it?  
+Rick: I... there was a fly and...  
+Me: O-okay, it's not important  
+Rick: I told you it was bad... will you help me then?  
+Me: Gosh, Rick I'll try but... I am not sure of what to do  
+Rick: My boss is on vacation, but I have to solve this before he comes back tomorrow...  
+Me: Tomorrow?!  
+@style i
+Rick drops himself on the ground, burying his face between his knees. 
+@style default
+Rick: I'm screwed, right? Be honest. I already know anyway  
+Me: Okay... Let me think  
+
+@choice "Let's not give up yet, we have to clean everything up first  (the boss shows up early, you have to convince him " goto:.not_give_up
+@choice "Don't beat yourself up... Look, that plant still look savable, right?" goto:.that_plant
+@stop
+
+
+; (1   Let's not give up yet, we have to clean everything up first  (the boss shows up early, you have to convince him  
+# not_give_up
+@style default
+Rick: You are right. I already dumped most of the dirt and the plants that fell out of their pots  
+Rick: I just have to hang the shelves up again and put whatever survived back on them  
+Me:  All right, let's do that then  
+Me:  You can start with the shelves and I'll clean the floor  
+Me:  And cheer up, okay? Maybe you are not completely screwed  
+@style i
+I smile at him trying to be reassuring and we both start to work. 
+@style default
+Rick:  Thank you. I really owe you for this  
+Me:  It's no problem. I wouldn't want you to be fired or something  
+Rick:  Yeah, that would suck  
+
+; (2  Don't beat yourself up... Look, that plant still look savable, right?  
+# that_plant
+@style i
+Rick looks up with the tiniest hint of hope, following my gaze to the plant I am talking about. 
+@style default
+Rick: But it's out of its pot...  
+Me: Yeah but... you can still put it inside again... if we do that quickly and the roots are intact...  
+Rick:  We can?  
+@style i
+I look at him worried for a moment 
+
+@choice "Didn't you know that?(+1 " goto:.didnt_you_know
+@choice "How did you even got this job?(-1 " goto:.got_this_job
+@stop
+
+# didnt_you_know
+; (1  Didn't you know that? (+1  
+@style default
+Rick: U-uh of course I did!  
+Me: Are you sure you didn't just throw everything away?  
+@style i
+Ricks shifts his gaze from one side of the shop to another, without saying anything 
+
+ 
+# got_this_job
+; (2   How did you even got this job?  (-1  
+@style default
+Me: Did you throw everything just like that?  
+Rick: Hey there's no need to be mean...  
+Rick: Just...  
+@style i
+He sighs heavily, then look at me with pure desperation in his eyes. 
+@style default
+Rick: Show me how to do it, please?  
+
+; COMMON IF (2  
+@style default
+Me: Okay, first of all we have to take back the plants you dumped  
+Me: I can do that, go look for some replacement for the pots that are completely shattered  
+Me:  And cheer up, okay? Maybe you are not completely screwed  
+@style i
+I try giving him a reassuring smile, before heading for the garbage cans. 
+I pick up the plants that fell on the ground first and, luckily, most of them still had their roots and all. 
+Then I take back the trash bags and go back to Rick in the store. 
+@style default
+Me: Did you find enough replacement?  
+Rick: I think so, there were plenty in the storage room  
+Me:  Okay, let's try to save the most of them, then we can think about cleaning up  
+Me:  All the ones with roots are still okay, find them and put them here  
+@style i
+I will fill the pots and put the plants inside them  
+@style default
+Me: All right, roots equal savable. I got this  
+@style i
+We both get to work and even if with a rusty start, things go on pretty smoothly. 
+
+ 
+; common2
+
+@choice "Isn't this job really hard?"
+@choice " Why did even you choose this job?"
+@stop
+
+; (1   Isn't this job really hard?  (+1  
+
+Rick chuckles a bit at that
+@style default 
+Rick: That's a nice way to say I'm bad at it  
+Me: I didn't mean to say that...  
+Me: But you don't look like you love it, you know?  
+Me: That's why I wondered why you work here...  
+
+; (2   Why did even you choose this job?  (-1  
+@style default
+Rick: You mean even if I'm terrible at it?  
+Me:  N-no, that's not what I wanted to...  
+Rick:  Really, it's okay, because it's the truth anyway.  
+
+ 
+
+COMMON 
+
+Rick shrugs and bites his bottom lip looking around the shop. 
+@style default
+Rick:  I know I'm a mess, but it's not like I should give up on everything just because I'm a failure, right?  
+Me: Hey, don't say that. You are not a failure  
+Rick: Haha, try tell my parents that...  
+Me: Uh... Sorry, that was too personal  
+
+He clears his throat, looking uncomfortable for a second before starting to talk again 
+@style default
+Rick: Anyway, if you really want to know, it's them who got me this job  
+Rick: I didn't exactly choose it, nor I would have probably.  
+Me:  Did  you need a job or something...?  
+Rick: Kind of. I'm doing a thesis on the meaning of flowers and their role in ancient philosophy  
+
+Just him saying that sounded hard enough. But it's not as have any idea what that kind of study would even involve. 
+@style default
+Rick:  They thought it would help if I worked here for a while  
+
+@choice "Shouldn't you be glad for it?(-1 "
+@choice "And is it helping?(+1 "
+@choice "Shouldn't they have asked you first? (-1 "
+
+
+; (1  Shouldn't you be glad for it? (-1  
+@style default
+Rick:  I... I am!  
+@style i
+Rick almost shouts, as if I touched a sensitive spot with my question. 
+@style default
+Rick:  I never said I wasn't  
+Me:  R-right, sorry...  
+
+; (2  And is it helping? (+1  
+@style default
+Rick:  I guess it is kind of helping  
+Me:  But you still don't like it... right?  
+@style i
+Rick sighs, scratching his forehead. He smiles weakly. 
+@style default
+Rick:  I didn't say that okay?  
+
+; (3   Shouldn't they have asked you first?  (-1 
+@style default
+Rick:  Well, they did. It's not like I do whatever they want  
+Me:  And it was nice enough of them  
+Rick:  Y-yeah, I guess it was  
+
+ 
+
+; IF YOU TRIED SAVING THE PLANTS 
+
+@style default
+Rick:  Anyway... I am done here, need help with those pots?  
+Me: Don't worry, I can do it. Maybe you should fix the shelves though.  
+Rick: Okay, I'm on it  
+@style i
+Rick starts hanging up the shelves on the wall, as I sort out all the plants we managed to save. 
+
+@choice "Pick a chrysanthemum for Rick"
+@choice ""
+
+; (1  Pick a chrysanthemum for Rick (-1  
+@style default
+Me:  Hey Rick, look at this  
+@style i
+I pick a flower from the ones that, sadly, didn't make it and hand him to Rick 
+@style default
+Me:  You can take it for good luck  
+@style i
+Rick looks unsure for a moment, but as I am just there hanging he eventually takes it. 
+@style default
+Rick:  That’s not the luckiest flower but... thank you” 
+Me: Yeah, of course it isn’t.  
+Rick: Sorry, I am not doing a thesis on flowers behaviour or whatever, I would like to add, but I know I shouldn’t. 
+
+
+; (2  Pick a sunflower for Rick (0  
+@style default
+Me: Hey Rick, look at this  
+@style i
+I pick a flower from the ones that, sadly, didn't make it and hand him to Rick 
+@style default
+Me: You can take it for good luck  
+@style i
+Rick smiles brightly and puts the flower behind his ear. 
+@style default
+Rick: Haha, thank you. Let's hope it works  
+
+
+; (3  Pick an orange rose for Rick (+1  
+@style default
+Me: Hey Rick, look at this  
+@style i
+I pick a flower from the ones that, sadly, didn't make it and hand him to Rick 
+@style default
+Me:  You can take it for good luck  
+@style i
+Rick looks shocked when he sees the flower I am handing him. 
+Then he turns totally red, even on the tip of his ears, looking flustered for something I have totally no idea. 
+@style default
+Rick: U-uh... Uhm... T-thank you...  
+@style i
+His eyes are looking everywhere but my face right now. 
+@style default
+Rick: Do you... Uh... Know what it means?  
+@style i
+I shake my head to say no, completely confused by his reaction. 
+@style default
+Me: I just never saw an orange rose and thought it would be sad to throw it away...
+@style i
+Rick looks just a tiny bit less frustrated now. 
+Then he takes the flower smiling and he puts it behind his ear. 
+
+COMMON 
+@style i
+We get to work again, everything almost set up now. 
+As the shelves starts filling up, they look more and more like they did before. 
+@style default
+Rick: I don't remember the exact order they were but... I'll just tell my boss I wanted to rearrange things  
+Me:  Let's hope he likes it!  
+Rick: It looks great  
+Rick:  Well, it doesn't mean a lot said by me. I'm not the best at this things  
+Me:  You should be less hard on yourself  
+@style i
+He turns up one corner of his mouth in a dimpled smile. 
+
+@if "ricklove > 5"
+; (IF YOU PICKED ALL THE RIGHT ANSWERS, RICK ROMPE LA QUARTA PARETE   
+@style default
+Rick: You always have the right things to say...  
+Rick: But seriously, you seem good at this. Does it have something to do with the café or...?  
+Me: Mh, I study photography too, maybe that helped me develop a good eye or something? I literally have no idea  
+Rick:  Oh, you like photography?  
+@style i
+Rick almost drops the last pot we have to put on the shelf when he hears that. 
+He turns to me with dreaming eyes 
+@style default
+Rick: Do you take picture of the stars too?  
+Rick: I always try but my phone camera can never give them justice  
+Me:  Yeah, phone camera lenses usually don't have enough aperture to...  
+
+;   *change expression Rick* 
+@style default
+Me:  Uhm... Sorry, that probably doesn't mean anything to you  
+Me: I stop myself before I start diving in too deep talking about photography, Rick probably doesn't care anyway. And I can get quite boring with that. 
+Rick: No, no, it's interesting! Besides, I would feel like I'm the only one talking nonsense otherwise
+@style i
+Rick smiles sheepishly, a bit self-conscious, but it's pretty cute. 
+He's always a bit clumsy and light-headed, but it's clear he's sensitive in his own ways. 
+@style default
+Rick: So...
+
+He clears his throat and looks around. 
+@style default
+Rick:  Looks like we are finished  
+Me:  Wow, it's amazing really  
+Rick:  I am so relieved, you have no idea. I could squeeze you in a hug right now   
+Rick:   Uh... what I mean is to give you a rough idea of how thankful I am, but I won't do that. Don't worry  
+Me:  Haha, I am happy to have helped you  
+Rick: You are the best, really. If you ever need anything, just ask me...  
+Rick:  Right! You don't have my phone number, I'll write it down on your cell phone...  
+
+I pass him my cell phone, just a bit (yeah, just a bit...  worried about its safety in Rick's clumsy hands, has he write his number on it.)
+I can't really tell if he's just this naïve, or if this move was just so freaking smooth.  
+@style default
+Rick:  Okay, you can call me in the middle of the night, I'll even put a special ringtone for you just in case  
+Me: I laugh loudly at that, Rick being this grateful is just an adorable sight. 
+Me:  Don't tempt me or I will call you every time I need to do the dishes  
+Me:  I am really tired now though, I think I will leave you to deal with the trash if it's not a problem  
+Rick:  Of course, you can definitely go now. Thank you  
+
+;  (IF YOU PICKED ALL THE RIGHT ANSWERS   Oh and *name*!  
+
+I turn back as I am almost outside, Rick is holding the rest of the flowers left. 
+@style default
+Rick: You can take them, they're a bit ruined to sell them but... I hope you like them  
+
+I take the bouquet from his hand, smiling brightly behind it. 
+@style default
+Me: They're beautiful, don't worry... Thank you  
+Rick: No, thank you, really. I'll let you leave now  
+
+I leave the shop and wave at Rick from the street before going back home, feeling exhausted but satisfied of having helped him. 
+It would have been just a sad neighbourhood without Rick's messy bushes. 
+
+
+; IF YOU CLEANED EVERYTHING UP 
+
+Rick:  Anyway, I'm done here, what about you?  
+Me:  Me too, I think we can put the pots back to their place  
+
+I look around and the wall looks a lot emptier than what I remembered it when we put everything in order, but at least now the shop is tidy and clean again. 
+
+Rick: Phew, I'm a lot calmer now that everything is fixed  
+Rick:   I just hope my boss will feel the same about it  
+
+;  CERCARE UN’ALTRA CITAZIONE  
+
+I glance at him with concern, Rick suddenly looks so hopeless. 
+
+; (IF YOU DIDN'T APPRECIATE HIS QUOTE   Sorry, I know you are not a fan of quotes  
+
+; (IF YOU DID   Sorry, it was just a quote. I'm rambling  
+
+Me:  It's not worth it to keep beating yourself up, there's not much more we can do  
+
+Uh, that sounded wrong. I am not sure if it was the most helpful thing to say right now. 
+
+@choice "Pat his back(0)"
+@choice "Offer him your hand(-1)"
+@choice "Don't worry too much(0)"
+
+# Pat_his_back
+
+I reach over to pat his back and we sit there awkwardly for a moment before I dare to speak. 
+
+Me:   Sorry if I am not reassuring you...  
+Rick: Don't worry, I know myself that it's not going to go well. We just have to see how bad it will be  
+
+; (2)  Offer him your hand (-1  
+
+I try smiling and reach out with my hand for him to hold it. 
+He looks awkward for a moment and glances quickly at my face as to study my expression to see if I am serious. 
+I wait for just a few more moments before giving up on Rick free will and taking his hand in mine. 
+For a moment he just sits there, completely frozen in embarrassment. Then he retrieves his hand smiling awkwardly at me. 
+
+; (3)   Don't worry too much  (0)
+
+Rick:   But how can I not?  
+Me:  It's hard, but it's useless to keep beating yourself up like this.  
+Rick:  I know I am being over sensitive, but I can't help it  
+Rick: This job is too important. I can't lose it  
+
+Rick looks totally helpless and his voice is barely a whisper. 
+
+*choice* 
+
+@choice "Offer him your hand"
+@choice "I am sure your boss will understand(-1)"
+
+; (1  Offer him your hand (+1)
+
+I try smiling and reach out with my hand for him to hold it. 
+He looks awkward for a moment and glances quickly at my face as to study my expression to see if I am serious. 
+I wait for just a few more moments before giving up on Rick free will and taking his hand in mine. 
+At first, he just sits there, completely frozen in embarrassment. Then his cheeks start getting redder and squeezes my hand back, his dimples showing of as he smiles 
+
+; (2   I am sure your boss will understand  (-1  
+
+Rick:   You don't have to sugar coat it... I know I am still going to be in trouble...  
+Rick:  I'll just have to see how bad it's going to be...  
+
+ 
+
+COMMON 
+
+*door unlocked sound* 
+
+Suddenly, we both turn to look at the entrance where Rick's boss is standing. 
+I stare at Rick whose face has completely turned white, he stands up in a blink of an eye and walks over to the man 
+
+Rick: Mr. Lee, I thought you would come back tomorrow  
+Mr.Lee: No, I told you I would come back today  
+Rick:  O-oh, right  
+
+Rick looks totally uneasy as Mr. Lee starts pacing the store. 
+
+Mr.Lee: Did you clean up?  
+Rick: U-uh yeah, we just finished actually  
+Mr.Lee: We ? Why do you make others help you with... Wait a moment, what happened to the shelves?  
+
+We both freeze as Rick boss walks over to the wall, touching each pot and studying them with careful eyes. 
+
+Rick:   Uh... nothing it's...  
+Mr.Lee: Where are the other plants?  
+Mr.Lee:  Rick, did you break something else? What did you do to the shelves?  
+
+Rick starts mumbling something, visibly shaken and unable to say one thing that could take him out of this situation. 
+
+@choice "It wasn't his fault!"
+@choice "Say nothing "
+@choice ""
+
+*choice* 
+
+; (1)   It wasn't his fault!  (+1  
+
+Mr. Lee turns to me, looking furious. 
+Rick also looks at me, completely taken back by my intervention. 
+
+Mr.Lee: Then whose fault was this?  -> choice 2 
+
+; (2  Say nothing 
+
+Mr.Lee:  Do you even have anything to say about this?  
+Rick: I... It was an accident...  
+Mr.Lee:  I am going to need more than just this. Excuse us young lady, we have to discuss in private about this  
+
+I glance at Rick, worried and unsure on what to do, but even now he manages to show me a little smile 
+
+Rick: It's okay {name}, you can go. You did enough already  (X  
+
+; (3)   Someone must have stolen them  
+
+Mr.Lee:  Do you expect me to believe something like this? Who would even think of stealing plants?!  
+Rick:   It's okay {name}, you don't have to cover for me  
+Mr.Lee: Rick, tell your friends she can leave now. We have to talk   
+
+Me:  I am not leaving!  
+
+Rick reaches out to touch my arm 
+
+Rick:  Yes, {name}, just go... you did a lot already. I have to face this myself now...    
+@stop
+
+# choice_2
+ 
+@choice "I did it"
+@choice "It was an accident(+1)"
+@choice "We found them like this"
+
+*choice 2* 
+
+; (1) I did it  
+
+Rick: No, she didn't  
+
+Rick bursts out immediately, putting himself between me and Mr. Lee 
+
+Rick: It's my fault, I'm not a kid. You don't have to cover for me  
+Mr.Lee:  Rick what is happening?  
+Rick: I broke the shelves, {name} was just trying to help me, but she's going to leave now.  (X  
+
+; (2)  It was an accident  (+1  
+
+Mr.Lee: So someone must have done it!
+Me: No, that’s not what I meant...
+
+Mr. Lee sighs deeply, already tired by this discussion. 
+
+Mr.Lee: Then what happened? Can you two explain it clearly?” -> choice 3 
+
+; (3)  We found them like this” 
+
+Mr.Lee: And what happened to the plants? They just disappeared? Or do you really expect me to believe someone took them? 
+Rick: It's okay {name}, you don't have to cover for me  
+Mr.Lee: Rick, it’s better for your friend to leave now. We have to talk   
+Me: I am not leaving!  
+
+Rick reaches out to touch my arm 
+
+Rick:  Yes, {name}, just go... you did a lot already. I have to face this myself now...   (X  
+
+ 
+
+; *choice 3* 
+
+Rick looks like he has literally no idea what I am trying to do 
+and honestly, I don’t either 
+but the game is on at this point. It’s at least worth a try, right? 
+
+@choice "Wood moths!"
+@choice "The shelves just fell! (+1)"
+
+; (1)  Wood moths! 
+
+Mr.Lee: This is ridiculous!  
+Mr.Lee: If there were so many moths to destroy an entire wall, I doubt you would have fixed it this easily
+Mr.Lee:  And I would have definitely noticed 
+
+He adds, looking deeply insulted that I even dared to assume he doesn’t take care of his shop properly. 
+
+Mr.Lee: This is getting ridiculous, Rick can we talk alone?
+Rick: Uh... Yes sir, of course. {name}, you can go. I have to take care of this myself (X) 
+
+; (2)  The shelves just fell! (+1)
+
+Mr.Lee:   What?  
+
+Rick looks like he's about to say something too, but I shot him an eloquent look. 
+
+Me:  I was trying to pick a plant to buy, but I barely touched anything and the shelves collapsed or something!  
+Mr.Lee: You're lucky Rick was there!  
+
+I wonder if I'm not being to dramatic, but Mr. Lee looks shocked more than doubtful, which is already something. 
+Rick looks just as surprised, but he doesn't say anything. 
+
+Me:  If it wasn't for him pushing me away just at the right time, who knows what might have happened!  
+Me: You should really check the quality of this building, this time we avoided a tragedy...  
+
+I'm definitely overdoing it 
+But it won't be like this every time  
+
+Mr.Lee:   Is... Is it true, Rick?  
+
+Both I and Mr. Lee turn over to Rick, who looks really confused for a moment. 
+I sneakily nod at him, and luckily he takes the hint, immediately changing his facial expression to a more concerned one. 
+
+Rick:   Yeah, that was really a close one  
+Mr.Lee:  Well...  
+
+Mr. Lee looks thoughtful for a moment, and I am sure both me and Rick are crossing our fingers behind our backs. 
+
+Mr.Lee: I am glad nothing too serious happened... and you also cleaned up everything...  
+Mr.Lee:  I am sure we can all forget about this, right?  
+
+Yes! It worked! Somehow, it freaking worked. I want to scream in joy, probably Rick too, but we both contain ourselves. 
+
+Me:  Of course, the important thing is everything ended up well  
+Mr.Lee:  Absolutely. And if you think about going to get checked up, I am sure Rick will be more than happy to take you  
+Rick:    Oh, sure  
+Me:  That won't be necessary, but thank you.  
+Rick:  I can still at least walk you home, it won't take long... Mr. Lee?  
+Mr.Lee:   Yes, yes! Don't even ask.  
+
+Rick and I leave the shop and walk just as necessary not to be in Mr. Lee’s sight, before we both look at each other and exclaim of joy 
+Rick open his arms to hug me, but as if he has realized too late what he's doing, the embrace turns out stiff and clumsy. But still cute somehow. 
+He steps back quickly, blushing a little on his cheeks. 
+
+Rick:   {name}, you are absolutely the best, how did you even think of that?  
+Me: I don't even know myself! I just went with the flow  
+Rick:   Well, whatever it was, it was amazing. Consider me your slave for life  
+Me:  Haha, be careful, I might take you seriously on that  
+Rick:  You have to! Really, if you ever need anything at all... Right, you don't have my number, I'll give it to you just give me your cell phone... here...  
+Rick:   All right, call me whenever you want.  I'll even put a special ringtone for you just in case  
+
+I laugh loudly at that, Rick being this grateful is just the cutest thing. 
+I save his number and send him a bunch of cute sticker so that he can save mine too. 
+
+Me:  I am super happy I have helped you with my acting skills, but now I'm seriously exhausted  
+Rick:   Sure, just go and rest. I'll see you around
+
+I wave at Rick from the front door of the apartment complex before going home, feeling tired but satisfied of having helped him. 
+I would have been just a sad neighbourhood without Rick's messy bushes. 
+
+ 
+; IF YOU DIDN'T SUCCED (X  
+
+I want to answer back with something, but Rick's gaze makes me understand it's not my place to say anything else. 
+When I leave the shop, I feel awful. 
+I barely make it to the street and hear Rick's boss yelling at him already, which only makes me feel worse 
+I really hope he will survive this somehow.  
+
+; (IF YOU HELPED HIM WITH THE BUSHES  I pass by the bushes I helped him cut just the other day, and it kind of hurts looking at them right now. 
+
+; (IF YOU DIDN'T HELP HIM WITH THE BUSHES  I pass by the bushes he cut just the other day. They are terrible, but I also realize it would suck not to see them anymore. 
+
+With my morale under my feet, I move slow steps back home. 
+
+ 
+
+ 
+@stop

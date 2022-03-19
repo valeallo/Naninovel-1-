@@ -17,3 +17,9 @@ MonoBehaviour:
     value: 0
   - name: lukalove
     value: 0
+  - name: morganlove
+    value: 0
+  - name: morganpeace
+    value: false
+  - name: nodreams
+    value: false

@@ -205,7 +205,7 @@ MonoBehaviour:
     - name: 2_1_felix_walktowork
       pathPrefix: Scripts
       guid: 82a0434be0d53f644bf426a1af30d956
-    - name: 2_2_felix
+    - name: 2_2_0_felix_linda
       pathPrefix: Scripts
       guid: 8ad83696c9eddd548ab7d3a8fdb58827
     - name: 2_2_1
@@ -217,7 +217,7 @@ MonoBehaviour:
     - name: 2_3_ice_rink
       pathPrefix: Scripts
       guid: 1ab4b0d8c4dce2b4db659ee2eea75b49
-    - name: 2_4
+    - name: 2_5
       pathPrefix: Scripts
       guid: c7673c95f5ac07441b7fe6bdc3798795
     - name: 2_4_felix_food
@@ -226,6 +226,18 @@ MonoBehaviour:
     - name: 2_morgan
       pathPrefix: Scripts
       guid: 51d246417803c1a4ebf838bacd56f442
+    - name: 2_morgan_walk
+      pathPrefix: Scripts
+      guid: a463cba26d6b11c43be784ab496b585e
+    - name: 2_rick
+      pathPrefix: Scripts
+      guid: 181dc0e9912ef954fbf0704e2281686c
+    - name: 2_6_noah
+      pathPrefix: Scripts
+      guid: 56a7de354e42c914fa95f757a2870f4c
+    - name: 2_7_milo
+      pathPrefix: Scripts
+      guid: 0b5032881f0451841bf71276e3d481d4
   - Id: Characters/f62f914b-ad8f-478e-b08d-c6cf7173580d
     Resources:
     - name: Default
