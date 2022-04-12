@@ -1,45 +1,43 @@
 @back black
 {name}?
 @style i
-Wow, that was strange. I feel confused and dizzy all of a sudden, as if I passed out or something.
+Wow, that was strange. I feel confused and dizzy all of a sudden, as if I passed out or something...
 @style default
  {name}? Can you hear me? 
 @style i
-But I didn't, right? I remember speaking with the new cook just a moment ago. 
+...but I didn't, I think. I remember speaking with the new cook just a moment ago... that happened, right?
 I'm sure it's nothing. I probably didn't have enough sleep last night and I am now facing the consequences of my poor life choices.
 @style default
 @back counter
 @printer Dialogue
 {name}!
 W-what?
-@style b
+@style i
 Two pairs of hands shake me by the shoulders, as I regain consciousness and start to become aware of what's around me.
 I recognize a familiar face in front of me, and my friend smiles in relief.
 @style default
 @char Felix
 # DESCRIPTION_FELIX
-@toast "FELIX  He started working at the café a couple of months after me, and he has been my shadow since then. Since I can understand what it's like to be the new one, I have always been happy to give him a hand and the two of us became friends pretty quickly. He seems to admire me a lot and besides leaning on me for almost everything that's work-related, he's also willing to help anytime I need him. He is truly a nice and caring guy and it's easy to get on well with him."
+@toast "FELIX: He started working at the café around six months after I got here, and he has been my shadow ever since. I can understand what it's like to be the new one, so I've always been happy to give him a hand and the two of us became friends pretty quickly. He seems to admire me a lot and besides leaning on me for almost everything that's work-related, he's also willing to help anytime I need him. He is truly a nice and caring guy and it's easy to get on well with him."
 
 
 
 Felix: Finally! Are you okay?
-Yes, I'm fine...
-Felix: But... what happened? Do you want to lay down or something?
-I... I just spaced out for a moment...
+Yes, I'm fine... I guess...
+Felix: You look really pale. Do you want to lay down or something?
+I just spaced out for a moment, but I feel fine now, really.
 @style i
-I don't really know what just happened either, but I really feel okay, so I guess it's better not to alarm him any further.
+I don't really know what just happened either, but I do feel okay, so I guess it's better not to alarm him any further.
 @style default
 Felix, really, you don't have to worry
 Felix: Okay, but tell me if you don't feel well
-I will
+I will, promise.
 @choice "Can you... stop holding me now?" goto:.can_you
 @choice "Please, don't worry too much" goto:.please
 @stop
 
 # can_you
-@style b
-He tries to hug you but feel awkward and stop
-@style default
+; Questa scelta dovrebbe aggiungere una conseguenza che più avanti eviterà di abbracciarti
 @goto .common1
 @stop
 
