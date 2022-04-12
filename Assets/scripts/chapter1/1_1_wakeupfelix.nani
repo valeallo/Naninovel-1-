@@ -37,7 +37,7 @@ I will, promise.
 @stop
 
 # can_you
-; Questa scelta dovrebbe aggiungere una conseguenza che più avanti eviterà di abbracciarti
+; Questa scelta dovrebbe aggiungere una conseguenza che più avanti Felix eviterà di abbracciarti
 @goto .common1
 @stop
 
