@@ -13,14 +13,12 @@ Mascotto: I must say, I am super excited
 # care_to_explain
 
 Mascotto: O-oh...! Okay, there's no need to be mean, you know?
-Mascotto: I thought my earlier speech would be enough, but I guess I will have to do more
 @back coffee_shop
-Mascotto: You see, this is your workplace: The Bulletproof Coffee. I hope you got this far
-Mascotto: Otherwise, I suggest you listen better next time
-Mascotto: People come and go everyday here, that's where the fun part begins!
-Mascotto: You will have the chance to talk to all this people, you can befriend them or not, depending on what you think about them and how you talk with them.
-Mascotto: You have complete freedom on how to approach them, but remember: every choice you make will change your story.. So act carefully!
-Mascotto: Since you seem to need some lesson on how to treat others nicely, I will help you... But after this you're on your own!
+Mascotto: You see, this is your workplace: The Bulletproof Coffee. I hope you're paying attention...
+Mascotto: There's a lot of interesting people hanging out here, that's where the fun part begins!
+Mascotto: You will have the chance to talk to all of them, you can befriend them or not, depending on what you think about them and how you interact with them.
+Mascotto: You have complete freedom on how to approach them, but remember: every choice you make will change your story... So act carefully!
+Mascotto: Since you seem to need some lesson on how to treat others nicely, I will help you... But after this, you're on your own!
 @goto .common1
 @stop
 
@@ -30,12 +28,11 @@ Mascotto: Since you seem to need some lesson on how to treat others nicely, I wi
 Mascotto: Of course, sorry! Maybe I wasn't too clear...!
 Mascotto: I thought my earlier speech would be enough, but I guess I will have to do more
 @back coffee_shop
-Mascotto: You see, this is your workplace: The Bulletproof Coffee. I hope you got this far
-Mascotto: Otherwise, I suggest you listen better next time
-Mascotto: People come and go everyday here, that's where the fun part begins!
-Mascotto: You will have the chance to talk to all this people, you can befriend them or not, depending on what you think about them and how you talk with them.
-Mascotto: You have complete freedom on how to approach them, but remember: every choice you make will change your story.. So act carefully!
-Mascotto: You seem like a nice person, I'm sure you will be good at this... but let me help you since it's your first time
+Mascotto: You see, this is your workplace: The Bulletproof Coffee.
+Mascotto: There's a lot of interesting people hanging out here, that's where the fun part begins!
+Mascotto: You will have the chance to talk to all of them, you can befriend them or not, depending on what you think about them and how you interact with them.
+Mascotto: You have complete freedom on how to approach them, but remember: every choice you make will change your story... So act carefully!
+Mascotto: You seem like a nice person, I'm sure you'll be fine... but let me help you ,since it's your first time.
 @goto .common1
 @stop
 
@@ -43,13 +40,13 @@ Mascotto: You seem like a nice person, I'm sure you will be good at this... but 
 # common1
 
 Mascotto: Today the cafè will get a new cook! This is the perfect situation to test your skills!
-How would you know that...? 
+How would you know that...?
 @char Rei
-Mascotto: Here he is, introduce yourself! I will be right here to help you, don't worry
-Rei: Hi, Nice to meet you, I am Rei
+Mascotto: Here he is, introduce yourself! I will be right here if you need help, don't worry.
+Rei: Uhm, hello, nice to meet you! My name's Rei...
 ; @char Rei.smile
-Rei: I don't know if your boss told you, but I will be working in the kitchen starting from today
-Oh, hey! Nice to meet you, I am...
+Rei: ...I don't know if your boss told you about it, I'll be working in the kitchen starting from today.
+O-oh, yes... hi! Nice to meet you, I am...
 
 ; NAME INPUT SCREEN
 
@@ -60,29 +57,32 @@ Oh, hey! Nice to meet you, I am...
 Rei: Nice to meet you {name} , it will be fun to work together!
 
 
-Mascotto: Good job! See? It wasn't hard!
-Mascotto: Now try to say something else!
+Mascotto: Good job! See? It wasn't that hard!
+Mascotto: Now, are you up for a bit of a challenge? Try saying something else!
 
-@choice "Yeah, sure, just please don't ask me for help?" goto:.yeah_sure
-@choice "I am sure we will! Let me know if you need any help" goto:.I_am_sure
+@choice "Yeah, whatever, just please don't come asking me for help..." goto:.yeah_sure
+@choice "I am sure it will! Let me know if you need any help." goto:.I_am_sure
 @stop
 
 
 
 # yeah_sure
 
-Rei: Uh... sure, I'll try... See you around then....?
-Mascotto: No, no, no! What did I tell you? Your choices matter! >_< You can't just say whatever to everyone! 
+Rei: Uh... sure. I'll see you around then...
+Mascotto: No, no, no! What did I tell you? Your choices matter! You can't just say whatever to everyone! 
 Mascotto: Maybe you didn't like him that much?
-Mascotto: Anyway, I hope you will be nicer or your story won't get far... and you will be on your own from now on
+Mascotto: Whatever's the case, I hope you will be nicer or your story won't get that far... and you'll be by yourself from now on, so don't count on my help!
+Mascotto: Good luck then...!
 @hideChars
 @goto 1_1_wakeupfelix
 
 @stop
 
 # I_am_sure
-Rei: Thank you, I appreciate that. I'll get started with the kitchen now, see you later
-Mascotto: Yes! That was great! You seem to be ready to be on your own now
+Rei: Thank you, I appreciate that. I'll get started with the kitchen now, see you later {name}.
+Mascotto: Yes! That was great! You seem ready to be on your on...
+...
+Mascotto: Don't make that face, you can do it... good luck then!
 @hideChars
 @goto 1_1_wakeupfelix
 
