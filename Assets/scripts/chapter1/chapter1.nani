@@ -9,80 +9,77 @@ FELIX: "{name}? Can you hear me?"
 @char Felix
 Felix: {name}!
 W-what?
-(Two pairs of hands shake me by the shoulders, as I regain consciousness and start to become aware of what's around me.)
+(A pair of hands shake me by the shoulders, as I regain consciousness and start to become aware of what's around me.)
 (I recognize a familiar face in front of me, and my friend smiles in relief.)
 
 # DESCRIPTION_FELIX 
-He started working at the café a couple of months after me, and he has been my shadow since then.
-Since I can understand what it’s like to be the new one, I have always been happy to give him a hand and the two of us became friends pretty quickly. 
-He seems to admire me a lot and besides leaning on me for almost everything that’s work-related, he’s also willing to help anytime I need him. 
-He is truly a nice and caring guy and it’s easy to get on well with him.
-
-
+He started working at the café a couple of months after me, and has been my shadow ever since.
+I emphatized with being the new one and I have always been happy to give him a hand. To that, add the fact that he's a really nice persone to be around and the two of us became friends pretty quickly. 
+He seems to admire me a lot and now that he got more comfortable at work, he’s also willing to help me anytime I need him. 
+He is truly a caring guy and I really appreciate him. It’s easy to get on well with him.
 
 Felix: Finally! Are you okay?
 Yes, I'm fine...
 Felix: But... what happened? Do you want to lay down or something?
 I... I just spaced out for a moment...
-(I don't really know what just happened either, but I really feel okay, so I guess it's better not to alarm him any further.)
-Felix, really, you don't have to worry
-Felix: Okay, but tell me if you don't feel well
-I will
-@choice "Can you... stop holding me now?" goto:.can_you
-@choice "Please, don't worry too much" goto:.please
+(I don't really know what just happened either, but beside the confusion I'm feeling better already, so I guess it's better not to alarm him any further.)
+Felix, really, you don't have to worry.
+(I try to reassure him with a smile.)
+Felix: Okay, but tell me if you don't feel well and need to go home or something, I'll cover for you.
+I will...
+@choice "...can you stop holding me now?" goto:.can_you
+@choice "...please, don't worry too much" goto:.please
 @stop
 
 # can_you
-(He tries to hug you but feel awkward and stop)
+; proverà ad abbracciarti in futuro ma si sentirà a disagio e si fermerà.
 @goto .common1
 @stop
 
 # please
-I pat one of his arms in affection
+; sarà più a suo agio con il contatto fisico.
+(I pat one of his arms in affection.)
 @goto .common1
 @stop
 
 # common1 
-(It takes him a moment to realize he is still holding me and he retrieves his hands immediately, as he starts to blush adorably.) 
-Felix: Uh, sorry about that
-Felix: By the way, have you met Rei already? He seems like a nice guy
-Yeah, and we definitely needed some help in the kitchen
+(It takes him a moment to realize that he is still holding me and he retrieves his hands immediately, as he starts to blush adorably.) 
+Felix: Uh, sorry about that...
+; cambio espressione subito dopo.
+Felix: By the way, have you met Rei already? He seems like a nice guy.
+Yeah, he does, and we definitely needed some help in the kitchen.
 FELIX: I know right? I am glad we have someone else there now. It should make things a bit easier
-FELIX: I should go change in my uniform, go on and open :) 
-(Felix disappears towards the changing rooms in the back, as I head over to the front door to turn the sign.) 
+FELIX: I should go change in my uniform now.
+(Felix disappears towards the changing rooms in the back, as I head over to the counter.) 
 
-
-
-
+; cambio scena/dissolvenza per passare del tempo.
 (It’s been a while now that I’ve been working here at the café. I don’t think this is my dream job at all, but I got used to the routine here.) 
-(It’s a good way to make some money to pay for my studies, if everything goes well I should be graduating sometime in the near future. )
+(It’s a good way to make some money to pay for my studies, and if everything goes well I should be graduating sometime in the near future. )
 (As soon as I manage to put a portfolio together for my thesis, and I’ll be finally able to leave this place and become a photographer.) 
 (That is, of course, easier said than done. As for now, I barely have an idea of what I want to do for this final project...) 
 (I guess I should try and force me to like working here for the time being, it doesn’t look like I will be leaving that soon after all...) 
-(Anyway, I’m not complaining complaining. I’m pretty lucky to have found this place. Everyone is nice and I’ve never had any bad experience with a customer yet. Usually there’s actually a lot of interesting people coming here.) 
+(Anyway, I’m not complaining-complaining. I’m pretty lucky to have found this place. Everyone is nice and I’ve never had any bad experience with a customer yet. Usually there’s actually a lot of interesting people coming here.) 
 (Just as if I called for it, the doorbell rings as a guy enters the café. The greatest example of the “interesting people” I was talking about, might I add.) 
 
- 
-
-*sound* 
+; suono campanello porta. 
 @char Luka
 (His face is basically half covered by a pair of round and edgy sunglasses. He makes his way towards the center of the room.) 
 (Despite being hidden behind his shades, it’s not hard for me to recognize one of the regular of the café. Probably even thanks to those huge glasses.) 
 
 
 # DESCRIPTION_LUKA
- LUKA: It’s really hard to describe Luka. He’s an unusual guy, I’ve never met someone like him before and I don’t think I ever will. 
- He has been visiting the café every day since the last month, but I’ve never got why. Sometimes he just sits at a table and stays there for a couple of hours doing nothing. 
- Other times he’s just all over the place doing strange things.
- At first, I thought his unique behavior was all made up. However, I don’t really know what I should believe now. I mean, sometimes he’s just too strange to think that he’s pretending to be like that.
- Anyway, I started to grow fond of him and his unpredictable actions; he seems like a nice person, after all.  
+It’s really hard to describe Luka. He’s an unusual guy, I’ve never met someone like him before and I don’t think I ever will.
+He has been visiting the café every day since the last month, but I’ve never really got why. Sometimes he just sits at a table and stays there for a couple of hours doing nothing.
+Other times, he’s just all over the place doing strange things and messing around with me and Felix.
+At first, I thought his unique behavior was all made up. However, I don’t really know what I should believe now. I mean, sometimes he’s just too strange to think that he’s pretending to be like that.
+Anyway, I started to grow fond of him and his unpredictable actions; he lights up the mood in the café at least.  
 
 
-Luka: Good evening! 
-(Lukas makes a huge entrance, widening his arms and bowing a little.) 
+Luka: Good morning! 
+(Luka makes a huge entrance, widening his arms and bowing a little.) 
 (He’s always pulling out different greetings. ) 
-(Last week he tried to enter the café and sit at his usual table with his eyes closed. That didn’t go really well, but it was so fun to watch that Felix and I didn’t really try to stop him. ) 
-Hey, Lukas... You are quite late today, the usual? 
+(Last week he tried to enter the café and sit at his usual table with his eyes closed. That didn’t go really well, but it was so fun to watch that Felix and I didn’t really try to stop him.) 
+Hey, Luka! You are quite early today, the usual? 
 Luka: Nah, I’m broke. 
 (He lets out a little sigh, glancing at the sweets counter with bright eyes. Right before I think he’s about to start drooling, he scrolls his head and turns to look at Felix and me again.) 
 Luka: I just came to see how my two favorites coffee makers are doing. 
@@ -91,11 +88,11 @@ Not good, since they’ll have to clean your footprints from that table.
 (I reply, pushing his legs back on the ground.) 
 Luka: I see we are a bit grumpy today. 
 Luka: Okay, don't mind me, I will just sit here for a while. 
-(Felix and I glance at each other with the same dumbfounded expression. This is too strange even for him.) 
+(Felix and I glance at each other with the same dumbfounded expression.) 
 (I really wonder why does he like to stay here so much... and also if it’s a good idea to just let him while he’s not even paying.) 
 (Felix seems to be wondering the same thing, as he looks at me once more time with raised eyebrows.) 
-(I’m sure he doesn’t want to kick Lukas out, he’s too nice...) 
-(...And I admit I’m on his side.) 
+(I’m sure he doesn’t want to kick Luka out, he’s too nice...) 
+(...and I admit I’m on his side.) 
 (The café is pretty empty anyway, and this doesn’t seem like a busy day at all, I’m sure it won’t hurt anybody if we let him stay...) 
 (I just shrug and look back at Felix.) 
 There’s not that many people anyway... 
@@ -104,21 +101,18 @@ Felix: Right, I’m sure it’s fine.
 (Felix smiles back at me before going back to what he was doing.) 
 (I follow his lead and start heading back to work, as I hear Luka almost chirping behind me.) 
 Luka: Thank youuuu~ you two are the best~ 
-(I turn around right in time to regret it immediately, catching a glance of Lukas sending hearts with his fingers towards me.) 
+(I turn around right in time to regret it immediately, catching a glance of Luka sending hearts with his fingers towards me, to which I respond by stinking my tongue out to him.) 
 
-
-
-
-
+; cambio scena.
 (Me and Felix are just waiting for our shift to end, sitting at the counter chatting. As expected, in the end the café doesn’t fill up at all during the day and nothing seems to change as the hours pass.) 
 (Of course, I can’t even finalize the thought in my mind that the doorbell rings once again, this time announcing the entrance of a group of guys.) 
 (They make their way inside messily and loudly.) 
 (One of them walks forward, and I almost choke on my breath when I get a glance of his face.) 
 @char Milo
-Milo: So, this is complicated... Around four years ago I would have talked a lot differently about Milo.
+So, this is complicated... Around four years ago I would have talked a lot differently about Milo.
 We used to be friends, as in: best friends since we were six or something. The “When we get older we will marry each other” kind of friendship. 
 And we actually did date for a while during high school. Things were great, until one day out of the blue he just decided to move and study abroad. 
-When he came back, he was a completely different person, to say the least. 
+I haven't heard from him in two years and, when he came back, he was a completely different person, to say the least. 
 I find it hard to believe that he is the same scaredy-cat that used to be afraid of the dark when he was fifteen, but sadly it seems to be him. 
 Now we follow the same photography course, but I meticulously tried to avoid him on campus these past years. Let’s just say his reputation is far from good. And he actually never came to me either, so I guess the feeling is mutual. 
 It’s sad to think that our relationship just went down the drain and I have no idea why, but based on the rumors about him I can’t say I’m not a tiny bit relieved he doesn’t seem to want to have anything to do with me. 
@@ -133,22 +127,21 @@ Milo: So, can we get drinks?
 
 @char Luka
 Luka: You forgot “Hands up, this is a robbery!”. 
-Suddenly Lukas speaks up from his place, he has a grin on his face but it’s clearly a mocking one.
+Suddenly, Luka speaks up from his place. He has a grin on his face but it’s clearly a mocking one.
 Milo: Mind your own business, weirdo. 
 Milo: Do you guys work here or not? 
 (Felix finally jumps up at that, reaching Milo to promptly take his order.) 
 (Despite everything, he still manages to be professional... but I can see him tensing up his face and put the fakest smile on when talking to Milo.) 
 (Before he can do that though, I grab him lightly by his arm, stopping him from going further.) 
-
 (This is just being rude, and I’m not here to stand for any of this bullshit, let alone coming from someone who used to be so close to me.) 
-
 (Maybe my work ethic won’t be the best, but I can’t just sit here saying nothing.) 
 I think you and your friends need to chill out before we even consider taking any of your order. 
 This is not your little playground guys, we tend to prefer sitting like human beings in here. Also, “please” and “thank you” are not only appreciated but suggested words to use while talking to the employees. Or anyone really. 
 (I hear a couple of whistles and “Sorry mom!” Coming from the group of idiots. Milo barely scoffs, grinning slightly.) 
 Milo: Nice way to treat your... 
 (As if he suddenly realizes something, he stops talking and squints his eyes while staring at me.) 
-Milo: Oh, it’s you.  
+Milo: Oh, it’s you.
+; cambio espressione in "smirk". 
 Milo: It would have been strange to meet someone else with such an annoying temper... 
 (I can feel my face getting red with rage. So, not only is he acting like a stranger... he actually didn’t even remember my face?!) 
 (That’s low even for him.) 
@@ -159,11 +152,10 @@ Milo: We’ll just take everything to go, I don’t stay where I’m not wanted.
 (Anyway, I’m happy Felix manages to be much more professional than me. He serves them quickly and they just leave.) 
 (When I get back I am still burning with rage. That was unbelievable! He used to be such a kind and sweet guy and now he treats everyone like actual trash.) 
 (And he has the nerve to tell ME I am annoying!) 
-(Ugh! I just want to break something right now…) 
 
 @char Felix
 Felix: ...{name}?  
-(I turn around ready to *burst*, but luckily enough I realize it’s just Felix.) 
+(I turn around ready to burst, but luckily enough I realize it’s just Felix.) 
 @char Luka
 Luka: Don’t tell me you know that guy...? 
 Felix: Well it didn’t look like they were that close… 
@@ -175,31 +167,30 @@ Oh, if he comes back after today, I’ll make sure he’ll regret it.
 Felix: Woah, easy there! We don’t need you getting fired because of him. Just ignore him. 
 (Felix chuckles to lighten up the mood, and I guess it kind of works. I am still mad though, so Milo better not show his face around here anytime soon.) 
 (The rest of the day goes way better, but it’s not hard compared to this awful morning.) 
-(Felix and I start getting ready to close. The café is basically empty now, only Lukas is left on his chair, staring outside the window.) 
+(Felix and I start getting ready to close. The café is basically empty now, only Luka is left on his chair, staring outside the window.) 
 (I approach him slowly. He seems quite lost in his thoughts and I don’t want to startle him.) 
-Hey, Lukas, you’ve been just sitting here all day… 
-Lukas: Yeah, I wasn’t in the mood for a drink. But I like staying here with you guys! 
+Hey, Luka, you’ve been just sitting here all day… 
+Luka: Yeah, I wasn’t in the mood for a drink. But I like staying here with you guys! 
 Felix: Actually... If you are not taking anything, I think we will close and start to clean up. We can't do that with you inside… 
-(Lukas looks at Felix as the whole idea of him closed inside the café isn’t really that bad.) 
+(Luka looks at Felix as the whole idea of him closed inside the café isn’t really that bad.) 
 We also have to tidy up everything... 
 Lukas: Alrighty, I’ll be right here if you need me! 
 Felix: I don’t think we will… 
-Come on Lukas, we have tons of work to do, and there’s a mountain of dishes waiting for us in the kitchen. 
-Lukas: Cool! I’ll help you guys out! 
+Come on Luka, we have tons of work to do, and there’s a mountain of dishes waiting for us in the kitchen. 
+Luka: Cool! I’ll help you guys out! 
 (What’s wrong with this guy? How can someone be so excited about doing the dishes?) 
 (Felix doesn’t look confident about this, and I certainly don’t blame him.) 
-Lukas: Come on~ Filly~ 
-(Lukas is using his puppy eyes with Felix, and I know it means that Felix won’t be able to say no to him.) 
+Luka: Come on~ Filly~ 
+(Luka is using his puppy eyes with Felix, and I know it means that Felix won’t be able to say no to him.) 
 
 
-@choice "I mean, what could possibly happen?" goto:.I_mean
-/(Piatti = sì) 
-@choice "Lukas, dishes and a lot of slippery soap? I don’t think it’s a good idea" goto:.Lukas_dishes
-/(-10 affinità con V? Piatti = no) 
+@choice "(I mean, what could possibly happen?)" goto:.I_mean
+; piatti=sì, Luka lo apprezza molto.
+@choice "(Luka, dishes and a lot of slippery soap? I don’t think it’s a good idea)" goto:.Lukas_dishes
+; piatti=no, "affinità" con Luka si abbassa tanto.
 @stop
 
  
-
 # I_mean
 (Yeah, it’s not like he’s that irresponsible… right?) 
 (Plus, I can’t really say no to him either.) 
@@ -207,50 +198,50 @@ Alright, you can stay until we’ve finished… but!
 (I stop him just in time, before he starts running to the kitchen.) 
 (The sad look in his eyes it’s just too much for me to handle, and I end up ruining my bossy image choking a laugh.) 
 Be careful and… actually, don’t touch anything and try to move the least you can. 
-Lukas: Okay, okay! You can trust me guys. 
+Luka: Okay, okay! You can trust me guys. 
 Yeah, I'm sure we can... 
 Felix: I'll go take care of the kitchen, good luck. 
-Lukas: Thank you!~ 
+Luka: Thank you!~ 
 (Lukas is quick to answer, but I am pretty sure that was directed to me.) 
-Lukas: So, what can I do? 
+Luka: So, what can I do? 
 Didn't I just tell you not to move? 
-Lukas: But it will take a lot less if I help you! 
+Luka: But it will take a lot less if I help you! 
 (I'm not quite sure of that, but I avoid saying it out loud.) 
-I really don't need help here, I just have to take away the leftover from the counter. 
-(Lukas tries again with his puppy eyes. Does this guy know how to give up?) 
+I really don't need help here, I just have to take away the leftover from the counter and clean up a bit. 
+(Luka tries again with his puppy eyes. Does this guy know how to give up?) 
 Why don't you go see if Felix needs a hand in the kitchen? 
-Lukas: But I... 
-Lukas! 
-Lukas: Okay, fine! 
-(Lukas finally gives in, heading towards the kitchen where Felix is.) 
-(I should say I feel sorry for my colleague, but as soon as it gets quieter once Lukas is gone I can’t even feel the guilt anymore...) 
+Luka: But I... 
+Luka! 
+Luka: Okay, fine! 
+(Luka finally gives in, heading towards the kitchen where Felix is.) 
+(I should say I feel sorry for my colleague, but as soon as it gets quieter once Luka is gone I can’t even feel the guilt anymore...) 
 (What's done is done right?) 
 (Besides, I am sure Felix will be good at handling him. He has always been the patient one between us.) 
-(I finish what I was supposed to do in a few minutes.) 
-(The fact that Felix didn't send Lukas back is actually reassuring.) 
+(I finish what I was supposed to do in peace.) 
+(The fact that Felix didn't send Luka back is actually reassuring.) 
 (Maybe he is not as careless as I thought.) 
 (I should have trusted him more, maybe he would have really been helpf....) 
-*CLASHING OF PLATES SOUND* 
-Felix: Lukas §@&%*!" 
-(Or, maybe, I should keep always trusting my guts.) 
+; rumore di piatti che si rompono. 
+Felix: LUKA §@&%*!" 
+(Or, maybe, I should keep trusting my guts.) 
 (I run to the kitchen where the noises came from, only to find a graveyard of dishes on the floor.) 
 What happened?! 
 Felix: Damn... We are so screwed {name} 
-(Lukas’ face is totally white and, with Felix's scream from before, doesn't leave a lot of space for doubt on who did this mess.) 
-Lukas: I... I am sorry... I wanted to.... and... 
+(Luka’s face is totally white and, with Felix's scream from before, doesn't leave a lot of space for doubt on who did this mess.) 
+Luka: I... I am sorry... I wanted to.... and... 
 Felix: This is a complete disaster! 
 Felix, calm down... it's not a lot, they probably won't even notice... 
 Felix: I surely hope so... I really don't need a cut in my payment right now. 
 Come on, let's just clean this up. 
-Felix: Lukas, don't touch anything else. Okay? I mean it. 
-(Felix is firm in a way I’ve barely ever seen him, and Lukas seems to notice. He gets out of the way and makes himself small in a corner of the kitchen.) 
-Lukas: O-of course... I’m sorry. 
+Felix: Luka, don't touch anything else. Okay? I mean it. 
+(Felix is firm in a way I’ve barely ever seen him, and Luka seems to notice. He gets out of the way and makes himself small in a corner of the kitchen.) 
+Luka: O-of course... I’m sorry. 
 (We start picking up the dishes from the floor and the atmosphere gets super tense. No one dares to speak as we kneel down cleaning.) 
 (Luckily, not many dishes got injured in the accident and we finish up pretty quickly, but Felix doesn't look any calmer.) 
-(I don't think I have ever seen him this angry, and, judging from his face, Lukas must feel it too. He takes quick glances at me and Felix, and if Felix's expression is completely dark, Lukas’ is equally mortified.) 
-Lukas: G-guys I am so sorry, really... I... I will pay you back and everything I swear and... 
-Lukas: I'm sorry, I am always like this... I don't... I don't know... 
-(Lukas starts rambling nonsense, which doesn’t seem to make things any better for Felix. I’m sure he’s more worried than angry, but right now Lukas is walking on really thin ice.) 
+(I don't think I have ever seen him this angry, and, judging from his face, Luka must feel it too. He takes quick glances at me and Felix, and if Felix's expression is completely dark, Luka’ is equally mortified.) 
+Luka: G-guys I am so sorry, really... I... I will pay you back and everything I swear and... 
+Luka: I'm sorry, I am always like this... I don't... I don't know... 
+(Luka starts rambling nonsense, which doesn’t seem to make things any better for Felix. I’m sure he’s more worried than angry, but right now Luka is walking on really thin ice.) 
 
 
 @choice  "Maybe it’s better if you go." goto:.maybe_its_better_if
@@ -259,60 +250,63 @@ Lukas: I'm sorry, I am always like this... I don't... I don't know...
 
 
 # maybe_its_better_if
-
+; verso la LukaXFelix
 Me: I think you did enough for now. We... will see you later-. 
-Lukas: S-sure... 
-(Lukas starts leaving, when Felix suddenly stops him.) 
+Luka: S-sure... 
+(Luka starts leaving, when Felix suddenly stops him.) 
 Felix: It's okay {name}.. Let's just forget about this. I am sure everything will work out. 
-(Just like that, Felix is back to his caring self, putting an arm behind Lukas’ back and reassuring him. If I knew he would change his mind so quickly I would have avoided being this heartless with Lukas.) 
+(Just like that, Felix is back to his caring self, putting an arm behind Luka's back and reassuring him. If I knew he would change his mind so quickly I would have avoided being this heartless with Lukas.) 
 Felix: You didn't mean to do it, don't worry so much. 
-Felix: You don't have to stay, NAME. I can check the last things and close. 
-Felix: And I am sure Lukas will love to help me, right? 
+Felix: You don't have to stay, {name}. I can check the last things and close. 
+Felix: And I am sure Luka will love to help me, right? 
 (Felix laughs cheerfully and I can barely remember the look of plain anger that was on his face just a few moments ago.) 
-Me: Okay, then I'll see you guys. Don't stay too late 
+Okay, then I'll see you guys. Don't stay too late...
 (After saying goodbye to Lukas and Felix, I finally leave the café.) 
 @goto .common2
 @stop
 
 
 # we_know_you
-Lukas: Y-yeah but still... 
-Me: Don't beat yourself up too much, okay? We are not going to be in trouble, I'm sure of that. 
+; molti punti con Luka, Felix lo apprezza. Capisci che Luka ha un problema.
+Luka: Y-yeah but still... 
+Don't beat yourself up too much, okay? We are not going to be in trouble, I'm sure of that. 
 (I pat him gently on his back, and look over to Felix who seems to have come back to his normal, kind self.) 
 Felix: Of course! I was overreacting earlier. 
-Me: Come on, there’s some really good sweets left from today today back in the café. Let's cheer up a bit. 
-Lukas:You don't have to do this, really. 
-Me: Do what? I don't know about you but I really need the extra sugar right now. Come on! 
-Felix: You guys go on then. Name? I really need to leave now. You don't mind closing up by yourself, right? 
-Me: Of course, I'll see you tomorrow. 
-Felix: Thank you, have fun... and no more chores for Lukas, all right? *change in smile* 
+Come on, there’s some really good sweets left from today today back in the café. Let's cheer up a bit. 
+Luka: You don't have to do this, really. 
+Do what? I don't know about you but I really need the extra sugar right now. Come on! 
+Felix: You guys go on then. {name}? I really need to leave now. You don't mind closing up by yourself, right? 
+Of course, I'll see you tomorrow. 
+Felix: Thank you, have fun... and no more chores for Luka, all right?
 Lukas: I won't touch anything, I swear. 
-Felix: That’s reassuring... Goodnight! 
+Felix: That’s reassuring... Goodnight then!
 
-
-/cut
-(I sit with Lukas by the counter after Felix leaves, and let him choose something from the leftovers.) 
-(He looked pretty upset before, which was so unlike him it made me kind of worried.) 
+; cambio scena
+(I sit with Luka by the counter after Felix leaves, and let him choose something from the leftovers.)
+(Both Felix and Luka were acting strange. I've never seen Felix so angry, just to recompose himself this quickly. And Luka...) 
+(...he looked pretty upset before, in a serious way. Which was so unlike him it made me kind of worried.) 
 (But still, I don't know if I can't tell what is like him and what is not. Sometimes I think I got him sorted out, and then it takes him just a second to feel like a stranger again.) 
-Lukas: Ehy, {name}... 
-Me: U-uh? 
-Lukas: I don't know what’s gotten to me before, I'm kind of embarrassed... haha... 
-Me: It's fine. I am happy you are okay now 
-Lukas: I am, really. And thank you. 
-Lukas: I was the one making a mess and still you are trying to cheer me up. 
-Lukas: You and Felix must really like me, uh? 
-Me: Shut up, you already made me change my mind. I think I liked you better when you were all worried and trying to make excuses. 
-Lukas: Haha, try harder, you are not a good liar 😛 (notgoodliar=yes) 
-Lukas: Seriously, thank you. *blush* 
-Me: Ehy, Lukas, are you okay? 
-/change expression
-Me: You can tell me if there's any proble... 
-Lukas: I am fine! Really! No need to worry. 
-Lukas: Actually, I'll better let you close now, it's getting late... 
-Lukas: See you! 
+Luka: Ehy, {name}... 
+U-uh? 
+Luka: I don't know what’s gotten to me before, I'm kind of embarrassed... haha...
+(It's almost like he can tell what I'm thinking about.)
+It's fine. I am happy you are okay now.
+Luka: I am, really. And thank you. 
+Luka: I was the one making a mess and still you are trying to cheer me up. 
+Luka: You and Felix must really like me, uh? 
+Shut up, you already made me change my mind. I think I liked you better when you were all worried and trying to make excuses. 
+Luka: Haha, try harder, you are not a good liar.
+Luka: Seriously, thank you.
+;cambio espressione in blush.
+Ehy, Luka, are sure you're okay? 
+;cambio espressione seria.
+You can tell me if there's any proble... 
+Luka: I am fine! Really! No need to worry. 
+Luka: Actually, I'll better let you close now, it's getting late... 
+Luka: See you! 
 (Well that was quick.) 
 (I am still a bit skeptical, but I guess if there's something bothering him that he would like to talk about, he will eventually do it. Right?) 
-/CUT
+; cambio scena
 (I finish up what was left to do and, finally, lock the café front door.) 
 @goto .common2
 
@@ -321,11 +315,12 @@ Lukas: See you!
 # Lukas_dishes
 (No, that definitely doesn’t sound good.) 
 (If he makes some disaster, which is highly possible, Felix and I might get into serious trouble this time.) 
-Me: Lukas, you can’t stay. It will only slow us down if we have to keep an eye on you too while working" 
-Lukas: O-okay, then... I'll see you another time. 
-Lukas: Good luck, bye... 
-(Lukas is pouting when he leaves, but I'll find the time to feel guilty after finishing the washing up.) 
-(Even if I would like it to be otherwise, my job right now is more important than Lukas’ whimsicality.) 
+Luka, you can’t stay. It will only slow us down if we have to keep an eye on you too while working" 
+Luka: O-okay, then... I'll see you another time. 
+Luka: Good luck, bye... 
+(Luka is pouting when he leaves, but I'll find the time to feel guilty after finishing the washing up.) 
+(Even if I would like it to be otherwise, my job right now is more important than Luka’s whimsicality.)
+(Felix and I finish to clean up and go our separate way outside of the café.) 
 @goto .common2
 
 # common2
@@ -334,34 +329,32 @@ Lukas: Good luck, bye...
 (Before I even have time to grab it from my pocket, my phone has been going off four times already.) 
 (Once I finally get to look at the screen, I find texts coming from more than one of my classmates, and an email that was probably sent earlier today.) 
 
-/TEXTS
+;messaggi
 /The final projects will be in groups, did you see?? 
 /Have you seen the groups? I don’t envy you D: 
-/{name} you have to check the groups for photography 
+/{name} you have to check the groups for photography NOW
 
 (Uhm… I suddenly don’t feel good about this.) 
 (I don’t know what’s gotten into my friends but everyone seems to be freaking out and I am slightly, just slightly, starting to be influenced.) 
 (I quickly open the email, probably the thing that made everyone go crazy, and my jaw drops to the ground.) 
 (My teacher is glad to inform us that the final project for the photography course will be prepared in groups. The list is attached at the bottom of the email.) 
-Me: Oh, crap. 
+Oh, crap. 
 (I already don’t like the idea of working in a group, but when I see my name next to Milo’s, all I can do is let out a scream of frustration.) 
 
-/DAY 2 
-/1ST SCENE 
-/suono sveglia
+; cambio scena al giorno dopo. Risveglio e suono di sveglia.
 (I open my eyes lazily, while yawning loudly.) 
 (I came home pretty late last night.)
 (I shouldn’t have still watched that series until four in the morning, my body is screaming me that, but after the news from yesterday I had to distract myself or I would have walked all the way to my teacher house to ask for a new teammate.) 
 (Really? Of all people, Milo is the one he had to choose?! We will never get anything done, I am sure. We will be lucky not to kill each other.) 
-(I make my way t the mirror and, as if my life hasn’t been doing it enough, even my reflection seems to mock me.) 
+(I make my way to the mirror and, as if my life hasn’t been doing it enough, even my reflection seems to mock me.) 
 (My eyes are puffed and red, while two big black circles stand under them.)  
-(I can already hear Lukas making fun of me.) 
+(I can already hear Luka making fun of me.) 
 (And I know he will be at the café because he always is and because I am just that lucky.) 
-/(se piatti=si) At least I hope this time he won't try to help with anything. 
-/(se hai capito che ha un problema) Still, it was strange for him to react that badly. Usually he would have joked about the accident. 
+;se piatti=si
+At least I hope this time he won't try to help with anything. 
+;se se hai capito che ha un problema
+Still, it was strange for him to react that badly. Usually he would have joked about the accident. 
 But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
-
-/2ND SCENE 
 (I drag myself to the kitchen and turn on the coffee machine.) 
 (Sure, it’s a dump and it can only make some dark, bitter water that really doesn’t deserve to be called coffee, but it is the best that I can afford right now.) 
 (Anyway, it seems like I won’t drink my daily poison today: when I open the cupboard, the world seems to stop, as I realize that I finished all my coffee powder yesterday and forgot to buy some more.) 
@@ -378,80 +371,78 @@ But I can't really focus on that right now, when the only thing on my mind is co
 (Either way, he seems to be my only hope right now.) 
 (Not confident at all, I move cautious steps out of my apartment towards his front door.) 
 
-/SCENA 3 
-KNOCK KNOCK SOUND
+;cambio scena, porta di Morgan
+;KNOCK KNOCK
 I can clearly hear someone moaning in annoyance from inside, but after a couple of minutes nobody answers the door. 
-KNOCK KNOCK
+;KNOCK KNOCK
 I feel like this might be the dumbest thing I’ve done so far, but I knock again. 
-Finally, I hear the sound of some steps becoming louder, until my neighbor opens his front door, showing a face that doesn’t have a lot to envy from mine. 
+Finally, I hear the sound of footsteps becoming louder, until my neighbor opens his front door, showing a face that doesn’t have a lot to envy from mine. 
 # DESCRIPTION_MORGAN
-He lives next door. I cannot say much about him, since I’ve rarely talked to him in the time I’ve lived here. If we can consider bringing the mail to him “talking”. 
-He doesn’t go out much and he seems really coy about himself. The only thing that I managed to discover, by the loud music that I always hear coming from his apartment, is that he is a musician. 
-I guess being mysterious is part of the whole “artist stereotype”. 
+He lives next door. I cannot say much more about him, since I’ve rarely talked to him in the time I’ve lived here. If we can consider bringing the mail to him “talking”. He doesn’t go out much and he seems really coy about himself. The only thing that I managed to discover, by the loud music that I always hear coming from his apartment, is that he is a musician. I guess being mysterious is part his whole “artist stereotype”. 
 @char Morgan
 Morgan: What?
 (Today he is even less talkative than usual. He gazes at me with annoyed eyes, snorting.)
-Me: Oh, hi! I’m sorry but… do you have some instant coffee to lend me, by any chance?
+Oh, hi! I’m sorry but… do you have some instant coffee to lend me, by any chance?
 (I am almost certain by the way he is looking at me, that he is considering many ways to murder me.)
-I bite my lower lip, while keeping my finger crossed behind my back. 
-Apparently, it doesn’t work. In fact, the guy cut me off with a 
-Morgan: No, don’t bother me with these silly stuff
+(I bite my lower lip, while keeping my finger crossed behind my back.)
+(Apparently, it doesn’t work.)
+Morgan: No, don’t bother me with these silly stuff.
+(In fairness, it did sound a bit silly once I said it out loud.) 
+(Morgan shuts his door, leaving me speechless.)
+(But I have to admit that I sort of asked for it this time.)
+(I rarely see him out of his apartment, what made me think he would have appreciate a seven o’clock in the morning visit?)
+(Therefore, without drinking my coffee, I head off to work feeling like someone has passed over me with a car.)
 
-Actually, it did sound a bit silly once I said it aloud. 
-Morgan shuts his door, leaving me speechless. 
-It is the second time that someone shuts a door in my face during the last two days, but I have to admit that I sort of asked for it this time.  
-I rarely see him out of his apartment, what made me think he would have appreciate a seven o’clock in the morning visit? 
-Therefore, without drinking my coffee, I head off to work feeling like someone has passed over me with a car. 
-
-/SCENA 4 
-(I've arrived at work pretty early today, but the lights are already on and I recognize one of my colleague roaming around the tables.) 
+;cambio scena fuori dal café
+(I've arrived at work pretty early today, but luckily I wasn't in charge of opening. I'm already standing by miracle on two feets with the few hours of sleep I got.)
+(Inside, I recognize one of my colleague roaming around the tables.) 
 
 # DESCRIPTION_ANGELICA 
-ANGELICA: She has worked at the café for a long time and is always up for helping everyone. Probably the sweetest girl on earth, it's no secret that a lot of customers became regular thanks to her kindness and bright smile. 
+She has worked at the café for a long time and is always up for helping everyone. Probably the sweetest girl on earth, it's no secret that a lot of customers became regular thanks to her kindness and bright smile. 
 Angelica: Good morning, {name}! 
 (Just like every other day, Angelica is literally shining up the whole café, even when it's still a bit dark being this early in the morning.) 
-Me: Hi Angelica, how are you doing? 
+Hi Angelica, how are you doing? 
 Angelica: Great! What about you? You look a bit tired. 
-Me: Oh, don't worry, I am fine. I just stayed up way past my bedtime... 
-Me: Is it just the two of us? 
+Oh, don't worry, I am fine. I just stayed up way past my bedtime... 
+Is it just the two of us? 
 Angelica: Actually, Rei got here even earlier. He is already working around in the kitchen. 
 Angelica: I am so excited to have him here, he is amazing! 
 (Angelica is a kind girl, but even she wouldn’t be so head over heels for Rei if there wasn’t an actual reason to be.) 
 (Curious from her words, I head over to the kitchen to see what Rei is up to.) 
 
-/CUT TO KITCHEN
-Me: Hey Rei! You are here early. 
-Rei: Name, good morning! 
-Rei: You are here early too. 
-Me: Yeah, I didn't sleep a lot last night and woke up earlier than usual... 
+;cambio scena cucina 
+Rei: {name}, good morning! 
+Rei: You look a bit tired.
+(Rei frowns, and I can tell his remark came out of kindness, but I can't really say I'm too happy to hear that for the second time in less than five minutes.)
+(I must look really rough.)
+Yeah, I didn't sleep a lot last night... 
 (I say, trying to stop myself from yawning. Rei seems to notice my effort and lets out a chuckle.) 
 (My attention is then caught by the tray of cookies Rei takes out from the oven, filling the room with their sweet scent.) 
-Me: Wow, those looks amazing! 
-(Rei might even be way too talented for this café.) 
-Me: How long have you been doing this? 
+Wow, those looks amazing! 
+How long have you been doing this? 
 Rei: Well, it's my first time doing it as an actual job. 
 Rei: But I've always liked cooking, so I guess you can say it's been some time. 
 Rei: Oh, careful... 
 (He places a protective hand on my back and pushes me gently as he passes behind me with the hot tray.) 
 (I keep looking at him for a bit more, mesmerized by his fluent movements as he works around in the kitchen, before leaving to start the day.) 
 
-/CUT
-(As I expected, Lukas didn’t miss the chance to make fun of my tired face, pointing out how my black circles seemed to “get darker by the minute”.) 
+;cambio scena café
+(As I expected, Luka came in today and didn’t miss the chance to make fun of my tired face, pointing out how my black circles seemed to “get darker by the minute”.)
+; se hai capito del problema
+(He seems to have already recovered from yesterday and went back to his usual self.)
+
 (But Lukas teasing me is nothing compared to what is about to happen.) 
-(As if at this point I’ve developed some kind of allergic reaction to him, I already sense myself getting tenser before I even turn towards the entrance and see, you’ve guessed it, Milo coming inside.) 
+(As if at this point I’ve developed some kind of allergic reaction to him, I already sense myself getting tenser before I even turn towards the entrance and see Milo coming inside.) 
 (He’s alone today, and that already gives him a totally different look.) 
 (He still walks like an idiot though.) 
 (Probably because his entrance was way subtler than yesterday, no one seems to notice this time.) 
-(Felix is chirpily talking with a customer and Lukas didn’t look up from his phone at all.) 
+(Felix is chirpily talking with a customer and Luka didn’t look up from his phone at all.) 
 (I guess they’ll notice when I slap Milo in the face though…) 
-(Okay, calm down *name*. Let’s not jump to conclusions. Maybe he’s here to tell me he doesn’t want to work with me!) 
+(Okay, calm down {name}. Let’s not jump to conclusions. Maybe he’s here to tell me he doesn’t want to work with me!) 
 (To which I will probably be pissed, but also happy because I don’t want to either.) 
-
 Milo: Hey. 
-
-Me: Good morning, can I help you? 
+Good morning, can I help you? 
 (I put on my best smile and try to be kind. He’s still considered a customer after all.) 
-
 Milo: I was expecting you to come to me actually, but then I figured you probably don’t have my number anymore so I came to give it to you. 
 Me: Your number for what? 
 Milo: The photography thing? Thought you would have freaked out about the groups yesterday, I was expecting something like twenty raging texts, I must say I am disappointed. 
@@ -459,40 +450,33 @@ Milo: Did you even look at the groups?
 (For a moment I can just stare at him with my mouth open. What is he rambling about? Is he really thinking we’ll work together?) 
 Me: Wait, do you want to do the project? 
 Milo: Do I have a choice? 
-
-
 (Oh, damn. He does! This is worse than anything that he could have said to me.) 
-
 Milo: Listen, I don’t need this course so badly, it’s just for extra credits. I figured you might be a bit more interested but if you don’t want to work together, I won’t be wasting my time on you. 
 (That was… unnecessarily mean but kind of considerate at the same time? I mean, he could have just ignored me until I came to him…) 
-
 Me: I really need this project though, so I am just asking you to… do your part? 
-
 Milo: Hey you shouldn’t underestimate me like this. I might even get hurt, you know? 
 (I give him a look that probably tells more than whatever I could have said by words.) 
-Milo: Fine, I’ll do my part. Here, put in your number now, this is taking way too long already. 
+Milo: Fine, I’ll do my part. If you don't trust me, I give you a couple of days to think about it and I'll find someone elese to do it. 
+Milo: Here, put in your number now, this is taking way too long already.
 (Just when I thought we could be having a normal conversation he has to throw in a bit of douchiness to spicy it up.) 
 (He takes back his phone once I’ve typed in my number and leaves without saying anything more.) 
 (I mumble a “bye” under my breath, still feeling uneasy after this all thing.) 
-(So I guess I am working with him now? This will be… honestly, I have no idea.) 
-(All I can come up with are negative words anyway so it’s better if I leave it at rest for now.) 
+(I have no idea what to do at this point. Beside everything, he seemed genuinine. And the fact that he gave me the chance to back out... maybe he's not really going to make this project a total nightmare?)
+(I feel relieved that I can tell him no. But if I do, it would be like making him win...)
+(This will be… honestly, I have no idea.) 
+(All I can come up with are negative words anyway so it’s better if I leave it at rest for now. I'll thin about it in a couple of days.) 
 
- 
-
-/SCENA 5 
+ ;cambio scena
 (Rei’s arrive has seemed to put everyone in a good mood at the café, so when it's finally closing time, the others employees decide that we should all celebrate at a karaoke.) 
 (Unlike everyone else, I am not in the best mood for a get together, but Felix kind of begged me to go and implied he wouldn't if I don’t.) 
 (Plus, it would be rude towards Rei to skip this, and we haven't talked that much yet. It can be a nice way to get to know him a bit better.) 
-(Therefore, I find myself walking towards the karaoke place, hoping that this will end soon.) 
+(Therefore, I find myself walking towards the karaoke place.)
  
-
-/SCENA 6 
+ ;cambio scena karaoke
 (The karaoke room is filled with people and hot, unbreatheble air.) 
 (I sang one song, only because I'm physically unable to say no to Felix, and then passed the rest of the evening laying on the sofas, between my collegues coats, drinking unknown cocktails.) 
 (It looks like Rei has already made his way through the heart of everyone.) 
 (They all sang with him, offered him drinks, and I am pretty sure his phone is fuller by at least a hundred pictures.) 
-(I am happy for him, but at the same time I can't hide a bit of jealously.) 
-(It took me two months to get comfortable with everyone at work and, in one day, he managed to get the whole café at his feet.) 
 (I swallow a burning sip from my cocktail before leaving it on a table nearby.) 
 (I probably stared at new guy for far too long for him not to notice.) 
 (He turns to me, looking puzzled for a moment before smiling brightly.) 
@@ -506,141 +490,141 @@ Rei: {name}! You haven't sung a song! Come here!
 (But, maybe it's the alcohol, maybe it's Rei that is actually capable of all sort of things, including magic, I slowly start to loosen up.) 
 (Even to a point where I stop worrying about everyone else, and follow my companion through the song.) 
 (I’m definitely not a good singer, but I like to believe I almost sound good as I am singing my duet with Rei.) 
-Rei: That was great! Name, let's do another one! 
-(Rei must really be magical, because I find myself agreeing almost immediately and jumping at his side to start singing the new song.) 
-(The night goes on smoothly, maybe a bit too much since at some point, I start losing track of what is happening.) 
+Rei: That was great! {name}, let's do another one! 
+(Rei must really be magical, because I find myself agreeing almost immediately and jumping at his side to start singing the new song.)
+(The night goes on smoothly, maybe a bit too much. The drinks start piling up and, at some point, I start losing track of what is happening.) 
 
-/SCENA 7 
-Some unidentified noises wake me up. 
-I find it hard to open my eyes, and my head hurt so bad I can barely think of something clear. 
-I squeeze my eyes a couple of times and then try to reach for my phone. 
-Me: Uh?
-Me: Strange. When I stretch out my arm next to me, my hand doesn’t encounter the bedside table as it should. 
-I try again, waving my hand in the air a couple of time before opening my eyes with more conviction. 
-/room 
-( What the…?)
-( This is definitely not my house. )
-( Definitely not my room. )
-( And I’m definitely freaked out. )
-( I don’t recognize anything around me, and that makes me even more confused than I am already. )
-( The memories from last night aren’t blurred out: they simply don’t show up. )
+; cambio scena, risveglio in casa di Rei con schermo nero.
+(Some unidentified noises wake me up.) 
+(I find it hard to open my eyes, and my head hurt so bad I can barely think of something clear.) 
+(I squeeze my eyes a couple of times and then try to reach for my phone.) 
+Uh?
+(Strange. When I stretch out my arm next to me, my hand doesn’t encounter the bedside table as it should.)
+(I try again, waving my hand in the air a couple of time before opening my eyes with more conviction.)
+; stanza
+(What the…?!)
+(This is definitely not my house.)
+(Definitely not my room. )
+(And I’m definitely freaked out.)
+(I don’t recognize anything around me, and that makes me even more confused than I am already.)
+(The memories from last night aren’t blurred out: they simply don’t show up.)
 Me: Stupid karaoke…
-I stand up, stretch out a bit making crackling sounds with my entire body. 
-More noises come from an uncertain location, and then they become steps, heading in my direction. 
-I look around, searching for something to protect me. 
-Whoever the owner of this house is, they still offered me their couch when I was in who knows what state. Maybe they’re not dangerous… but you never know. 
+(I stand up and stretch out a bit, making crackling sounds with my entire body.) 
+(More noises come from an uncertain location, and then they become footsteps, heading in my direction.)
+(I look around, searching for something to protect me.)
+(Whoever the owner of this house is, they still offered me their couch when I was in who knows what state. Maybe they’re not dangerous… but you never know.)
 Oh, you’re awake
 (I’m about to use the tv remote as a last-minute weapon, but the voice is familiar.)
-(Still confusing, though. )
+(Still confusing, though.)
 @char Rei 
-Rei is standing by a door, with his toothbrush in one hand.  
-Me: What am I doing here?
+Rei is standing by the door, with his toothbrush in one hand.  
+What am I doing here?
 Rei: Ah, well…
 (That’s not a good start, nor a good look on his face.)
 (Please, please, please: tell me nothing happened between us.)
 (This whole situation is already as cliché as it can get.)
-Rei: You were… just pretty drunk last night. Not even able to stand on two feet
-(Rei is amused as he tells me what happened, making me want to bury myself even more.) 
-Rei: I don’t know where you live and you were definitely not going to tell me, so I brought you here
-Me: God, I’m sorry. I hope I didn’t puke on you or anything
-Rei: Haha, don’t worry. We missed that luckily 
-Me: What about Felix?
-(If Felix brought me home, my home, it wouldn’t be a problem. Embarrassing, still, but not a problem.  )
-(But, obviously, it was Rei to rescue me.  Rei, a guy whom I’ve known for barley a day, a new co-worker it wouldn’t have sucked to impress. )
-(Just the fact I had to be rescued was mortifying by itself. )
-Rei: I didn’t see him around and I thought it was better to just take you away as soon as possible
-Rei: I’m sorry, I should’ve definitely looked for him a bit more
+Rei: You were… just pretty drunk last night. Not even able to stand on two feet.
+Rei: I don’t know where you live and you were definitely not going to tell me, so I brought you here.
+Me: But... what about Felix?
+(If Felix brought me home, my home, it wouldn’t be a problem. Embarrassing, still, but not a problem. )
+(But, obviously, it was Rei to rescue me. Rei, a guy whom I’ve known for barley a day, a new co-worker it wouldn’t have sucked to impress.)
+(Just the fact I had to be rescued was mortifying by itself.)
+Rei: He had already left. After the karaoke we took a walk and everyone started heading home.
+Rei: I’m sorry, we were the only one left at that point and... I acted on impulse. I should've tried to contact someone.
+(Rei starts getting tense, as he's slowly realizing the situation.)
+Rei: {name} I swear I had no bad intentions.
 
 
- @choice "Yeah, you should’ve. It would have made everything easier for both of us" goto:.Yeah_you_should_have
- @choice "(It's not his fault...)" goto:.its_not_his_fault
+ @choice "I can't believd this is the first thing you thought to do. You should've called someone." goto:.Yeah_you_should_have
+ @choice "(It's not his fault... I'm just mortified.)" goto:.its_not_his_fault
 
  @stop
  
 # Yeah_you_should_have
- /Get angry (awkward relationship) 
-(Sure, he wanted to help me, but still. )
+; ti arrabbi con lui (awkward relationship) 
+(Sure, he wanted to help me, but still.)
 (Rei acted carelessly, without even thinking. )
-(Would it have costed him so much to ask the others before doing anything? )
 (This is such an embarrassing, annoying and, honestly, kind of creepy situation. What even is my life? )
-Rei: I’m really, really sorry name. I thought…
+Rei: I’m really, really sorry {name}. I thought…
 Me: Don’t, please. I just want to go home right now.
 Rei just nods, showing me the way to the front door. His voice is low and weak as he tells me how to get to my neighborhood from here. 
 Rei: I’ll see you at work, okay? 
-(I try, the anger already dissipating seeing him beaten like this. Rei is not a bad guy, he just did something stupid. I can empathize with that. I did something just as stupid and I’m putting all the blame on him. )
-Me: …Sure
-/disappears
+(The anger already dissipating seeing him beaten like this. Rei is not a bad guy, he just did something stupid. I can empathize with that. I did something just as stupid and I’m putting all the blame on him.)
+Me: …Sure. And I'm sorry as well. 
 @goto .common3
 @stop
 
 
 
 # its_not_his_fault
-/(2) It's not his fault (good relationship) 
+; (good relationship) 
 (Rei is, for sure, a charmer.)
-(His gaze is soft and reassuring; I can't bring myself to be angry. Not when it's clear he had only good intentions.)
-(Not when it's mostly my fault, anyway.) 
-I massage my forehead, letting out a big, desolated, sigh. 
-Me: Okay, it doesn’t matter right now. I’ll just go home. Thanks, I guess just… please, forget about all of this
-Rei just nods, showing me the way to the front door. He tells me how to get to my neighborhood from here, giving me a last mortified smile as I leave his apartment to get home.  
+(His gaze is soft and reassuring. I can see that Rei is not a bad guy, he just did something stupid. But I did something just as stupid and I’m putting all the blame on him.)
+(I massage my forehead, letting out a big, desolated, sigh.)
+Me: I... it doesn't matter. I’ll just go home. Thank you for keeping me safe, I guess. Just… please, forget about all of this. I'm really sorry as well.
+(Rei just nods, showing me the way to the front door. He tells me how to get to my neighborhood from here, giving me a last mortified smile as I leave his apartment to get home.)
 @goto .common3
 @stop
 
  
 
 # common3
-
-(The walk home is tiring but much needed to clear my mind. Luckily (or maybe not, I still don’t know) Rei’s place isn’t far from mine. I feel like crap, but the chilly air is pleasant and refreshing. )
-(I really should have stopped after the first couple of drinks, last night. That was silly and useless. It’s like my brain is bouncing all over my skull. ) 
-Me: Ugh
-(The only thing that has remained to me is this dreadful headache and a really bad breath. )
-(Plus, who knows what reputation I must have gained thanks to Rei’s attempt to help me. )
-(Gosh, maybe it’s not so bad. I don’t remember anything. I really should stop thinking about it before the memories hit me all at once. )
+(The walk home is tiring but much needed to clear my mind. Luckily - or maybe not, I still don’t know - Rei’s place isn’t far from mine.)
+(I feel like crap, but the chilly air is pleasant and refreshing.)
+(I really should have stopped after the first couple of drinks, last night. That was silly and useless. It’s like my brain is bouncing all over my skull.) 
+Ugh
+(The only thing that has remained to me is this dreadful headache and a really bad breath.)
+(I don't know what's gotten into me. Maybe I was so stressed about making a good impressione that I wasn't thinking straight but...)
+(What kind of impression have I made now?)
+(Gosh, maybe it’s not so bad. I don’t remember anything. I really should stop thinking about it before the memories hit me all at once.)
 (Some things are better left alone.)
-The walk through the alleyway to the building front door takes me mentally five hours. 
-(I swear to myself this will be the last time I get so drunk. While attempting for the third time to insert my key in the door lock. )
-Suddenly, someone opens the door from inside, revealing a guy who is bringing some gardening tools with him. 
-I look up, recognizing his face. 
+(The walk through the alleyway to the building front door takes me mentally five hours.)
+(I swear to myself this will be the last time I get so drunk. While attempting for the third time to insert my key in the door lock.)
+(Suddenly, someone opens the door from inside, revealing a guy who is bringing some gardening tools with him.) 
+(I look up, scanning his tall frame before recognizing his face.) 
 @char Patrick
 
 # DESCRIPTION_RICK
 He does gardening work around the neighborhood and works part-time at the local florist. 
 Never quite understood why though: whenever I see him with a plant, he’s usually dumping one that he’s killed in the bin. 
-He is a particular guy, always with a new book in his hands and some philosophical thoughts to share.  
+He is a particular guy, always with a new book in his hands and some philosophical thoughts to share.
+Our exchanges haven't really left the building main hall, but we've been chatting for some time now. I've discovered his taste in pastries and bring him something left over from the café from time to time.
 
  
 Rick: Tough night? 
 (He asks, passing me by.) 
-Me: Is it that obvious? 
+Is it that obvious? 
 Rick: Mh, should I be honest or what? 
-Me: I’ll go with “what”. 
-He laughs, looking at me as if I am some sort of funny experiment.
+I’ll go with “what”. 
+(He laughs, looking at me as if I am some sort of funny experiment.)
 Rick: You know, Epictetus once said, “Freedom is not procured by a full enjoyment of what is desired, but by controlling the desire”. 
-Me: Wow. Maybe it’s the hangover, but that sounded less strange than usual. 
+Wow. Maybe it’s the hangover, but that sounded less strange than usual. 
 Rick: You should remember it for the next time you go out to drink. 
 (He sure is confident if he thinks I even remember it now.) 
-Me: I think I’ll just stop going out to drink, instead. 
+I think I’ll just stop going out to drink, instead. 
 Rick: Hey, that’s one way to read into it. I guess philosophy is also about one’s perception after all… 
  
 
-@choice "I can’t cope with this deepness right now" goto:.I_cant_cope
-/-3 affinity with R (He won’t tell you anything next time) 
-@choice "I give him one last uncertain look before saying bye to him and heading to my apartment. " goto:.I_give_him
+@choice "(I can’t cope with this deepness right now)" goto:.I_cant_cope
+; parlerà un po' meno.
+@choice "Uh, thanks... " goto:.I_give_him
 @stop
 
 # I_cant_cope
-(Yeah, I guess I still can’t get him too well. And all this talking made my head hurt even more. )
+(Yeah, I guess I still can’t get him too well. And all this talking made my head hurt even more.)
+(I just shrug at him, and he seem to understand that I'm not in the mood for this.)
+(I let him pass and start making my way through the front door.)
 @goto common4
 @stop
 
 # I_give_him
- Come on, that was nice, in a way 
- //4 affinity with RM (He will share more quotes) 
- Yeah, I can consider myself satisfied with what I got. Moreover, I kind of appreciate his, unique, suggestion; at least he showed some interest.  
+; farà più citazioni.
+(I try to smile at him but I must look really uncertain.)
+ (That was nice in a way: at least he showed some interest.)
 (Maybe I will bring him one more muffin than usual next time. )
-Me: «Thanks for the tip. Anyway, have fun with those» 
-(I say, giving one last concerned look to the assembly of tools he’s trying to balance in just two hands before heading back to my apartment. )
-Rick:  He… I’ll try…
+Anyway, have fun with those...
+(I say, giving one last concerned look to the assembly of tools he’s trying to balance in just two hands before heading back to my apartment.)
+Rick:  Eh… I’ll try…
 @goto common4
 @stop
 
@@ -651,7 +635,7 @@ Rick:  He… I’ll try…
 Rick: Actually, wait! 
 (This must be a joke. I’m one foot away from getting into the apartment complex, just a few floors from crashing on my bed.) 
 (And Rick is making sure to ruin this sweet plan.) 
-Me: Yeah? 
+Yeah? 
 Rick: Uhm… you wouldn’t help me with a work thing, would you? 
 (This definitely is a joke. It just can’t be real.) 
 (Then again… Rick does seem pretty troubled, biting his lower lip and shifting his gaze to avoid mine.) 
@@ -660,10 +644,10 @@ Rick: Uhm… you wouldn’t help me with a work thing, would you?
 
 *choice* 
 
- @choice "…I’m sure he’ll be fine, right?"  goto:.Im_sure_itll_be
- /(shitty bushes) 
- @choice "…I should definitely help "  goto:.I_should_help
- /he will mention this later
+ @choice "(…I’m sure he’ll be fine, right?)"  goto:.Im_sure_itll_be
+; meno affinità e cespugli brutti
+ @choice "(…I should definitely help)"  goto:.I_should_help
+; riparlerà di questa cosa dopo
  @stop
 
 
@@ -671,7 +655,7 @@ Rick: Uhm… you wouldn’t help me with a work thing, would you?
 (Yeah, he did pretty decently by himself until now. Well, most of the times.) 
 (I’m sure he will be able to handle himself.) 
 (Right now, I’m just too tired and full with my own problems to be worrying about other’s ones.) 
-Me: Sorry, I’m kind of a mess right now. I don’t know how much of a help I’d be anyway. 
+Sorry, I’m kind of a mess right now. I don’t know how much of a help I’d be anyway. 
 Rick: Oh, sure. Don’t worry… You should rest. I should have guessed you were tired, sorry. 
 (Rick turns his gaze down on his feet, looking miserable.) 
 (It's not that I don't feel bad for him, but I just don't have the strength to care for the neighborhood bushes right now.) 
@@ -683,7 +667,7 @@ goto: .common5
 (Rick is the worst gardener you’ll ever find. But still, he is a gardener and working at a flower shop.) 
 (There has to be a reason for that, something so important to keep him with a job he is terrible at, right?) 
 (And if he needs help, am I ready to deny him some?) 
-Me: …Fine… 
+ …Fine… 
 (Eventually, I gave in with a sigh) 
 Rick: Really? Great! Thank you, really. It isn’t much, I just need help trimming the bushes… the neighbors are complaining with how I’ve done it until now… 
 (I try not to chuckle, but seeing him so worried about his bushes is just… cute.) 
@@ -692,36 +676,36 @@ Rick: At least that’s what my boss said. Maybe you will have more common sense
 (I follow Rick towards the famous bushes, helping him carry some of his tools.) 
 (Watching him work, it becomes inevitably clear that he absolutely has no idea how to do the job. Or use his hands.) 
 (I stop him from cutting too deep into the bushes for the ninth time, when he finally seems to get the hang of it.) 
-Me: Now, take that branch off... yeah, like that, just cut closer to the surface. 
-Me: That looks good. 
+Now, take that branch off... yeah, like that, just cut closer to the surface. 
+That looks good. 
 Rick: I wish I could cut them in different shapes... like an elephant or I don’t know... flamingos? 
-Me: Haha, you can stick to cutting the excess for now, but maybe sometimes... in the far, far future. 
+Haha, you can stick to cutting the excess for now, but maybe sometimes... in the far, far future. 
 Rick: Hey, you should have more faith in me... Eventually I understood how to do this, right? 
 (Rick grins playfully, throwing some of the leaves fallen from the bushes in my direction.) 
 Rick: Anyway, thank you, really. You can go rest now, sorry for keeping you, I think I got it. 
 Rick: And I owe you big time. 
-Me: Oh, you bet! Don't worry about it, I did it for those poor abused bushes. 
-Me: Good luck, don't mess up all my hard work, all right? 
+Oh, you bet! Don't worry about it, I did it for those poor abused bushes. 
+Good luck, don't mess up all my hard work, all right? 
 Rick: I'll try, thank you again. 
 @goto .common5
 
   
 
 # common5
-/Cut to * Front door *  
+;cambio scena corridoio 
 (My body is telling me that it is definitely time to return home, take an aspirin and pass out in my bed. And I could not agree more with the whole idea of myself buried under a hundred pillows.) 
-/Cut to*apartment* 
+;cambio scena appartamento
 (I wake up at the sound of something hitting the ground. I feel less dizzy than this morning, but still a little spaced out.) 
 (I rub my eyes, while trying to reach for my phone, that I realize is the thing that fell on the floor a moment ago.) 
-(I can’t really tell if the screen has cracked more or what.) 
 (It’s still noon, and the whole situations seems perfect to me to drink a cup of coffee.) 
 (Sure, if only I had some.) 
 (That reminds me of my awkward encounter with my neighbor, Morgan, yesterday morning.) 
 (I should probably go buy some coffee powder, to avoid similar episodes in the future.) 
-(Not that I am planning on ever knock at his door again, anyway.) 
+(Not that I am planning on ever knocking at his door again, anyway.) 
 (I try to replace the caffeine with a cold shower, in the attempt of waking me up a bit.) 
 (I dress up quickly and head to a nearby store.) 
-/Cut to *street* 
+
+;cambio scena strada 
 (The streets are empty; I walk slowly enjoying the silence and the nice weather.) 
 (I really needed some peace and fresh air.) 
 (I can almost hear my head saying “Thank you”.) 
@@ -737,9 +721,8 @@ Go away!
 (As I get closer, I finally recognize the guy.) 
 
 # DESCRIPTION_NOAH
-NOAH: He lives in my block, with his parents. We don’t hang together that much, but I would consider us friends. 
-Not too sure about what he thinks about it. He surely is shy, but he hasn’t really rejected any of my attempts to socialize until now. He hasn’t showed any interest either, though. 
-Anyway, I think he just needs time to loosen up, so I won’t give up on trying. 
+He lives in my block, with his parents. We don’t hang together that much, but I would consider us friends. 
+Not too sure about what he thinks about it. He surely is shy, but he hasn’t really rejected any of my attempts to socialize until now. It's nice to have someone around my age to talk in the building, since I haven't been the luckiest with neighbors...
 
 (I stop a few steps away from him, finally understanding the cause of his panic.) 
 (A giant crow seems to be really interested in Noah’s lunch.) 
@@ -751,46 +734,47 @@ Anyway, I think he just needs time to loosen up, so I won’t give up on trying.
 (It would be so fun to just stay here and wait for him to actually ask me loudly for help…) 
 (But I’m not that evil.) 
 (And maybe I could start acting like the adult I should be.) 
-Me: Just throw him the sandwich, or you’ll never get rid of him. 
+Just throw him the sandwich, or you’ll never get rid of him. 
 (Noah moves his gaze from his sandwich to me, then again at the sandwich.) 
 (With a little sigh, he follows my advice and watches the bird enjoying his lunch.) 
 (Given the look in his eyes, I almost expect him to cry a little - but he doesn’t, of course.) 
 (He just stares at me instead, walking in my direction.) 
 Noah: Well, it’s gone… 
-Me: Better it than your eyes, I would say. 
+Better it than your eyes, I would say. 
 (Noah looks at me with a shocked expression that makes me grin.) 
-Noah: You think that it would have really torn my eyes out?» 
-Me: Hehe, who knows! 
-Me: What was that crow doing around here in the first place, though? 
+Noah: You think that it would have really torn my eyes out?
+Hehe, who knows! 
+What was that crow doing around here in the first place, though? 
 Noah: Dunno. It just popped out of nowhere and started harassing me for that sandwich. 
 Noah: I mean, I bought it from a convenience store. It wasn’t even the good brand. 
-Me: I don’t think crows are interested in fancy cuisine anyway. 
+I don’t think crows are interested in fancy cuisine anyway. 
 Noah: I’m pretty sure there was duck in it. 
-Me: Well, seagulls are evil. 
+ Well, crows are evil. 
 Noah: They are... 
 (Noah looks deep in thought for a moment, far too concerned with this crow situation than I think is necessary.) 
 (That lost sandwich really must have scarred him for life...) 
 (I shift my weight on my feet for a moment, waiting for him to give me some kind of input but I think that’s too ambitious of me to hope.) 
-Me: Uhm, hey, if it can make you feel better, I got some really, really unhealthy food that we probably shouldn’t be eating from the store. Care to join me? 
+Uhm, hey, if it can make you feel better, I got some snaks from the store. Care to join me? 
 (Noah seems a bit uncertain at first but then, after one last look at his gone lunch, he simply nods and follows me to my apartment.) 
 
-/APARTMENT 
+;cambio scena appartamento
 
-Me: You’ve been here before, right? 
+You’ve been here before, right? 
 Noah: Yep. 
 Noah: Uh… Once. 
 (He adds, probably noticing the stare I was giving him, expecting something more than just a syllable from him.) 
-Me: I think I offered you some melted ice-cream that day. 
+I think I offered you some melted ice-cream that day. 
 Noah: Oh, right. 
 (At least he’s laughing. Kind of.) 
 (I can’t really remember him not being shy around me.) 
 (But, I mean, if he didn’t like me he could’ve just asked me to leave him alone by now. Right?) 
 Noah: It was when you had just moved here. 
 (I almost spill chips everywhere, startled by his sudden change of attitude. A whole sentence!) 
-Me: Was it? 
-Noah: Yeah, I remember my mum sending me here to greet you. 
-Me: Really? 
-Me: I must have traumatized you, giving out left-overs from my old freezer like that. 
+Was it? 
+Noah: Yeah, I remember my mum sending me here to greet you.
+(He chuckles, shaking his head) 
+Really? 
+I must have traumatized you, giving out left-overs from my broken freezer like that. 
 Noah: Nah, it was fun. 
 Noah: Actually… 
 Noah: Oh… 
@@ -798,41 +782,37 @@ Noah: Oh…
 Noah: Is that… BunxBun? 
 (I follow his lost gaze to the object that caused him to black out so suddenly.) 
 (My eyes drop on the bookshelf behind me, then on a glittery, golden DVD case.) 
-Me: Uh, yes… 
-Noah: That spin-off … is really rare. 
+Uh, yes… 
+Noah: That spin-off… is really rare. 
 Me: Oh, I think I got it from a friend... 
 
  
-
-
-
 @choice "Do you… want to watch it?" goto:.do_you_want_to_watch_it
-/+ 6 with Noah and he will be less awkward from now on  
+;+ 6 with Noah and he will be less awkward from now on  
 @choice "I can… lend it to you if you want" goto:.I_can_lend_it
-/+2 with Noah because you’re kind, he will be still a bit awkward (until the second time you help him?) 
-/Noah now has your DVD (appears on screen?) 
+;+2 with Noah because you’re kind, he will be still a bit awkward (until the second time you help him?) 
+;Noah now has your DVD (appears on screen?) 
 @stop
 
 # do_you_want_to_watch_it 
-Noah: Yes, thank you
-/*adoring Noah* 
-The movie was great, but watching it with Noah just made it even better.  
-It’s unbelievable how, after months of attempt, it only took a DVD to transform the shy guy who never talked if not asked to, 
-to what I now realized is the real Noah: spread messily on my couch, making fun remarks on every character that appears on screen and choking on fizzy drinks. 
-When Noah leaves, we’re still giggling like little kids, reenacting scenes and dialogue from our favorite characters. 
-I wave at him from my front door, as I watch him heading towards his house.  
-Noah: Next time I come, I’ll bring you some really good  sci-fi movies I have» 
-He says, even more excited than I am for having found a common, geeky, interest. 
-The promise makes me almost feel like flying. I actually did it: I managed to befriend him. I mean, “Next time I come” sounds pretty friendly to me. 
-Before turning to my apartment, my glance falls over the door next to me.  
-The good feeling from spending such a great time totally disappears, as I remember my encounter of yesterday with Morgan.
+Noah: Yes, thank you!
+;dissolvenza passaggio di tempo
+(The movie was great, but watching it with Noah just made it even better.)
+(It’s unbelievable how, after months of attempt, it only took a DVD to transform the shy guy who never talked if not asked to, to what I now realized is the real Noah: spread messily on my couch, making fun remarks on every character that appears on screen and choking on fizzy drinks.) 
+(When Noah leaves, we’re still giggling like little kids, reenacting scenes and dialogue from our favorite characters.) 
+(I wave at him from my front door, as I watch him heading towards his house.)  
+Noah: Next time I come, I’ll bring you some really good  sci-fi movies I have.
+(He says, even more excited than I am for having found a common, geeky, interest.) 
+(The promise makes me almost feel like flying. I actually did it: I managed to befriend him. I mean, “Next time I come” sounds pretty friendly to me.) 
+(Before turning to my apartment, my glance falls over the door next to me.)  
+(The good feeling from spending such a great time totally disappears, as I remember my encounter of yesterday with Morgan.)
 @goto .common6
 @stop
 
 # I_can_lend_it
 
 Noah: Oh, no… It’s not necessary. 
-Me: I don’t mind, really, you can take it. 
+I don’t mind, really, you can take it. 
 (For a moment, I’m afraid I’m being too pushy, but the prospect of finding a common interest with Noah is just too exciting to make it go to waste.) 
 (After a few more reassurances, he gives up and takes the dvd.) 
 Noah: Well, thanks then. Really. 
@@ -840,7 +820,7 @@ Noah: I’ll go watching it right now and give it back to you at soon as possibl
 (Noah quickly put the last handful of chips of the packet in his mouth, making crumbs fall all over his hoodie.) 
 Noah: Thanks again, this will be awesome! 
 (He says, before rushing out of the apartment. I can’t help but giggle at the excitement in his voice.) 
-Me: No problem, I’m expecting a review! 
+No problem, I’m expecting a review! 
 (I wave at him from my front door, as I watch him heading towards his house.) 
 (Before turning to my apartment, my glance falls over the door next to me.) 
 (The good feeling from making progress with my shy neighbor totally disappears, as I remember how I messed everything with my other neighbor, Morgan, just yesterday.) 
@@ -850,14 +830,14 @@ Me: No problem, I’m expecting a review!
  
 
 # common6
-I’d really like to hit myself with something heavy right now, as I think how stupid I’ve been.
-We could have been going on without talking to each other, but still keeping a safe relationship built up on indifference.  
-But no, I HAD to ruin it all. And, actually, it doesn’t surprise me at all. 
-I mean, I could always try and make things up with him… 
+(I’d really like to hit myself with something heavy right now, as I think how stupid I’ve been.)
+(We could have been going on without talking to each other, but still keeping a safe relationship built up on indifference.)  
+(But no, I HAD to ruin it all...) 
+(I mean, I could always try and make things up with him…)
 
  @choice "Apologize" goto:.Apologize
  @choice "Don't Apologize" goto:.common7
- /+0 affintà con suga
+ ;+0 affintà con suga
  @stop
 
 
@@ -869,13 +849,13 @@ I mean, I could always try and make things up with him…
 (I stare at his door for what seems like an hour, unable to move an inch.) 
 
 @choice "Knock" goto:.knock
-+5 affinità con Morgan 
+;+5 affinità con Morgan 
 @choice "Just DON’T" goto:.dont_knock
-/+0 affinità con suga 
+;+0 affinità con suga, forse nessuna possibilità di fare la sua route
 @stop
 
 # knock
-*KNOCK KNOCK* 
+;KNOCK KNOCK
 (There’s music coming from inside, but I hear some footstep heading towards the door almost immediately.) 
 (Morgan opens the door, showing that he hasn’t changed clothes since yesterday and he probably also hasn’t had a shower since… a lot.) 
 Morgan: You again? 
@@ -893,7 +873,7 @@ Morgan: No problem. I’ve been a bit too rude anyway… so let’s say we’re 
 (…Was it an apology?) 
 (It actually looks like he’s trying to be nice.) 
 (I wasn’t expecting that, but I’m satisfied with how it turned out.) 
-Me: ure! Of course… All forgotten… Eh… and if I can do anything... just... ask... 
+Me: Sure! Of course… All forgotten… Eh… and if I can do anything... just... ask... 
 (I laugh, feeling uneasy.) 
 Me: So… Cool… See you… around…?  
 (Okay, things will get strange if I don’t shut up instantly.) 
@@ -905,9 +885,9 @@ Morgan: This will sound strange but... do you think the song sounds nice?
 (I try to listen more carefully at the melody, but it’s not like I know a lot about music.) 
 
 @choice "Yeah, it’s really nice!" goto:.really_nice
-/-3 affinità con suga 
+;-3 affinità con suga 
 @choice "Maybe it could be better?" goto:.could_be_better
-/+8 affinità suga 
+;+8 affinità suga 
 
 # really_nice
 
@@ -917,23 +897,23 @@ Me: I don’t think I could do something like that.
 Morgan: Mh... I guess that's a way to put it... 
 (I don’t’ really catch what he’s saying, but it looks like he’s talking to himself more than to me.) 
 Morgan: Well, thanks for the help. I'll see you around. 
-Me: No problem! And sure... Goodnight! 
-(Morgan closes his door murmuring a goodnight under his breath as I start heading to my apartment.) 
+Me: No problem! And sure... 
+(Morgan closes his door murmuring a goodbye under his breath as I start heading to my apartment.) 
 @goto .common7
 @stop
 
 # could_be_better
  
-Me: Mh, I don’t know. Maybe there’s something off. 
+Mh, I don’t know. Maybe there’s something off. 
 Morgan: Like what? 
 (He isn’t angry. At least he doesn’t seem to be. If anything, he looks resigned.) 
 (I think about what to say, choosing the right words.) 
-Me: Well, I’m not an artist, I don’t know anything about how a song works… But it just doesn’t make me want to listen to it more. 
+Well, I’m not an artist, I don’t know anything about how a song works… But it just doesn’t make me want to listen to it more. 
 (...maybe that was mean.) 
-Me: N-no offense! It’s not bad. What I’m trying to say is… it doesn't sound interesting? 
-Me: No, that wasn't the right word... I just... 
+N-no offense! It’s not bad. What I’m trying to say is… it doesn't sound interesting? 
+No, that wasn't the right word... I just... 
 (His gaze makes me nervous. I’ve never seen him this focused during a conversation.) 
-Me: I mean, it’s not like I can analyze it from just this one, superficial listening… but I think as an artist you’d like to make something outstanding, different. Not just… good? 
+I mean, it’s not like I can analyze it from just this one, superficial listening… but I think as an artist you’d like to make something outstanding, different. Not just… good? 
 (At this point I don’t’ even know myself what I’m trying to say. I just hope he doesn’t punch me in the face.) 
 Morgan: I’m a bit surprised. 
 (I think I saw something really similar to a little smile, on his face.) 
@@ -941,25 +921,25 @@ Morgan: But it does make sense...
 (For a couple of seconds, he looks lost in some deep thinking, but then he turns to me again.) 
 Morgan: Thank you. I appreciate that. 
 (Now that is for sure a smile. It’s almost strange to see, and it’s not a totally happy one. But it still makes me think I managed to fix things up between us.) 
-Me: Oh…! N-no problem. 
+Oh…! N-no problem. 
 Morgan: And don't obsess over yesterday morning, just try not to come knock at my door before noon, okay? 
-Me: He, okay. I'll keep that in mind... I think I should go now… And good luck with your song! 
-(Morgan closes his door murmuring a goodnight under his breath as I start heading to my apartment.) 
+He, okay. I'll keep that in mind... I think I should go now… And good luck with your song! 
+(Morgan closes his door murmuring a goodbye under his breath as I start heading to my apartment.) 
 @goto .common7
 @stop
 
  
 # dont_knock
-Maybe I should just stop trying to be friend with everyone.  
-There are some people who simply will never like us, and aren’t worth even trying. 
-Plus, I think I’ve bothered my neighbor enough for the next twenty years. 
-He dislikes me already, no need to make him grow an homicide instinct towards me. 
+(Maybe I should just stop trying to be friend with everyone.)  
+(There are some people who simply will never like us, and aren’t worth even trying.) 
+(Plus, I think I’ve bothered my neighbor enough for the next twenty years.) 
+(He dislikes me already, no need to make him grow an homicide instinct towards me.)
 @goto .common7
 
 # .common7
-/*room* 
-The room is silent, as always, but it’s actually more pleasant than lonely right now. 
-The past few days were a shot of adrenaline to my usually flat life, calm is much more than welcome and appreciated right now. 
-I drag myself to the shower, the hot water leaves me warm and fuzzy. 
-I slip into bed, putting an end to this insane day. 
+;cambio scena camera.
+(The room is silent, as always, but it’s actually more pleasant than lonely right now.) 
+(The past few days were a shot of adrenaline to my usually flat life, calm is much more than welcome and appreciated right now.) 
+(I drag myself to the shower, the hot water leaves me warm and fuzzy.) 
+(I slip into bed, putting an end to this insane day.) 
 @stop
