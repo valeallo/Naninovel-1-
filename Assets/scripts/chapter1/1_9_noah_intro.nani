@@ -2,169 +2,170 @@
 ; Cut to * Front door *
 @back front_door
 @style i
-My body is telling me that it is definitely time to return home, take an aspirin and pass out in my bed. And I could not agree more with the whole idea of myself buried under a hundred pillows.
+(My body is telling me that it is definitely time to return home, take an aspirin and pass out in my bed. And I could not agree more with the whole idea of myself buried under a hundred pillows.) 
 @back room
 ; Cut to*apartment*
 @style i
-I wake up at the sound of something hitting the ground. I feel less dizzy than this morning, but still a little spaced out.
-I rub my eyes, while trying to reach for my phone, that I realize is the thing that fell on the floor a moment ago.
-I can't really tell if the screen has cracked more or what.
-It's still noon, and the whole situations seems perfect to me to drink a cup of coffee. 
-Sure, if only I had some.
-That reminds me of my awkward encounter with my neighbor, Morgan, yesterday morning.
-I should probably go buy some coffee powder, to avoid similar episodes in the future.
-Not that I am planning on ever knock at his door again, anyway.
-I try to replace the caffeine with a cold shower, in the attempt of waking me up a bit.
-I dress up quickly and head to a nearby store.
+(I wake up at the sound of something hitting the ground. I feel less dizzy than this morning, but still a little spaced out.) 
+(I rub my eyes, while trying to reach for my phone, that I realize is the thing that fell on the floor a moment ago.) 
+(It’s still noon, and the whole situations seems perfect to me to drink a cup of coffee.) 
+(Sure, if only I had some.) 
+(That reminds me of my awkward encounter with my neighbor, Morgan, yesterday morning.) 
+(I should probably go buy some coffee powder, to avoid similar episodes in the future.) 
+(Not that I am planning on ever knocking at his door again, anyway.) 
+(I try to replace the caffeine with a cold shower, in the attempt of waking me up a bit.) 
+(I dress up quickly and head to a nearby store.) 
 @back park
 ; Cut to *street*
-The streets are empty; I walk slowly enjoying the silence and the nice weather.
-I really needed some peace and fresh air.
-I can almost hear my head saying 'Thank you'.
-I take a deep breath, close my eyes.
-It feels so good, no one around to spoil this peaceful mom-
+(The streets are empty; I walk slowly enjoying the silence and the nice weather.) 
+(I really needed some peace and fresh air.) 
+(I can almost hear my head saying “Thank you”.) 
+(I take a deep breath, close my eyes.) 
+(It feels so good, no one around to spoil this peaceful mom...) 
 @style default
 ???: Go away! 
 @style i
-My eyes suddenly open wide, as I let out a resigned sigh.
-Yeah, what was I saying again?
-Maybe it was a little pretentious of me to think that I could have been so lucky.
-I look around for the source of all that noise, until I manage to see an indistinct figure at the end of the street, moving his arms around.
-As I get closer, I finally recognize the guy.
+(My eyes suddenly open wide, as I let out a resigned sigh.) 
+(Yeah, what was I saying again?) 
+(Maybe it was a little pretentious of me to think that I could have been so lucky.) 
+(I look around for the source of all that noise, until I manage to see an indistinct figure at the end of the street, moving his arms around.) 
+(As I get closer, I finally recognize the guy.) 
 
 # DESCRIPTION_NOAH
 @char Noah
-@toast "NOAH: He lives in my block, with his parents. We don't hang together that much, but I would consider us friends. Not too sure about what he thinks about it. He surely is shy, but he hasn't really rejected any of my attempts to socialize until now. He hasn't showed any interest either, though. Anyway, I think he just needs time to loosen up, so I won�t give up on trying. "
+@toast "He lives in my block, with his parents. We don’t hang together that much, but I would consider us friends. Not too sure about what he thinks about it. He surely is shy, but he hasn’t really rejected any of my attempts to socialize until now. It's nice to have someone around my age to talk in the building, since I haven't been the luckiest with neighbors..."
+
 @style i
-I stop a few steps away from him, finally understanding the cause of his panic.
-A giant crow seems to be really interested in Noah's lunch.
-The bird is flying all around the poor guy who tries to protect his sandwich, in vain.
-Noah actually looks very scared: as soon as his eyes meet mine his face seems to recover a bit of color, and he looks at me as if I'm some sort of superhero. 
-He doesn't ask me for help, though. Not that it surprises me.
-In the few months I've known him, I came to the conclusion that he's pride is as large as the Pacific Ocean. 
-He just continues to glance in my direction, probably hoping that I give him a hand.
-It would be so fun to just stay here and wait for him to actually ask me loudly for help
-But I'm not that evil.
-And maybe I could start acting like the adult I should be.
+(I stop a few steps away from him, finally understanding the cause of his panic.) 
+(A giant crow seems to be really interested in Noah’s lunch.) 
+(The bird is flying all around the poor guy who tries to protect his sandwich, in vain.) 
+(Noah actually looks very scared: as soon as his eyes meet mine his face seems to recover a bit of color, and he looks at me as if I’m some sort of superhero.) 
+(He doesn’t ask me for help, though. Not that it surprises me.) 
+(In the few months I’ve known him, I came to the conclusion that he’s pride is as large as the Pacific Ocean.) 
+(He just continues to glance in my direction, probably hoping that I give him a hand.) 
+(It would be so fun to just stay here and wait for him to actually ask me loudly for help…) 
+(But I’m not that evil.) 
+(And maybe I could start acting like the adult I should be.) 
 @style default
-Me: Just throw him the sandwich, or you'll never get rid of him. 
+Just throw him the sandwich, or you'll never get rid of him. 
 @style i
-Noah moves his gaze from his sandwich to me, then again at the sandwich.
-With a little sigh, he follows my advice and watches the bird enjoying his lunch.
-Given the look in his eyes, I almost expect him to cry a little - but he doesn't, of course.
-He just stares at me instead, walking in my direction.
+(Noah moves his gaze from his sandwich to me, then again at the sandwich.) 
+(With a little sigh, he follows my advice and watches the bird enjoying his lunch.) 
+(Given the look in his eyes, I almost expect him to cry a little - but he doesn’t, of course.) 
+(He just stares at me instead, walking in my direction.) 
 @style default
-Noah: Well, it's gone!
-Me: Better it than your eyes, I would say. 
+Noah: Well, no sandwich for me...
+Better it than your eyes, I would say. 
 @style i
-Noah looks at me with a shocked expression that makes me grin.
+(Noah looks at me with a shocked expression that makes me grin.)
 @style default
 Noah: You think that it would have really torn my eyes out?
-Me: Hehe, who knows! 
-Me: What was that crow doing around here in the first place, though? 
+Hehe, who knows! 
+What was that crow doing around here in the first place, though? 
 Noah: Dunno. It just popped out of nowhere and started harassing me for that sandwich. 
 Noah: I mean, I bought it from a convenience store. It wasn't even the good brand. 
 Me: I don't think crows are interested in fancy cuisine anyway. 
 Noah: I'm pretty sure there was duck in it. 
-Me: Well, seagulls are evil. 
+Me: Well, crows are evil. 
 Noah: They are... 
 @style i
-Noah looks deep in thought for a moment, far too concerned with this crow situation than I think is necessary.
-That lost sandwich really must have scarred him for life...
-I shift my weight on my feet for a moment, waiting for him to give me some kind of input but I think that's too ambitious of me to hope.
+(Noah looks deep in thought for a moment, far too concerned with this crow situation than I think is necessary.) 
+(That lost sandwich really must have scarred him for life...) 
+(I shift my weight on my feet for a moment, waiting for him to give me some kind of input but I think that’s too ambitious of me to hope.)
 @style default
-Me: Uhm, hey, if it can make you feel better, I got some really, really unhealthy food that we probably shouldn't be eating from the store. Care to join me? 
+Uhm, hey, if it can make you feel better, I got some snaks from the store. Care to join me?  
 @style i
-Noah seems a bit uncertain at first but then, after one last look at his gone lunch, he simply nods and follows me to my apartment.
+(Noah seems a bit uncertain at first but then, after one last look at his gone lunch, he simply nods and follows me to my apartment.) 
+
 @back livingroom
-; APARTMENT
 @style default
-Me: You've been here before, right? 
+You've been here before, right? 
 Noah: Yep. 
 Noah: Uh Once. 
 @style i
-He adds, probably noticing the stare I was giving him, expecting something more than just a syllable from him.
+(He adds, probably noticing the stare I was giving him, expecting something more than just a syllable from him.) 
 @style default
-Me: I think I offered you some melted ice-cream that day. 
+I think I offered you some melted ice-cream that day. 
 Noah: Oh, right. 
 @style i
-At least he's laughing. Kind of.
-I can't really remember him not being shy around me. 
-But, I mean, if he didn't like me he could've just asked me to leave him alone by now. Right?
+(At least he’s laughing. Kind of.) 
+(I can’t really remember him not being shy around me.) 
+(But, I mean, if he didn’t like me he could’ve just asked me to leave him alone by now. Right?) 
 @style default
 Noah: It was when you had just moved here. 
 @style i
-I almost spill chips everywhere, startled by his sudden change of attitude. A whole sentence!
+(I almost spill chips everywhere, startled by his sudden change of attitude. A whole sentence!) 
 @style default
 Me: Was it? 
-Noah: Yeah, I remember my mum sending me here to greet you. 
-Me: Really? 
-Me: I must have traumatized you, giving out left-overs from my old freezer like that. 
+Noah: Yeah, I remember my mum sending me here to greet you.
+@style i 
+(He chuckles, shaking his head)
+@style default 
+Really? 
+I must have traumatized you, giving out left-overs from my broken freezer like that. 
 Noah: Nah, it was fun. 
-Noah: Actually 
-Noah: Oh
+Noah: Actually… 
+Noah: Oh… 
 @style i
-Noah's face totally changes up, his mouth now wide open in the shape of an *o*. I can almost see a sparkle in his eyes.
+(Noah’s face totally changes up, his mouth now wide open in the shape of an “o”. I can almost see a sparkle in his eyes.) 
 @style default
 Noah: Is that BunxBun? 
 @style i
-I follow his lost gaze to the object that caused him to black out so suddenly.
-My eyes drop on the bookshelf behind me, then on a glittery, golden DVD case.
+(I follow his lost gaze to the object that caused him to black out so suddenly.) 
+(My eyes drop on the bookshelf behind me, then on a glittery, golden DVD case.) 
 @style default
-Me: Uh, yes 
-Noah: That spin-off is really rare. 
-Me: Oh, I think I got it from a friend...
+Uh, yes… 
+Noah: That spin-off… is really rare. 
+Oh, I think I got it from a friend... 
 
-@choice "Do you want to watch it?" goto:.do_you_want_to_watch_it
-; + 6 with Noah and he will be less awkward from now on
-@choice "I can lend it to you if you want" goto:.I_can_lend_it
-; +2 with Noah because you're kind, he will be still a bit awkward (until the second time you help him?)
-; (appears on screen?)
+@choice "Do you… want to watch it?" goto:.do_you_want_to_watch_it
+;+ 6 with Noah and he will be less awkward from now on  
+@choice "I can… lend it to you if you want" goto:.I_can_lend_it
+;+2 with Noah because you’re kind, he will be still a bit awkward (until the second time you help him?) 
 @stop
 
 # do_you_want_to_watch_it
-Noah: Yes, thank you
+Noah: Yes, absolutely!
 ; *adoring Noah*
 @style i
-The movie was great, but watching it with Noah just made it even better.  
-It's unbelievable how, after months of attempt, it only took a DVD to transform the shy guy who never talked if not asked to, 
-to what I now realized is the real Noah: spread messily on my couch, making fun remarks on every character that appears on screen and choking on fizzy drinks. 
-When Noah leaves, we're still giggling like little kids, reenacting scenes and dialogue from our favorite characters. 
-I wave at him from my front door, as I watch him heading towards his house.  
+(The movie was great, but watching it with Noah just made it even better.)
+(It’s unbelievable how, after months of attempt, it only took a DVD to transform the shy guy who never talked if not asked to, to what I now realized is the real Noah: spread messily on my couch, making fun remarks on every character that appears on screen and choking on fizzy drinks.) 
+(When Noah leaves, we’re still giggling like little kids, reenacting scenes and dialogue from our favorite characters.) 
+(I wave at him from my front door, as I watch him heading towards his house.)   
 @style default
-Noah: Next time I come, I'll bring you some really good  sci-fi movies I have 
+Noah: Next time I come, I’ll bring you some really good  sci-fi movies I have.
 @style i
-He says, even more excited than I am for having found a common, geeky, interest. 
-The promise makes me almost feel like flying. I actually did it: I managed to befriend him. I mean, 'Next time I come' sounds pretty friendly to me. 
-Before turning to my apartment, my glance falls over the door next to me.  
-The good feeling from spending such a great time totally disappears, as I remember my encounter of yesterday with Morgan.
+(He says, even more excited than I am for having found a common, geeky, interest.) 
+(The promise makes me almost feel like flying. I actually did it: I managed to befriend him. I mean, “Next time I come” sounds pretty friendly to me.) 
+(Before turning to my apartment, my glance falls over the door next to me.)  
+(The good feeling from spending such a great time totally disappears, as I remember my encounter of yesterday with Morgan.)
 @hideChars
 @goto 1_10_morgan_song
 @stop
 
 # I_can_lend_it
-@toast "Noah now has your DVD"
 @style default
 Noah: Oh, no It's not necessary. 
-Me: I don't mind, really, you can take it. 
+I don't mind, really, you can take it. 
 @style i
-For a moment, I'm afraid I'm being too pushy, but the prospect of finding a common interest with Noah is just too exciting to make it go to waste.
-After a few more reassurances, he gives up and takes the dvd.
+(For a moment, I’m afraid I’m being too pushy, but the prospect of finding a common interest with Noah is just too exciting to make it go to waste.) 
+(After a few more reassurances, he gives up and takes the dvd.) 
+@toast "Noah now has your DVD"
 @style default
 Noah: Well, thanks then. Really. 
 Noah: I'll go watching it right now and give it back to you at soon as possible. 
 @style i
-Noah quickly put the last handful of chips of the packet in his mouth, making crumbs fall all over his hoodie.
+(Noah quickly put the last handful of chips of the packet in his mouth, making crumbs fall all over his hoodie.) 
 @style default
 Noah: Thanks again, this will be awesome! 
 @style i
-He says, before rushing out of the apartment. I can't help but giggle at the excitement in his voice.
+(He says, before rushing out of the apartment. I can’t help but giggle at the excitement in his voice.) 
 @style default
-Me: No problem, I'm expecting a review! 
+No problem, I'm expecting a review! 
 @style i
-I wave at him from my front door, as I watch him heading towards his house.
-Before turning to my apartment, my glance falls over the door next to me.
-The good feeling from making progress with my shy neighbor totally disappears, as I remember how I messed everything with my other neighbor, Morgan, just yesterday.
+(I wave at him from my front door, as I watch him heading towards his house.) 
+(Before turning to my apartment, my glance falls over the door next to me.) 
+(The good feeling from making progress with my shy neighbor totally disappears, as I remember how I messed everything with my other neighbor, Morgan, just yesterday.)
 @hideChars
 @save
 @goto 1_10_morgan_song

@@ -127,7 +127,7 @@ Milo: So, can we get drinks?
 
 @char Luka
 Luka: You forgot “Hands up, this is a robbery!”. 
-Suddenly, Luka speaks up from his place. He has a grin on his face but it’s clearly a mocking one.
+(Suddenly, Luka speaks up from his place. He has a grin on his face but it’s clearly a mocking one.)
 Milo: Mind your own business, weirdo. 
 Milo: Do you guys work here or not? 
 (Felix finally jumps up at that, reaching Milo to promptly take his order.) 
@@ -165,7 +165,8 @@ Just a childhood friend that went completely insane for who knows what reasons�
 Felix: Well, I hope he’s not coming back anytime soon. It doesn’t look like the kind of people we want hanging around in the café. 
 Oh, if he comes back after today, I’ll make sure he’ll regret it. 
 Felix: Woah, easy there! We don’t need you getting fired because of him. Just ignore him. 
-(Felix chuckles to lighten up the mood, and I guess it kind of works. I am still mad though, so Milo better not show his face around here anytime soon.) 
+(Felix chuckles to lighten up the mood, and I guess it kind of works. I am still mad though, so Milo better not show his face around here anytime soon.)
+
 (The rest of the day goes way better, but it’s not hard compared to this awful morning.) 
 (Felix and I start getting ready to close. The café is basically empty now, only Luka is left on his chair, staring outside the window.) 
 (I approach him slowly. He seems quite lost in his thoughts and I don’t want to startle him.) 
@@ -202,7 +203,7 @@ Luka: Okay, okay! You can trust me guys.
 Yeah, I'm sure we can... 
 Felix: I'll go take care of the kitchen, good luck. 
 Luka: Thank you!~ 
-(Lukas is quick to answer, but I am pretty sure that was directed to me.) 
+(Luka is quick to answer, but I am pretty sure that was directed to me.) 
 Luka: So, what can I do? 
 Didn't I just tell you not to move? 
 Luka: But it will take a lot less if I help you! 
@@ -251,7 +252,7 @@ Luka: I'm sorry, I am always like this... I don't... I don't know...
 
 # maybe_its_better_if
 ; verso la LukaXFelix
-Me: I think you did enough for now. We... will see you later-. 
+I think you did enough for now. We... will see you later-. 
 Luka: S-sure... 
 (Luka starts leaving, when Felix suddenly stops him.) 
 Felix: It's okay {name}.. Let's just forget about this. I am sure everything will work out. 
@@ -351,10 +352,10 @@ Oh, crap.
 (I can already hear Luka making fun of me.) 
 (And I know he will be at the café because he always is and because I am just that lucky.) 
 ;se piatti=si
-At least I hope this time he won't try to help with anything. 
-;se se hai capito che ha un problema
-Still, it was strange for him to react that badly. Usually he would have joked about the accident. 
-But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.  
+(At least I hope this time he won't try to help with anything.) 
+(Still, it was strange for him to react that badly. Usually he would have joked about the accident.) 
+
+(But I can't really focus on that right now, when the only thing on my mind is coffee: hot and steamy coffee poured in my cup.) 
 (I drag myself to the kitchen and turn on the coffee machine.) 
 (Sure, it’s a dump and it can only make some dark, bitter water that really doesn’t deserve to be called coffee, but it is the best that I can afford right now.) 
 (Anyway, it seems like I won’t drink my daily poison today: when I open the cupboard, the world seems to stop, as I realize that I finished all my coffee powder yesterday and forgot to buy some more.) 
@@ -373,10 +374,10 @@ But I can't really focus on that right now, when the only thing on my mind is co
 
 ;cambio scena, porta di Morgan
 ;KNOCK KNOCK
-I can clearly hear someone moaning in annoyance from inside, but after a couple of minutes nobody answers the door. 
+(I can clearly hear someone moaning in annoyance from inside, but after a couple of minutes nobody answers the door.) 
 ;KNOCK KNOCK
-I feel like this might be the dumbest thing I’ve done so far, but I knock again. 
-Finally, I hear the sound of footsteps becoming louder, until my neighbor opens his front door, showing a face that doesn’t have a lot to envy from mine. 
+(I feel like this might be the dumbest thing I’ve done so far, but I knock again.) 
+(Finally, I hear the sound of footsteps becoming louder, until my neighbor opens his front door, showing a face that doesn’t have a lot to envy from mine.)
 # DESCRIPTION_MORGAN
 He lives next door. I cannot say much more about him, since I’ve rarely talked to him in the time I’ve lived here. If we can consider bringing the mail to him “talking”. He doesn’t go out much and he seems really coy about himself. The only thing that I managed to discover, by the loud music that I always hear coming from his apartment, is that he is a musician. I guess being mysterious is part his whole “artist stereotype”. 
 @char Morgan
@@ -508,7 +509,7 @@ Uh?
 (And I’m definitely freaked out.)
 (I don’t recognize anything around me, and that makes me even more confused than I am already.)
 (The memories from last night aren’t blurred out: they simply don’t show up.)
-Me: Stupid karaoke…
+Stupid karaoke…
 (I stand up and stretch out a bit, making crackling sounds with my entire body.) 
 (More noises come from an uncertain location, and then they become footsteps, heading in my direction.)
 (I look around, searching for something to protect me.)
@@ -517,7 +518,7 @@ Oh, you’re awake
 (I’m about to use the tv remote as a last-minute weapon, but the voice is familiar.)
 (Still confusing, though.)
 @char Rei 
-Rei is standing by the door, with his toothbrush in one hand.  
+(Rei is standing by the door, with his toothbrush in one hand.)  
 What am I doing here?
 Rei: Ah, well…
 (That’s not a good start, nor a good look on his face.)
@@ -620,7 +621,7 @@ Rick: Hey, that’s one way to read into it. I guess philosophy is also about on
 # I_give_him
 ; farà più citazioni.
 (I try to smile at him but I must look really uncertain.)
- (That was nice in a way: at least he showed some interest.)
+(That was nice in a way: at least he showed some interest.)
 (Maybe I will bring him one more muffin than usual next time. )
 Anyway, have fun with those...
 (I say, giving one last concerned look to the assembly of tools he’s trying to balance in just two hands before heading back to my apartment.)
@@ -641,8 +642,6 @@ Rick: Uhm… you wouldn’t help me with a work thing, would you?
 (Then again… Rick does seem pretty troubled, biting his lower lip and shifting his gaze to avoid mine.) 
 (It’s not like I don’t know what a mess he is with plants. I’ve seen him.) 
 (Plenty of times I’ve seen him cutting off perfectly fine branches instead of dead ones, trimming bushes to the bone, and touching spiny flower with bare hands…) 
-
-*choice* 
 
  @choice "(…I’m sure he’ll be fine, right?)"  goto:.Im_sure_itll_be
 ; meno affinità e cespugli brutti
@@ -749,7 +748,7 @@ Noah: Dunno. It just popped out of nowhere and started harassing me for that san
 Noah: I mean, I bought it from a convenience store. It wasn’t even the good brand. 
 I don’t think crows are interested in fancy cuisine anyway. 
 Noah: I’m pretty sure there was duck in it. 
- Well, crows are evil. 
+Well, crows are evil. 
 Noah: They are... 
 (Noah looks deep in thought for a moment, far too concerned with this crow situation than I think is necessary.) 
 (That lost sandwich really must have scarred him for life...) 
@@ -784,7 +783,7 @@ Noah: Is that… BunxBun?
 (My eyes drop on the bookshelf behind me, then on a glittery, golden DVD case.) 
 Uh, yes… 
 Noah: That spin-off… is really rare. 
-Me: Oh, I think I got it from a friend... 
+Oh, I think I got it from a friend... 
 
  
 @choice "Do you… want to watch it?" goto:.do_you_want_to_watch_it
@@ -795,7 +794,7 @@ Me: Oh, I think I got it from a friend...
 @stop
 
 # do_you_want_to_watch_it 
-Noah: Yes, thank you!
+Noah: Yes, absolutely!
 ;dissolvenza passaggio di tempo
 (The movie was great, but watching it with Noah just made it even better.)
 (It’s unbelievable how, after months of attempt, it only took a DVD to transform the shy guy who never talked if not asked to, to what I now realized is the real Noah: spread messily on my couch, making fun remarks on every character that appears on screen and choking on fizzy drinks.) 
@@ -866,7 +865,7 @@ O-oh! Yeah…
 Uhm, I’m sorry if I’m interrupting you… again. Actually, I wanted to apologize for bothering you yesterday. It was really stupid of me to come here so early in the morning… 
 (He doesn’t show any reaction. The music continues to go on in the background filling the awkward silence that slowly falls over the two of us.) 
 (Suddenly, he lets out a sigh, but it doesn’t sound like he’s annoyed or anything this time.  
-Actually, he may even look amused.) 
+(Actually, he may even look amused.) 
 Morgan: No problem. I’ve been a bit too rude anyway… so let’s say we’re even. 
 (I open my eyes wide, speechless.) 
 (Did he…) 

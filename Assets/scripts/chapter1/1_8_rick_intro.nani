@@ -1,63 +1,70 @@
 
 @back street
 @style i
-The walk home is tiring but much needed to clear my mind. Luckily (or maybe not, I still don't know) Rei's place isn't far from mine. I feel like crap, but the chilly air is pleasant and refreshing. 
-I really should have stopped after the first couple of drinks, last night. That was silly and useless. It's like my brain is bouncing all over my skull. 
-@style default
-Me: Ugh
+(The walk home is tiring but much needed to clear my mind. Luckily - or maybe not, I still don’t know - Rei’s place isn’t far from mine.)
+(I feel like crap, but the chilly air is pleasant and refreshing.)
+(I really should have stopped after the first couple of drinks, last night. That was silly and useless. It’s like my brain is bouncing all over my skull.)
+@style default 
+Ugh
 @style i
-The only thing that has remained to me is this dreadful headache and a really bad breath. 
-Plus, who knows what reputation I must have gained thanks to Rei's attempt to help me. 
-Gosh, maybe it's not so bad. I don't remember anything. I really should stop thinking about it before the memories hit me all at once. 
-Some things are better left alone.
-The walk through the alleyway to the building front door takes me mentally five hours. 
-I swear to myself this will be the last time I get so drunk. While attempting for the third time to insert my key in the door lock. 
-Suddenly, someone opens the door from inside, revealing a guy who is bringing some gardening tools with him. 
-I look up, recognizing his face. 
+(The only thing that has remained to me is this dreadful headache and a really bad breath.)
+(I don't know what's gotten into me. Maybe I was so stressed about making a good impressione that I wasn't thinking straight but...)
+(What kind of impression have I made now?)
+(Gosh, maybe it’s not so bad. I don’t remember anything. I really should stop thinking about it before the memories hit me all at once.)
+(Some things are better left alone.)
+(The walk through the alleyway to the building front door takes me mentally five hours.)
+(I swear to myself this will be the last time I get so drunk. While attempting for the third time to insert my key in the door lock.)
+(Suddenly, someone opens the door from inside, revealing a guy who is bringing some gardening tools with him.) 
+(I look up, scanning his tall frame before recognizing his face.)
 @char Patrick
 
 # DESCRIPTION_RICK
-@toast "He does gardening work around the neighborhood and works part-time at the local florist.Never quite understood why though: whenever I see him with a plant, he's usually dumping one that he's killed in the bin. He is a particular guy, always with a new book in his hands and some philosophical thoughts to share. "
+@toast "He does gardening work around the neighborhood and works part-time at the local florist. Never quite understood why though: whenever I see him with a plant, he’s usually dumping one that he’s killed in the bin. He is a particular guy, always with a new book in his hands and some philosophical thoughts to share.Our exchanges haven't really left the building main hall, but we've been chatting for some time now. I've discovered his taste in pastries and bring him something left over from the café from time to time."
+
 @style default
 Rick: Tough night? 
 @style i
-He asks, passing me by
+(He asks, passing me by.) 
 @style default
-Me: Is it that obvious? 
+Is it that obvious? 
 Rick: Mh, should I be honest or what? 
-Me: I'll go with 'what'. 
+I'll go with 'what'. 
 @style i
-He laughs, looking at me as if I am some sort of funny experiment.
+(He laughs, looking at me as if I am some sort of funny experiment.)
 @style default
 Rick: You know, Epictetus once said, 'Freedom is not procured by a full enjoyment of what is desired, but by controlling the desire'. 
-Me: Wow. Maybe it's the hangover, but that sounded less strange than usual. 
+Wow. Maybe it's the hangover, but that sounded less strange than usual. 
 Rick: You should remember it for the next time you go out to drink. 
 @style i
-He sure is confident if he thinks I even remember it now.
+(He sure is confident if he thinks I even remember it now.) 
 @style default
-Me: I think I'll just stop going out to drink, instead. 
+I think I'll just stop going out to drink, instead. 
 Rick: Hey, that's one way to read into it. I guess philosophy is also about one's perception after all!
 
-@choice "I can't cope with this deepness right now" goto:.I_cant_cope
-; -3 affinity with R (He won't tell you anything next time)
-@choice "I give him one last uncertain look before saying bye to him and heading to my apartment. " goto:.I_give_him
+@choice "(I can’t cope with this deepness right now)" goto:.I_cant_cope
+; meno citazioni.
+@choice "Uh, thanks... " goto:.I_give_him
+; farà più citazioni.
 @stop
 
 # I_cant_cope
 @style i
-Yeah, I guess I still can't get him too well. And all this talking made my head hurt even more. 
+(Yeah, I guess I still can’t get him too well. And all this talking made my head hurt even more.)
+(I just shrug at him, and he seem to understand that I'm not in the mood for this.)
+(I let him pass and start making my way through the front door.)
 @goto .common4
 @stop
 
 # I_give_him
 @style i
- Come on, that was nice, in a way 
-; 4 affinity with RM (He will share more quotes)
-Yeah, I can consider myself satisfied with what I got. Moreover, I kind of appreciate his, unique, suggestion; at least he showed some interest.  
-Maybe I will bring him one more muffin than usual next time. 
-Me: Thanks for the tip. Anyway, have fun with those
+(I try to smile at him but I must look really uncertain.)
+(That was nice in a way: at least he showed some interest.)
+(Maybe I will bring him one more muffin than usual next time. )
+Anyway, have fun with those...
+(I say, giving one last concerned look to the assembly of tools he’s trying to balance in just two hands before heading back to my apartment.)
+Thanks for the tip. Anyway, have fun with those
 @style i
-I say, giving one last concerned look to the assembly of tools he's trying to balance in just two hands before heading back to my apartment.
+(I say, giving one last concerned look to the assembly of tools he’s trying to balance in just two hands before heading back to my apartment.)
 @style default
 Rick:  He I'll try
 @goto .common4
@@ -67,36 +74,35 @@ Rick:  He I'll try
 
 Rick: Actually, wait! 
 @style i
-This must be a joke. I'm one foot away from getting into the apartment complex, just a few floors from crashing on my bed.
-And Rick is making sure to ruin this sweet plan.
+(This must be a joke. I’m one foot away from getting into the apartment complex, just a few floors from crashing on my bed.) 
+(And Rick is making sure to ruin this sweet plan.) 
 @style default
-Me: Yeah? 
+Yeah? 
 Rick: Uhm... you wouldn't help me with a work thing, would you? 
 @style i
-This definitely is a joke. It just can't be real.
-Then again  Rick does seem pretty troubled, biting his lower lip and shifting his gaze to avoid mine.
-It's not like I don't know what a mess he is with plants. I've seen him.
-Plenty of times I've seen him cutting off perfectly fine branches instead of dead ones, trimming bushes to the bone, and touching spiny flower with bare hands
+(This definitely is a joke. It just can’t be real.) 
+(Then again… Rick does seem pretty troubled, biting his lower lip and shifting his gaze to avoid mine.) 
+(It’s not like I don’t know what a mess he is with plants. I’ve seen him.) 
+(Plenty of times I’ve seen him cutting off perfectly fine branches instead of dead ones, trimming bushes to the bone, and touching spiny flower with bare hands…) 
 
 
-@choice "I'm sure he'll be fine, right?" goto:.Im_sure_itll_be
-; (shitty bushes)
-@choice "I should definitely help " goto:.I_should_help
-; he will mention this later
-@stop
-
+ @choice "(…I’m sure he’ll be fine, right?)"  goto:.Im_sure_itll_be
+; meno affinità e cespugli brutti
+ @choice "(…I should definitely help)"  goto:.I_should_help
+; riparlerà di questa cosa dopo
+ @stop
 
 # Im_sure_itll_be
 @style i
-Yeah, he did pretty decently by himself until now. Well, most of the times.
-I'm sure he will be able to handle himself.
-Right now, I'm just too tired and full with my own problems to be worrying about other's ones.
+(Yeah, he did pretty decently by himself until now. Well, most of the times.) 
+(I’m sure he will be able to handle himself.) 
+(Right now, I’m just too tired and full with my own problems to be worrying about other’s ones.) 
 @style default
-Me: Sorry, I'm kind of a mess right now. I don't know how much of a help I'd be anyway. 
+Sorry, I'm kind of a mess right now. I don't know how much of a help I'd be anyway. 
 Rick: Oh, sure. Don't worry You should rest. I should have guessed you were tired, sorry. 
-Rick turns his gaze down on his feet, looking miserable.
-It's not that I don't feel bad for him, but I just don't have the strength to care for the neighborhood bushes right now.
-I wish him good luck, heading to my apartment.
+(Rick turns his gaze down on his feet, looking miserable.) 
+(It's not that I don't feel bad for him, but I just don't have the strength to care for the neighborhood bushes right now.) 
+(I wish him good luck, heading to my apartment.) 
 @hideChars
 @goto 1_9_noah_intro
 
@@ -104,37 +110,37 @@ I wish him good luck, heading to my apartment.
 
 # I_should_help
 @style i
-Rick is the worst gardener you'll ever find. But still, he is a gardener and working at a flower shop.
-There has to be a reason for that, something so important to keep him with a job he is terrible at, right?
-And if he needs help, am I ready to deny him some?
+(Rick is the worst gardener you’ll ever find. But still, he is a gardener and working at a flower shop.) 
+(There has to be a reason for that, something so important to keep him with a job he is terrible at, right?) 
+(And if he needs help, am I ready to deny him some?) 
 @style default
-Me: 'Fine'
+...Fine
 @style i
-Eventually, I gave in with a sigh
+(Eventually, I gave in with a sigh)
 @style default
 Rick: Really? Great! Thank you, really. It isn't much, I just need help trimming the bushes the neighbors are complaining with how I've done it until now 
 @style i
-I try not to chuckle, but seeing him so worried about his bushes is just cute.
+(I try not to chuckle, but seeing him so worried about his bushes is just cute.)
 @style default
 Rick: You don't have to do anything really, just give me directions maybe? I seem not to know when to stop. 
 Rick: At least that's what my boss said. Maybe you will have more common sense than me with this. 
 @style i
-I follow Rick towards the famous bushes, helping him carry some of his tools.
-Watching him work, it becomes inevitably clear that he absolutely has no idea how to do the job. Or use his hands.
-I stop him from cutting too deep into the bushes for the ninth time, when he finally seems to get the hang of it.
+(I follow Rick towards the famous bushes, helping him carry some of his tools.)
+(Watching him work, it becomes inevitably clear that he absolutely has no idea how to do the job. Or use his hands.)
+(I stop him from cutting too deep into the bushes for the ninth time, when he finally seems to get the hang of it.)
 @style default
-Me: Now, take that branch off... yeah, like that, just cut closer to the surface. 
-Me: That looks good. 
+Now, take that branch off... yeah, like that, just cut closer to the surface. 
+That looks good. 
 Rick: I wish I could cut them in different shapes... like an elephant or I don�t know... flamingos? 
-Me: Haha, you can stick to cutting the excess for now, but maybe sometimes... in the far, far future. 
+Haha, you can stick to cutting the excess for now, but maybe sometimes... in the far, far future. 
 Rick: Hey, you should have more faith in me... Eventually I understood how to do this, right? 
 @style i
-Rick grins playfully, throwing some of the leaves fallen from the bushes in my direction.
+(Rick grins playfully, throwing some of the leaves fallen from the bushes in my direction.)
 @style default
 Rick: Anyway, thank you, really. You can go rest now, sorry for keeping you, I think I got it. 
 Rick: And I owe you big time. 
-Me: Oh, you bet! Don't worry about it, I did it for those poor abused bushes. 
-Me: Good luck, don't mess up all my hard work, all right? 
+Oh, you bet! Don't worry about it, I did it for those poor abused bushes. 
+Good luck, don't mess up all my hard work, all right? 
 Rick: I'll try, thank you again. 
 @hideChars
 @save

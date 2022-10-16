@@ -1,9 +1,9 @@
 @style i
 @back livingroom
-I'd really like to hit myself with something heavy right now, as I think how stupid I've been.
-We could have been going on without talking to each other, but still keeping a safe relationship built up on indifference.  
-But no, I HAD to ruin it all. And, actually, it doesn't surprise me at all. 
-I mean, I could always try and make things up with him
+(I’d really like to hit myself with something heavy right now, as I think how stupid I’ve been.)
+(We could have been going on without talking to each other, but still keeping a safe relationship built up on indifference.)  
+(But no, I HAD to ruin it all...) 
+(I mean, I could always try and make things up with him…)
 
 @choice "Apologize" goto:.Apologize
 @choice "Don't Apologize" goto:.common7
@@ -15,61 +15,62 @@ I mean, I could always try and make things up with him
 # Apologize
 @back front_door
 @style i
-Yeah, what else could happen anyway?
-I mean, he dislikes me already, it's not like I can make it worse, right?
-Okay, maybe there is a little chance that I do make things even worse.
-I stare at his door for what seems like an hour, unable to move an inch.
+(Yeah, what else could happen anyway?) 
+(I mean, he dislikes me already, it’s not like I can make it worse, right?) 
+(Okay, maybe there is a little chance that I do make things even worse.) 
+(I stare at his door for what seems like an hour, unable to move an inch.)
 
 @choice "Knock" goto:.knock
-; +5 affinità con Morgan
-@choice "Just DON'T" goto:.dont_knock
-; +0 affinità con suga
+;+5 affinità con Morgan 
+@choice "Just DON’T" goto:.dont_knock
+;+0 affinità con suga, forse nessuna possibilità di fare la sua route
 @stop
 
 # knock
-*KNOCK KNOCK* 
+;KNOCK KNOCK
 @style i
-There's music coming from inside, but I hear some footstep heading towards the door almost immediately.
-Morgan opens the door, showing that he hasn't changed clothes since yesterday and he probably also hasn't had a shower since a lot.
+(There’s music coming from inside, but I hear some footstep heading towards the door almost immediately.) 
+(Morgan opens the door, showing that he hasn’t changed clothes since yesterday and he probably also hasn’t had a shower since… a lot.) 
 @char Morgan
 @style default
 Morgan: You again? 
 @style i
-He looks annoyed. I gulp, almost forgetting what I came for because of his eyes pointed at me. His gaze is even scarier circled by deep, black circles.
+(He looks annoyed. I gulp, almost forgetting what I came for because of his eyes pointed at me. His gaze is even scarier circled by deep, black circles.) 
 @style default
 Morgan: So? 
-Me: O-oh! Yeah.
+O-oh! Yeah.
 @style i
-Great start.
+(Great start.) 
 @style default
-Me: Uhm, I'm sorry if I'm interrupting you again. Actually, I wanted to apologize for bothering you yesterday. It was really stupid of me to come here so early in the morning
+Uhm, I'm sorry if I'm interrupting you again. Actually, I wanted to apologize for bothering you yesterday. It was really stupid of me to come here so early in the morning
 @style i
-He doesn't show any reaction. The music continues to go on in the background filling the awkward silence that slowly falls over the two of us.
-Suddenly, he lets out a sigh, but it doesn't sound like he's annoyed or anything this time.  
-Actually, he may even look amused. 
+(He doesn’t show any reaction. The music continues to go on in the background filling the awkward silence that slowly falls over the two of us.) .
+(Suddenly, he lets out a sigh, but it doesn’t sound like he’s annoyed or anything this time.  
+(Actually, he may even look amused.)  
 @style default
 Morgan: No problem. I've been a bit too rude anyway so let's say we're even. 
 @style i
-I open my eyes wide, speechless. 
-Did he? Was it an apology?
-It actually looks like he's trying to be nice.
-I wasn't expecting that, but I'm satisfied with how it turned out.
+(I open my eyes wide, speechless.) 
+(Did he…) 
+(…Was it an apology?) 
+(It actually looks like he’s trying to be nice.) 
+(I wasn’t expecting that, but I’m satisfied with how it turned out.)
 @style default
-Me: ure! Of course All forgotten Eh  and if I can do anything... just... ask... 
+Sure! Of course… All forgotten… Eh… and if I can do anything... just... ask... 
 @style i
-I laugh, feeling uneasy.
+(I laugh, feeling uneasy.)
 @style default
-Me: So Cool See you around? 
+So… Cool… See you… around…?  
 @style i
-Okay, things will get strange if I don't shut up instantly.
-I begin to walk away, before I say something stupid, but he stops me almost immediately.
+(Okay, things will get strange if I don’t shut up instantly.) 
+(I begin to walk away, before I say something stupid, but he stops me almost immediately.)
 @style default
 Morgan: Well since you offered, can I ask you something? 
-Me: Uh... Sure. 
+Uh... Sure. 
 Morgan: This will sound strange but... do you think the song sounds nice? 
 @style i
-That was random.
-I try to listen more carefully at the melody, but it's not like I know a lot about music.
+(That was random.) 
+(I try to listen more carefully at the melody, but it’s not like I know a lot about music.)
 
 @choice "Yeah, it's really nice!" goto:.really_nice
 ; -3 affinità con suga
@@ -79,61 +80,60 @@ I try to listen more carefully at the melody, but it's not like I know a lot abo
 
 # really_nice
 @style default
-Me: I don't think I could do something like that. 
+I don't think I could do something like that. 
 @style i
-I spit out the first words that come to my mind, hoping that I don't sound lame. At least not so much.
-Then again, the fact that I can't write music isn't really helpful to anyone I guess.
+(I spit out the first words that come to my mind, hoping that I don’t sound lame. At least not so much.) 
+(Then again, the fact that I can’t write music isn’t really helpful to anyone I guess.) 
 @style default
 Morgan: Mh... I guess that's a way to put it... 
-@style i
-I don't really catch what he's saying, but it looks like he's talking to himself more than to me.
+(I don’t’ really catch what he’s saying, but it looks like he’s talking to himself more than to me.)
 @style default
 Morgan: Well, thanks for the help. I'll see you around. 
-Me: No problem! And sure... Goodnight! 
+No problem! And sure...  
 @style i
-Morgan closes his door murmuring a goodnight under his breath as I start heading to my apartment.
+(Morgan closes his door murmuring a goodbye under his breath as I start heading to my apartment.) 
 @hide Morgan
 @goto .common7
 @stop
 
 # could_be_better
 @style default
-Me: Mh, I don't know. Maybe there's something off. 
+Mh, I don’t know. Maybe there’s something off. 
 Morgan: Like what? 
 @style i
-He isn't angry. At least he doesn't seem to be. If anything, he looks resigned. 
-I think about what to say, choosing the right words.
+(He isn’t angry. At least he doesn’t seem to be. If anything, he looks resigned.) 
+(I think about what to say, choosing the right words.) 
+Well, I’m not an artist, I don’t know anything about how a song works… But it just doesn’t make me want to listen to it more.
 @style default
-Me: Well, I'm not an artist, I do't know anything about how a song works But it just doesn't make me want to listen to it more. 
+Well, I'm not an artist, I do't know anything about how a song works But it just doesn't make me want to listen to it more. 
 @style i
-...maybe that was mean.
+(...maybe that was mean.) 
 @style default
 Me: N-no offense! It's not bad. What I'm trying to say is it doesn't sound interesting? 
 Me: No, that wasn't the right word... I just... 
 @style i
-His gaze makes me nervous. I've never seen him this focused during a conversation.
+(His gaze makes me nervous. I’ve never seen him this focused during a conversation.) 
 @style default
-Me: I mean, it's not like I can analyze it from just this one, superficial listening but I think as an artist you'd like to make something outstanding, different. Not just good? 
+I mean, it’s not like I can analyze it from just this one, superficial listening… but I think as an artist you’d like to make something outstanding, different. Not just… good? 
 @style i
-At this point I don't even know myself what I'm trying to say. I just hope he doesn't punch me in the face.
+(At this point I don’t’ even know myself what I’m trying to say. I just hope he doesn’t punch me in the face.)
 @style default
 Morgan: I'm a bit surprised. 
 @style i
-I think I saw something really similar to a little smile, on his face.
+(I think I saw something really similar to a little smile, on his face.)
 @style default
 Morgan: But it does make sense... 
 @style i
-For a couple of seconds, he looks lost in some deep thinking, but then he turns to me again.
+(For a couple of seconds, he looks lost in some deep thinking, but then he turns to me again.)
 @style default
 Morgan: Thank you. I appreciate that. 
 @style i
-Now that is for sure a smile. It's almost strange to see, and it's not a totally happy one. But it still makes me think I managed to fix things up between us.
+(Now that is for sure a smile. It’s almost strange to see, and it’s not a totally happy one. But it still makes me think I managed to fix things up between us.)
 @style default
 Me: Oh! N-no problem. 
-Morgan: And don't obsess over yesterday morning, just try not to come knock at my door before noon, okay? 
-Me: He, okay. I'll keep that in mind... I think I should go now And good luck with your song! 
+Morgan: And don't obsess over yesterday morning, just try not to He, okay. I'll keep that in mind... I think I should go now And good luck with your song! 
 @style i
-Morgan closes his door murmuring a goodnight under his breath as I start heading to my apartment.
+(Morgan closes his door murmuring a goodbye under his breath as I start heading to my apartment.) 
 @hide Morgan
 @goto .common7
 @stop
@@ -141,20 +141,20 @@ Morgan closes his door murmuring a goodnight under his breath as I start heading
  
 # dont_knock
 @style i
-Maybe I should just stop trying to be friend with everyone.  
-There are some people who simply will never like us, and aren't worth even trying. 
-Plus, I think I've bothered my neighbor enough for the next twenty years. 
-He dislikes me already, no need to make him grow an homicide instinct towards me. 
+(Maybe I should just stop trying to be friend with everyone.)  
+(There are some people who simply will never like us, and aren’t worth even trying.) 
+(Plus, I think I’ve bothered my neighbor enough for the next twenty years.) 
+(He dislikes me already, no need to make him grow an homicide instinct towards me.)
 @goto .common7
 
 # common7
 ; *room*
 @back livingroom
 @style i
-The room is silent, as always, but it's actually more pleasant than lonely right now. 
-The past few days were a shot of adrenaline to my usually flat life, calm is much more than welcome and appreciated right now. 
-I drag myself to the shower, the hot water leaves me warm and fuzzy. 
-I slip into bed, putting an end to this insane day. 
+(The room is silent, as always, but it’s actually more pleasant than lonely right now.) 
+(The past few days were a shot of adrenaline to my usually flat life, calm is much more than welcome and appreciated right now.) 
+(I drag myself to the shower, the hot water leaves me warm and fuzzy.) 
+(I slip into bed, putting an end to this insane day.) 
 @hideAll
 @save
 @stop
