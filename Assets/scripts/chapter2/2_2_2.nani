@@ -1,63 +1,64 @@
 @style default
-FELIX: I’d say that your work ethic is really poor. 
+Felix: I’d say that your work ethic is really poor. 
 Me: But you would eat it anyway, right? 
-FELIX: Maybe, if there’s some coffee too… 
+Felix: Maybe, if there’s some coffee too… 
 Me: ... 
-FELIX: I’m kidding, I’m kidding… 
+Felix: I’m kidding, I’m kidding… 
 @style i
-Felix grabs the cupcake from my hands and begins to eat it slowly, as if he is trying not to show any sign of enjoyment. 
-The silence is filled just by the sound of Felix chewing, as an awkward mist clouds around us.
+(Felix grabs the cupcake from my hands and begins to eat it slowly, as if he is trying not to show any sign of enjoyment.)
+(The silence is filled just by the sound of Felix chewing, as an awkward mist clouds around us.)
 @style default
 Me: So… will you tell me what’s gotten into you this morning? 
 @style i
-Felix almost chokes on his muffin, caught off guard by my question. I can notice him starting to blush a little.
+(Felix almost chokes on his muffin, caught off guard by my question. I can notice him starting to blush a little.)
 @style default
-FELIX: It was nothing, I’m sorry I overreacted like that. 
+Felix: It was nothing, I’m sorry I overreacted like that. I had time to calm down. 
 Me: Come on Felix, I don’t want you to be mad at me forever. 
-FELIX: I won’t be. 
+Felix: I won’t be. 
 Me: But you are right now. 
 @style i
-Felix doesn’t respond. He just continues eating avoiding looking in my direction.
-Whatever. I’m determined to know what his problem is, and I won’t move from my seat until I do. 
-Even if it means I have to keep staring at him as he eats.
-And apparently, that does the trick.
+(Felix doesn’t respond. He just continues eating avoiding looking in my direction.)
+(Whatever. I’m determined to know what his problem is, and I won’t move from my seat until I do.) 
+(Even if it means I have to keep staring at him as he eats.)
+(And apparently, that does the trick.)
 @style default
-FELIX: You didn’t answer my calls. 
+Felix: You didn’t answer my calls. 
 Me: What? What are you talking about? 
-FELIX: I called you, like, at least ten times the night we went to the karaoke and you didn’t pick up even once. Neither you called me for the whole weekend. 
-FELIX: You can’t just leave me for the first person that offers you a ride. 
-FELIX: You didn’t even warn me, I didn’t know where you were and for a moment I got really worried. 
-FELIX: It’s just that… sometimes you’re so absent-minded and I… I don’t know… 
-FELIX: I mean… I’m not your mother, I didn’t have any right to blame you for anything. 
+Felix: I called you, like, at least ten times the night we went to the karaoke and you didn’t pick up even once. Neither you called me for the whole weekend. 
+Felix: When I left you barely realized, you were all too preoccupied having fun with... the others.
+Felix: You didn’t even warn me if you got home safely, I didn’t know where you were and for a moment I got really worried. 
+Felix: It’s just that… sometimes you’re so absent-minded and I… I don’t know… 
+Felix: I mean… I’m not your mother, I don't have any right to blame you for anything.
 @style i
-Felix seems to have found something interesting on his shoes since for all this time he has kept his eyes locked on them.
-Seeing him like this makes me feel awful but thankful at the same time. I really, really don’t deserve his friendship sometimes.
+(Felix seems to have found something interesting on his shoes since for all this time he has kept his eyes locked on them.)
+(Seeing him like this makes me feel awful but thankful at the same time. I really, really don’t deserve him sometime.)
 @style default
 Me: No, you’re right… And I’m sorry: I wasn’t thinking straight at the moment and I acted like an idiot. 
-FELIX: I know you didn’t do it on purpose, but I couldn’t help feeling bad about it. 
+Felix: I know you didn’t do it on purpose, or at least I hoped so... but I couldn’t help feeling bad about it. I just felt left out.
+Felix: But it's childish of me to blame you for that.
 @style i
-Felix’s voice is soft and gentle, which makes me feel even worse. Why does he have to be so kind?
+(Felix’s voice is soft and gentle, which makes me feel even worse. Why does he have to be so kind?)
 @style default
 Me: I’m so lucky to have you watching out for me, even if I keep on making mistakes. 
-FELIX: … 
+Felix: … 
 Me: … 
 
 ; *blush* 
 @style default
-FELIX: O-okay, all forgotten. Don’t be cheesy now… 
+Felix: O-okay, all forgotten. Don’t be cheesy now… 
 @style i
-The atmosphere lightens up a little, and Felix finally looks at me, smiling slightly.
+(The atmosphere lightens up a little, and Felix finally looks at me, smiling slightly.)
 @style default
 Me: I swear I’ll try to be a better friend to you from now on! 
-FELIX: I get it, that’s… that’s enough. 
+Felix: I get it, that’s… that’s enough. 
 Me: You’re such a great guy, Felix! 
 @style i
-At this point, I think the conversation has lost every trace of seriousness.
-I just laugh, amused by the embarrassed look that starts to form on Felix’s face, which really dares me to continue saying these soppy things.
+(At this point, I think the conversation has lost every trace of seriousness.)
+(I just laugh, amused by the embarrassed look that starts to form on Felix’s face, which really dares me to continue saying these soppy things.)
 @style default
-FELIX: Ah, seriously… 
-FELIX: Let’s just forget about it, okay? 
-FELIX: If you want, we can hang out after I finish with the inventory. 
+Felix: Ah, seriously… 
+Felix: Let’s just forget about it, okay? 
+Felix: If you want, we can hang out after I finish with the inventory. 
 
 @choice "Sounds good! Where are we going?" goto:.sounds_good
 @choice "Ah, sorry, maybe next time?" goto:.ah_sorry
@@ -65,22 +66,26 @@ FELIX: If you want, we can hang out after I finish with the inventory.
 
 # sounds_good 
 @style default
-FELIX: I heard they opened the ice rink in town, we can go check it out. 
+Felix: I heard they opened the ice rink in town, we can go check it out. 
 Me: All right, I'll go change and wait for you. 
-FELIX: Sounds like a plan, I am almost done. 
+Felix: Sounds like a plan, I am almost done. 
+@hideChars
+@goto 2_3_ice_rink
+@stop
 
 # ah_sorry 
 @style i
-I feel completely drained after this day, I really need to rest.
+(I feel completely drained after this day, I really need to rest.)
 @style default
-FELIX: Yeah, sure. Then I'll see you. 
+Felix: Yeah, sure. Then I'll see you. 
 Me: Sure, bye Felix. Remember that you are special to me! 
 @style i
-I blow a kiss his way and I really have to hold back from winking at him.
-His flushing red face is totally worth getting a few looks from some customers.
+(I blow a kiss his way and I really have to hold back from winking at him.)
+(His flushing red face is totally worth getting a few looks from some customers.)
 @style default
-FELIX: Pfff, just go already. 
+Felix: Pfff, just go already. 
+@hideChars
 @style i
-Finally, I leave the café and make my way home.
-
+(Finally, I leave the café and make my way home.)
+@goto 2_5
 @stop

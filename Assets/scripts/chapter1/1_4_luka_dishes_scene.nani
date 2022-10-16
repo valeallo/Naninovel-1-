@@ -121,7 +121,7 @@ Luka: I'm sorry, I am always like this... I don't... I don't know...
 
 
 @choice  "Maybe it’s better if you go." goto:.maybe_its_better_if
-@choice  "We know you didn't mean to."  goto:.we_know_you
+@choice  "We know you didn't mean to."  goto:.we_know_you set:nicetoluka=true
 @stop
 
 
@@ -167,8 +167,6 @@ Of course, I'll see you tomorrow.
 Felix: Thank you, have fun... and no more chores for Luka, all right?
 Luka: I won't touch anything, I swear. 
 Felix: That’s reassuring... Goodnight then!
-
-
 ; cut
 @style i
 (I sit with Luka by the counter after Felix leaves, and let him choose something from the leftovers.)
