@@ -5,7 +5,7 @@ Felix: I don't want to talk with you right now.
 @style i
 (My heart sinks a little hearing those words, but I can't let that make me lose my focus.)
 @choice "Felix, I miss you" goto:.Felix_I_miss_you
-@choice "Just_listen to me for a second, please?" goto:.Just_listen_to_me
+@choice "Just_listen to me for a second, please?" goto:.Just_listen_to_me set:felixmadeup==true
 @stop
 
 # Felix_I_miss_you

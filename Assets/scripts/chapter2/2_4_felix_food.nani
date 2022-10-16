@@ -275,7 +275,7 @@ Me: I would like that, thank you
 
 # hug_him
 @if felixawkward==true
-;set:felixawkward==false 
+@set felixawkward==false 
 (I embrace him before saying bye, and, even if at first he seems taken aback from the gesture, he hugs me back, holding onto the hug just a little longer than I would have expected.)
 @else
 (I embrace him before saying bye, and he hugs me back, holding onto the hug just a little longer than I would have expected.)
