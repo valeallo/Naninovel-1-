@@ -1,16 +1,16 @@
 @back counter
 @if "confront == true"
-I still can't get Felix words out of my head, and I am terrified of discovering even more of his thoughts about our friendship. 
-Luckily, the café is busy enough today to keep my mind at work, preventing me from falling into deep and depressing thoughts.
-I will face him after work, hoping to make things better (IF 1) this time trying to actually listen to his reasons.
+(I still can't get Felix words out of my head, and I am terrified of discovering even more of his thoughts about our friendship.)
+(Luckily, the café is busy enough today to keep my mind at work, preventing me from falling into deep and depressing thoughts.)
+(I will face him after work, hoping to make things better, this time trying to actually listen to his reasons.)
 @else
-Felix acted really strange this morning and I can't help but worry about him. Luckily, the café is busy enough today to keep my mind at work, preventing me from falling into deep and depressing thoughts.
+(Felix acted really strange this morning and I can't help but worry about him. Luckily, the café is busy enough today to keep my mind at work, preventing me from falling into deep and depressing thoughts.)
 @endIf 
 @style default 
 @char Linda
 Girl: Excuse me? 
 @style i
-Suddenly, I realize I am still working behind the cash register and should probably pay more attention in front of me.
+(Suddenly, I realize I am still working behind the cash register and should probably pay more attention in front of me.)
 @style default 
 Me: I am sorry, what can I get you? 
 Girl: I am not here to buy anything. 
@@ -18,37 +18,36 @@ Me: Uh, okay... then is there anything I can do for you?
 Girl: Actually, yes. You work with Rei, right? 
 Me: What? 
 @style i
-This must me my lucky day. Everyone seems to be acting weird for one reason or another.
-The girl eyes me up and down, making her seemingly innocent question slightly suspicious.
-Should I even answer her?
-Oh, whatever, I’m sure I’m just overreacting as usual.
+(The girl eyes me up and down, making her seemingly innocent question slightly suspicious.)
+(Should I even answer her?)
+(Oh, whatever, I’m sure I’m just overreacting as usual.)
 @style default 
 Girl: Don't bother, I know you do. 
 @style i
-Or maybe not? Who is this girl? 
+(Or maybe not? Who is this girl?) 
 @style default 
 Girl: Listen, just know that he has someone already, so I would keep my distance from him if I were you. 
 Me: Are you threatening me? 
 Girl: Think whatever you want. Just remember what I told you. 
 @style i
-Just like that, the girl leaves.
+(Just like that, the girl leaves.)
 @hide Linda
-So, was she... Rei's girlfriend?
-Whatever that was, I really don't feel like getting involved. 
-At the same time, I have no idea what "getting involved" means and how I can prevent it.
-Should I tell Rei?
-Gosh, what even is today...
-My shift is nearly over, and I leave my place to Angelica as I go get changed.
-Not before taking one of the last cupcakes with me.
-I would probably need this if I want to show Felix my best intentions.
-I didn't get the chance to talk with Rei, but I am still deciding if I actually want to do that.
-And I probably should deal with one problem at a time.
+(So, was she... Rei's girlfriend?)
+(Whatever that was, I really don't feel like getting involved.) 
+(At the same time, I have no idea what "getting involved" means and how I can prevent it.)
+(Should I tell Rei?)
+(Gosh, what even is today...)
+(My shift is nearly over, and I leave my place to Angelica as I go get changed.)
+(Not before taking one of the last cupcakes with me.)
+(I would probably need this if I want to show Felix my best intentions.)
+(I didn't get the chance to talk with Rei, but I am still deciding if I actually want to do that.)
+(And I probably should deal with one problem at a time.)
 
 ; *CUT* 
 
 @back coffee_shop
-I find Felix right outside the changing room, sit at a table filling the inventory form.
-I make my way over to him, handing him my sugary pledge of peace. 
+(I find Felix right outside the changing room, sit at a table filling the inventory form.)
+(I make my way over to him, handing him my sugary pledge of peace)
 @style default 
 Me: What if I told you that I sneaked out the last vanilla cupcake? 
 @if "confront == true"

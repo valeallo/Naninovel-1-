@@ -1,25 +1,26 @@
 Felix: Good job. 
 Me: T-thanks... but... it's for you. 
 Felix: I don't want it. 
-Me: I don't want to talk with you right now. 
+Felix: I don't want to talk with you right now. 
 @style i
-My heart sinks a little hearing those words, but I can't let that make me lose my focus.
+(My heart sinks a little hearing those words, but I can't let that make me lose my focus.)
 @choice "Felix, I miss you" goto:.Felix_I_miss_you
 @choice "Just_listen to me for a second, please?" goto:.Just_listen_to_me
 @stop
 
 # Felix_I_miss_you
-
+;non lo apprezza, pensa che lo stai manipolando in un certo senso
 @style default
 Felix: It’s been barely one day. 
 Me: Still... 
-Felix: Why can’t you understand when to stop? 
+Felix: Why can’t you just understand when to stop? 
 @style i
-Felix’s abrupt reaction almost makes me jump on my spot.
+(Felix’s abrupt reaction almost makes me jump on my spot.)
 @style default
 Felix: I told you, I don't want to talk with you. Can I be clearer than this? 
 Me: I just want to apologize. 
 Felix: Then why don't you do it instead of sugar coating everything with cupcakes and nice words? 
+Felix: I don't care what you do. I'm just hurt with how you treated me!
 Felix: Why couldn’t you just be a good friend and call me? 
 Me: I know, I am sorry. I have been an idiot and there's no excuse for that. 
 Me: But I really don't want to ruin everything like this. 
@@ -27,51 +28,70 @@ Felix: …
 Felix: Fine, let's... let’s just forget about this. 
 Me: A-Are you sure? 
 @style i
-At this point I have no idea where Felix and I are standing. It didn’t take him much to forgive me considering how upset he was this morning...
-Which makes me wonder if he even forgave me at all.
+(At this point I have no idea where Felix and I are standing. It didn’t take him much to forgive me considering how upset he was this morning... Which makes me wonder if he even forgave me at all.)
 @style default
-FELIX: Ye-yeah... we both went overboard. It's okay. 
-FELIX: I'll take it, thank you. 
+Felix: Ye-yeah... we both went overboard. It's okay. 
+Felix: I'll take it, thank you. 
 @style i
-Felix reaches over for the cupcake and goes back to his work.
-He looks a lot calmer than before, but I still feel like something hasn't set well between us.
+(Felix reaches over for the cupcake and goes back to his work.)
+(He looks a lot calmer than before, but I still feel like something hasn't set well between us.)
 @style default
 Me: So, are we okay? 
-Felix: Yes, yes... Don't worry. I will get over it, okay? I am not mad at you. 
-Me: Okay, then... bye... 
+Felix: Yes, yes... Don't worry. I will get over it, okay? I am not mad at you.
+Me: Okay, then... 
 @style i
-I leave the coffee shop, not feeling any better.
-Felix is quite clearly not over this thing, but now that he said everything is fine how can I bring this up again and not make another scene?
-It seems like every time I try to solve this thing, I manage to make it worse.
-So maybe shutting up for once would be the right thing to do... 
-I sigh heavily and make my way home.
+(He doesn't seem over this at all, but I have no clue on how I could try to make it better.)
+
+@choice "Why don't we go somewhere?" goto:.Why_dont_we_go_2
+@choice "I'm going home, I'll text you later?" goto:.Im_going_home_2
+@stop 
+
+# "Why_dont_we_go_2" 
+Felix: I really don't feel like it, {name}.
+Me: Okay, message received. I'll go then.
+(It seems like every time I try to solve this thing, I manage to make it worse.)
+(So maybe shutting up for once would be the right thing to do...)
+
+# "Im_going_home_2" 
+;scelta migliore
+Felix: Sure, have a nice day.
+Me: Y-you too...
+@stop
+
+@style i
+(I leave the coffee shop, not feeling any better.)
+(Sighing heavily, I make my way home.)
 @stop
 
       
 
 # Just_listen_to_me
+;scelta migliore, puoi chiedergli di uscire
 @style default
 Felix: You are incredible, really. 
 Me: I just want to make it up to you. 
-Me: I know I have been a terrible friend, and I am truly sorry. 
-Me: I didn't realize it earlier, but now I see it, I swear, and I want to change it. 
-Me: I should have called you, or at least warned you or... I don't know. I should have done everything different, really. 
-FELIX: Umpf... okay. 
-Me: And I... Wait, did you say okay? 
-FELIX: Yeah... It's not completely your fault, I have no right to expect you to call me or do anything really. It's your life. 
-FELIX: ...I just hated how you made that clear to me. 
+Me: I didn't realize it before but, you are right, I didn't act like I should've.
+Me: I should have called you, or at least warned you or... I don't know. I should have done everything different, really.
 @style i
-For a moment, I honestly don't know what to say. Felix looks down on his shoes and avoids my eyes.
+(I omit the fact that I don't remember anything and just own up to what he told me. At this point it might just upset him even more if I try to find an excuse.)
+@style default
+Felix: Umpf... okay. 
+Me: And I... Wait, did you just say okay? 
+Felix: Yeah... It's not completely your fault, I have no right to expect you to call me or do anything really. It's your life. 
+Felix: ...I just hated how you made that clear to me. I thought we would've had fun together but I felt... left out in a way.
+Felix: But it's childish of me to blame you for that.
+@style i
+(For a moment, I honestly don't know what to say. Felix looks down on his shoes and avoids my eyes.)
 @style default
 Me: No, that's not true... You have all the rights in the world to expect those things from me. 
 Me: We are friends. I, on the other hand, have no right to always take you for granted. 
 Me: Sometimes I wonder why you even stick with me. 
-FELIX: Yeah, who knows what goes on in my mind. 
+Felix: Yeah, who knows what goes on in my mind. 
 Me: Hey, now don't be mean! 
 @style i
-I chuckle, feeling a lot lighter now that things seem to have turned the right direction between us.
+(I chuckle, feeling a lot lighter now that things seem to have turned the right direction between us.)
 @style default
-FELIX: Can I have my muffin, then? 
+Felix: Can I have my muffin, then? 
 Me: Of course, you definitely earned it. 
 
 @choice "Why don't we go somewhere?" goto:.Why_dont_we_go
@@ -82,7 +102,7 @@ Me: Of course, you definitely earned it.
 
 
 @style default
-FELIX: Like where? 
+Felix: Like where? 
 Me: I don't know, the ice rink? They finally opened one in the centre. 
 Me: And of course, it will totally be my treat. 
 Felix: Then I guess I can't say no, can I? 
@@ -91,10 +111,10 @@ Me: Absolutely not, come on!
 
 # "Im_going_home" 
 @style default
-FELIX: Now don't take my advice so seriously... 
+Felix: Now don't take my advice so seriously... 
 Me: Idiot... 
 @style i
-I push him playfully, before going to change.
-I finally leave the coffee shop and go home. 
+(I push him playfully, before going to change.)
+(I finally leave the coffee shop and go home.) 
 
 @stop

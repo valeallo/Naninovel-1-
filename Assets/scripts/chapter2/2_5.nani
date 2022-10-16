@@ -12,7 +12,7 @@ I grab it from the bedside table, almost blinding myself with the brightness of 
 @if "felixlove>1"
 @printer Chat
 ; *phone view* It’s a text from Felix.
-FELIX: “Work’s boooring… ㅜㅡㅜ” 
+Felix: “Work’s boooring… ㅜㅡㅜ” 
 @printer Dialogue
 @style i
 I giggle at that. Maybe I am not doing so bad here, in the warmth of my bed and comfortable pajama pants. 
@@ -93,7 +93,7 @@ I grab my camera from its bag and look around me.
 @endIf
 
 # walk_to_the_park
-; IF YOU DIDN’T MAKE UP WITH FELIX
+; IF YOU DIDN’T MAKE UP WITH Felix
 @style i
 The streets are so nice and calm, it would be a shame not to enjoy it completely as long as I can. 
 I start shooting around while on my way. 
@@ -152,7 +152,7 @@ Noah is pretty reserved, I don’t want him to think I’m noisy.
 Plus, it would get late if I don’t start walking to the café yet. 
 Satisfied with pictures I got, I leave the park and walk to my job. 
 
-; IF YOU DIDN’T MAKE UP WITH FELIX
+; IF YOU DIDN’T MAKE UP WITH Felix
 
 I think I will just shoot some more pictures before going back home. 
 
@@ -170,11 +170,11 @@ It takes something like another thirthy minutes before the bus engine turns up a
 By the time we get to the next station, I already wasted enough time and decide to get off. 
 This was pretty underwhelming. 
 
-; IF YOU MADE UP WITH FELIX
+; IF YOU MADE UP WITH Felix
 
 I decide on just walking to the café and take some picture on my way there. 
 
-; IF YOU DIDN’T MAKE UP WITH FELIX
+; IF YOU DIDN’T MAKE UP WITH Felix
 
 Completely worn-out by the turn of events, I just walk back home, not feeling in the mood for doing anything else anymore. 
 

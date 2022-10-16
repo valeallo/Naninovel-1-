@@ -1,18 +1,19 @@
 ; 4TH SCENE - (if you go out with Felix)
+# ice_rink
 @style i
-The ice rink is beautifully light up for the evening and swamped with couples, probably enjoying the freedom from children that only at this hour can be experienced.
-Felix and I make our way to the rink which is not so busy, luckily. 
-As soon as we step on the ice, though, I can clearly see Felix having some balance problem. 
-For a moment he tries to play it off, before holding onto my coat to avoid falling on the ground.
+(The ice rink is beautifully lit up for the evening and swamped with couples, probably enjoying the freedom from children that only at this hour can be experienced.)
+(Felix and I make our way to the rink, which luckily is not too busy.)
+(As soon as we step on the ice, though, I can clearly see Felix having some balance problem.)
+(For a moment he tries to play it off, before holding onto my coat to avoid falling on the ground.)
 @style default
-Felix: Sorry, I just... tripped on something" 
+Felix: Sorry, I just... tripped on something.
 @style i
-I can barely believe I might have found something I am better in than Felix.
+(I can barely believe I might have found something I am better at than Felix.)
 
 @choice "(Pretend to need help from him)" goto:pretend_to_need set:felixlove++
 @choice "(Show off)" goto:.show_off
 @choice "(Help him)" goto:.help_him set:felixlove=felixlove+2
-; 3) Help him (+2 – he offers you something to eat)
+; 3) Help him (+2 and he offers you something to eat)
 @stop
 
 
@@ -21,39 +22,39 @@ I can barely believe I might have found something I am better in than Felix.
 @style default
 Me: Felix, I don't think I am really good at this... 
 @style i
-I decide to save his pride, reaching out to grab his coat myself as I pretend to lose balance for a moment.
-Felix looks preoccupied for a moment, but then he regains his posture and smiles at me.
+(I decide to save his pride, reaching out to grab his coat myself as I pretend to lose balance for a moment.)
+(Felix looks preoccupied for a moment, but then he regains his posture and smiles at me.)
 @style default
 Felix: Well, I am not an expert but I read some tutorial online on our way here... 
 @style i
-So that’s what he was doing...
+(So that’s what he was doing...)
 @style default
 Me: Then you can teach me something! 
 Felix: S-sure... okay uhm... hold my hand? 
 @style i
-I comfortably take his hand, which feel warm and soft, and let him guide me, even if it's clear that internet tutorials can only get you so far.
-Felix is still a little unstable and stumbles and trips more than one time, but it's incredibly cute.
-Especially the fact he can't seem to stop staring at our hands totally alarmed, and the genuine smile he has whenever he succeeds in showing me how to do something.
+(I comfortably take his hand, which feels warm and soft, and let him guide me, even if it's clear that internet tutorials can only get you so far.)
+(Felix is still a little unstable and stumbles and trips more than one time, but it's incredibly cute.)
+(Especially the fact he can't seem to stop staring at our hands totally alarmed, and the genuine smile he has whenever he succeeds in showing me how to do something.)
 @style default
 Felix: S-sorry... 
 @style i
-He mumbles when he got the two of us against the rink border for the nth time.
+(He mumbles when he got the two of us against the rink border for the nth time.)
 @style default
 Felix: Try going by yourself now... 
 @style i
-Felix lets go of my hand and I make my way over the centre of the rink.
+(Felix lets go of my hand and I make my way over the centre of the rink.)
 @style default
 Felix: Good! Just like tha... Oh, careful! 
 @style i
-I put a foot in the wrong position, which causes me to slip on the ice and makes me a bit unstable. And, as much as I would like to say I did it on purpose, this one was not planned. 
-I might have deserved it for kind of tricking Felix.
-Luckily, he readily gets over to me. He let me hold onto him for stability and it's just so funny, I can't help but laugh cheerfully.
+(I put a foot in the wrong position, which causes me to slip on the ice and makes me a bit unstable. And, as much as I would like to say I did it on purpose, this one was not planned.) 
+(I might have deserved it for kind of tricking Felix.)
+(Luckily, he readily gets over to me. He let me hold onto him for stability and it's just so funny, I can't help but laugh cheerfully.)
 @style default
 Me: Phew, thank you. 
-Felix: N-no problem... I think you got it, let's just go slow for the moment" 
+Felix: N-no problem... let's just go slow for the moment. 
 Felix: And stay close so that I can help you. 
 @style i
-Needless to say, he trips over right after saying that but eventually we manage to roam around the ink without many problems.
+(Needless to say, he trips over right after saying that, but eventually we manage to roam around the ink without many problems.)
 @goto .common
 @stop
 
@@ -63,17 +64,23 @@ Needless to say, he trips over right after saying that but eventually we manage 
 @style default
 Me: Let me show you! 
 @style i
-I quickly glance at him before speeding up and starting to skate comfortably in the rink. 
-I go on for a while, as Felix tries to gain more stability.
-Eventually he starts getting more comfortable as well and skates around the ink for a few times.
+(I quickly glance at him before speeding up and starting to skate comfortably in the rink.) 
+(I go on for a while, as Felix tries to gain more stability.)
+(Eventually he starts getting more comfortable as well and skates around the ink for a few times.)
 @style default
 Me: Good job Felix! 
 @style i
 I yell at him as I surpass him.
-I stop, waiting for him to reach him.
+I stop, waiting for him to reach me.
 @style default
 Me: See? Not that hard right? 
 Felix: Y-yeah, I think I got it. 
+Felix: You should have told me you were this good, I would have proposed something else.
+@style i
+(Felix chuckles, scrathing the back of his head in embarassment.)
+@style default
+Me: I would lie if I said it wasn't fun to show off a bit...
+Felix: I can see that...
 @goto .common
 @stop
 
@@ -87,43 +94,43 @@ Felix: W-wha...what?
 Me: I want to help you! 
 Felix: Uh... you don't have to, really. I just have to get used to... 
 @style i
-Without even finishing his sentence, Felix slips and fall right against the rink border. 
+(Without even finishing his sentence, Felix slips and fall right against the rink border.)
 @style default
 Felix: Ouch... 
 Me: You okay? 
 Felix: Yeah, I am fine, really. 
 Me: Come on! I'll show you. 
 @style i
-I reach over to him, inviting him to finally take my hand. Eventually, he gives up and let me guide him around.
-I drag him gently showing him how to keep his balance and, like that, we start roaming around the ink.
-Felix keeps taking quick glances at our finger interlaced together, almost falling down every time he does that.
-His face is so red I think you could see him from an airplane if you flied over us right now. Still, he also doesn’t stop smiling genuinely.
+(I reach over to him, inviting him to finally take my hand. Eventually, he gives up and let me guide him around.)
+(I drag him gently showing him how to keep his balance and, like that, we start roaming around the ink.
+(Felix keeps taking quick glances at our finger interlaced together, almost falling down every time he does that.)
+(His face is so red I think you could see him from an airplane if you flied over us right now. Still, he also doesn’t stop smiling genuinely.)
 @style default
 Me: We are doing great! 
 @style i
-I raise our hands up in victory and start speeding up a little.
+(I raise our hands up in victory and start speeding up a little.)
 @style default
 Me: Now you have to move your legs too though. 
 Felix: A-ah, yeah... 
 ; *blushissimo*
 @style i
-Eventually, Felix gets comfortable enough and we manage to roam around the rink without many problems. 
+(Eventually, Felix gets comfortable enough and we manage to roam around the rink without many problems.) 
 @style default
 Me: Felix, let's do a pirouette! 
 Felix: Uh... that might be a bit too ambitious. 
 Me: You have to! Come on, just follow me! 
 @style i
-I take both his hands to face him as I start twirling around.
+(I take both his hands to face him as I start twirling around.)
 @style default
 Me: Just move your feet like mine... Yes! Like that! 
 Me: Aren't we the best? 
 @style i
-Felix looks around himself, noticing all the couples that are skating around us.
+(Felix looks around himself, noticing all the couples that are skating around us.)
 @style default
 Felix: Haha, definitely not. 
 Me: Shhh, we are! 
 @style i
-His cheeks are now adorably red, I don’t think i have ever seen him blushing so many times in such a short time.
+(His cheeks are now adorably red, I don’t think i have ever seen him blushing so many times in such a short time.)
 @goto .common
 @stop
 
@@ -131,9 +138,12 @@ His cheeks are now adorably red, I don’t think i have ever seen him blushing s
 # common
 
 @style default
-Felix: Oh, right, I thought of some songs that we can listen to while skating when we were coming here... If you want to do that of course. 
+Felix: Oh, right, I thought it would be nice to listen to some music while skating... If you want to do that of course. 
 @style i
-Felix searches h in his pocket, taking out his cell phone and a pair of earphones.
+(Felix searches h in his pocket, taking out his cell phone and a pair of earphones.)
+(He looks at them a bit longer.)
+@style default
+Felix: Maybe it would be tricky to share now that I think about it... 
 
 @choice "(Listen to the music together)" goto:.listen_to set:felixlove++
 ; +1
@@ -144,21 +154,17 @@ Felix searches h in his pocket, taking out his cell phone and a pair of earphone
 # listen_to
 ; (1) Listen to the music together (+1)
 @style default
-Me: That's super nice!
+Me: But it's funnier that way, come on, we can do it.
 @style i
-I take one of the earphone and pass the other one to Felix
-@style default
-Felix: You can listen to it first... it would be tricky to share. 
-Me: But it's not fun like that! Come on, we can do it. 
-@style i
-In reality, we cannot do it at all.
+(I take one of the earphone and pass the other one to Felix)
+(In reality, we cannot do it at all.)
 @if "nohelp == true"
-Even if he got better, Felix is still really unstable, and having him right beside me makes everything a bit harder.
+(Even if he got better, Felix is still really unstable, and having him right beside me makes everything a bit harder.)
 @else
-if we were already unstable before, now we are officially a death threat on skates
+(If we were already unstable before, now we are officially a death threat on skates.)
 @endIf
 @style i
-But still, we have a lot of fun. Felix laces our arms together and we keep skating and singing along the songs he chose for a while until we both get tired and decide to leave.
+(But still, we have a lot of fun. Felix laces our arms together and we keep skating and singing along the songs he chose for a while until we both get tired and decide to leave.)
 @goto 2_4_felix_food
 @stop
 # Take_earphone
@@ -168,8 +174,8 @@ Me: That's a good idea! Thank you for thinking of that.
 Me: I'll go first and then I'll leave it to you, okay? 
 Felix: Uh... sure... It's going to be a lot easier I guess. 
 @style i
-I take the earphones and start skating for a while listening to the songs Felix choose.
-It's definitely a lot nicer to skate with some music as a background, rather than the noise of all the people around us.
-Then I leave the phone to Felix and get ready to leave the rink and wait for him outside.
+(I take the earphones and start skating for a while listening to the songs Felix choose.)
+(It's definitely a lot nicer to skate with some music as a background, rather than the noise of all the people around us.)
+(Then I leave the phone to Felix and get ready to leave the rink and wait for him outside.)
 @goto 2_4_felix_food
 @stop

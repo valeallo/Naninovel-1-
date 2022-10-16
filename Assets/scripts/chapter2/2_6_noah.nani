@@ -40,7 +40,7 @@ Okay, this is getting nowhere
 But it’s not really my place to ask him anything if he's not willing to share it with me. 
 Noah is pretty reserved, I don’t want him to think I’m noisy. 
 
-; IF YOU MADE UP WITH FELIX 
+; IF YOU MADE UP WITH Felix 
 
 I'm sure if it were something really critical, he would have told me, right? 
 
@@ -50,7 +50,7 @@ I'm sure if it were something really critical, he would have told me, right?
 It will get late if I don’t start walking to the café yet. 
 Satisfied with pictures I got, I leave the park and walk to my job. 
 
-; IF YOU DIDN’T MAKE UP WITH FELIX 
+; IF YOU DIDN’T MAKE UP WITH Felix 
 
 I'm sure if it were something really critical, he would have told me, right? 
 
@@ -74,11 +74,11 @@ Noah: I have to go now, I'll see you around
 
  Noah smiles back at me, not really convinced, and I wave him goodbye as he leaves. 
 
-; IF YOU MADE UP WITH FELIX 
+; IF YOU MADE UP WITH Felix 
  
 I shoot some more pictures around the park before leaving in direction of the café. 
 
-; IF YOU DIDN’T MAKE UP WITH FELIX 
+; IF YOU DIDN’T MAKE UP WITH Felix 
 
 I think I will just shoot some more pictures before going back home. 
 
@@ -442,11 +442,11 @@ It’s probably better to leave it at this point. I can’t force him and he sho
 
  
 
-IF YOU MADE UP WITH FELIX 
+IF YOU MADE UP WITH Felix 
 
 13) I shoot some more pictures around the park before leaving in direction of the café. 
 
-IF YOU DIDN’T MAKE UP WITH FELIX 
+IF YOU DIDN’T MAKE UP WITH Felix 
 
 14) I think I will just shoot some more pictures before going back home. 
 
